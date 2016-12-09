@@ -1,0 +1,117 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=23;
+	taxlabels
+	African_cichlid
+	Bluegill
+	Chimpanzee
+	Crane
+	Duck
+	Eastern_bent_wing_bat
+	Gibbon
+	Ground_squirrel
+	Heron
+	Horseshoe_bat
+	Human
+	Orangutan
+	Parrot
+	Rossgoose
+	Roundleaf_bat
+	Sheldgoose
+	Snow_goose
+	Stork
+	Tent_making_bat
+	Tibetan_frog
+	White_sucker
+	Woodchuck
+	Woolly_monkey
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((Bluegill:1.0,White_sucker:1.0):1.0,African_cichlid:1.0):1.0,((Tibetan_frog:1.0,((((Snow_goose:1.0,Rossgoose:1.0):1.0,Sheldgoose:1.0):1.0,Duck:1.0):1.0,(((Parrot:1.0,Crane:1.0):1.0,Stork:1.0):1.0,Heron:1.0):1.0):1.0):1.0,((((((Chimpanzee:1.0,Human:1.0):1.0,Orangutan:1.0):1.0,Gibbon:1.0):1.0,Woolly_monkey:1.0):1.0,(Woodchuck:1.0,Ground_squirrel:1.0):1.0):1.0,(Horseshoe_bat:1.0,(Roundleaf_bat:1.0,(Tent_making_bat:1.0,Eastern_bent_wing_bat:1.0):1.0):1.0):1.0):1.0):1.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+

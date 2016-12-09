@@ -1,0 +1,117 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=23;
+	taxlabels
+	African_cichlid
+	Bluegill
+	Chimpanzee
+	Crane
+	Duck
+	Eastern_bent_wing_bat
+	Gibbon
+	Ground_squirrel
+	Heron
+	Horseshoe_bat
+	Human
+	Orangutan
+	Parrot
+	Rossgoose
+	Roundleaf_bat
+	Sheldgoose
+	Snow_goose
+	Stork
+	Tent_making_bat
+	Tibetan_frog
+	White_sucker
+	Woodchuck
+	Woolly_monkey
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Heron:0.067964,Stork:0.056313,(Parrot:0.206956,(Rossgoose:0.106274,(Crane:0.050213,((Sheldgoose:0.086831,(Duck:0.041894,Snow_goose:0.061699)[&label=0.832945]:0.02614)[&label=0.988417]:0.038717,(Tibetan_frog:1.135225,((African_cichlid:1.879387,White_sucker:1.03205)[&label=0.927915]:0.205178,(Bluegill:0.884592,((Ground_squirrel:0.118157,Woodchuck:0.12377)[&label=1.0]:0.224601,((Tent_making_bat:0.504916,(Eastern_bent_wing_bat:0.197822,(Roundleaf_bat:0.066436,Horseshoe_bat:0.088876)[&label=1.0]:0.174428)[&label=1.0]:0.119469)[&label=0.916671]:0.070323,(Woolly_monkey:0.18619,((Gibbon:0.042084,Orangutan:0.045938)[&label=0.982362]:0.018057,(Chimpanzee:0.035115,Human:0.056859)[&label=0.545149]:0.013897)[&label=1.0]:0.125906)[&label=1.0]:0.207644)[&label=0.978709]:0.078272)[&label=1.0]:0.393842)[&label=1.0]:0.512785)[&label=1.0]:0.335456)[&label=1.0]:0.550585)[&label=0.365034]:0.009909)[&label=0.999871]:0.033529)[&label=0.999787]:0.038285)[&label=1.0]:0.119082);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

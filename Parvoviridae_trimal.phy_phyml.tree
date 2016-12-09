@@ -1,0 +1,236 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=142;
+	taxlabels
+	African_black_footed_cat
+	American_mink
+	Arctic_fox_1
+	Arctic_fox_2
+	Asian_palm_civet
+	Bearded_dragon
+	Beech_marten
+	Beijing_mouse_eared_bat
+	Black_rat
+	Blue_fox
+	Blyths_horseshoe_bat
+	Bobcat
+	Brown_rat_1
+	Brown_rat_2
+	Brown_rat_3
+	Brown_rat_4
+	Brown_rat_5
+	California_sea_lion_1
+	California_sea_lion_2
+	California_sea_lion_3
+	California_sea_lion_4
+	Cat_1
+	Cat_2
+	Cheetah
+	Cherry_valley_duck
+	Chicken_1
+	Chicken_2
+	Chicken_3
+	Chicken_4
+	Chicken_5
+	Chimpanzee_1
+	Chimpanzee_2
+	Chinese_noctule
+	Chipmunk
+	Common_bent_wing_bat
+	Common_buckeye
+	Corn_snake
+	Cotton_bollworm
+	Cougar
+	Cow_1
+	Cow_2
+	Cow_3
+	Cow_4
+	Coyote
+	Crab_eating_macaque
+	Culex_mosquito
+	Daubentons_bat
+	Dog_1
+	Dog_2
+	Dog_3
+	Dog_4
+	Dog_5
+	Eastern_bent_wing_bat_1
+	Eastern_bent_wing_bat_2
+	European_badger
+	False_Army_Worm
+	Fisher
+	Goose
+	Gorilla
+	Gray_fox
+	Greater_horseshoe_bat
+	Greylag_goose
+	Harbor_seal
+	Human_1
+	Human_10
+	Human_11
+	Human_2
+	Human_3
+	Human_4
+	Human_5
+	Human_6
+	Human_7
+	Human_8
+	Human_9
+	Jamaican_fruit_bat
+	King_colobus
+	Large_flying_fox
+	Lesser_red_musk_shrew
+	Lion
+	Mexican_wolf
+	Mink
+	Monarch_butterfly
+	Mountain_lion
+	Mouse_1
+	Mouse_2
+	Mouse_3
+	Mouse_4
+	Muscovy_duck_1
+	Muscovy_duck_2
+	Muscovy_duck_3
+	Ocelot
+	Peking_duck
+	Pig_1
+	Pig_10
+	Pig_11
+	Pig_12
+	Pig_13
+	Pig_2
+	Pig_3
+	Pig_4
+	Pig_5
+	Pig_6
+	Pig_7
+	Pig_8
+	Pig_9
+	Pig_tailed_macaque
+	Pit_viper
+	Pomona_roundleaf_bat
+	Rabbit
+	Raccoon_1
+	Raccoon_2
+	Raccoon_dog_1
+	Raccoon_dog_2
+	Red_fox
+	Rhesus_monkey_1
+	Rhesus_monkey_2
+	Rhesus_monkey_3
+	Ricketts_big_footed_bat_1
+	Ricketts_big_footed_bat_2
+	River_otter
+	Sea_lion
+	Sea_otter
+	Sheep
+	Short_tailed_pygmy_chameleon
+	Silkworm
+	Slow_loris
+	Small_Indian_civet
+	Snake
+	Soybean_Looper
+	Stone_marten
+	Straw_coloured_fruit_bat
+	Striped_skunk
+	Sugarcane_Borer
+	Swan
+	Tiger
+	Turkey_1
+	Turkey_2
+	Western_red_colobus
+	White_goose
+	Wild_boar_2
+	Wildcat
+	Yak
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Sugarcane_Borer:0.053701,(Soybean_Looper:0.192072,(Common_buckeye:0.074588,False_Army_Worm:0.008039)[&label=0.992081]:0.039186)[&label=0.578054]:0.033628,(Culex_mosquito:1.147973,((Cotton_bollworm:1.533643,(Monarch_butterfly:0.550792,Silkworm:0.382222)[&label=1.0]:0.909556)[&label=1.0]:1.433494,((((((Human_10:0.007081,(Human_9:0.035431,Human_8:0.064757)[&label=0.744437]:0.011546)[&label=0.997575]:0.040626,(Chimpanzee_2:0.201782,(Human_11:0.041365,Gorilla:0.059591)[&label=0.76186]:0.018427)[&label=0.998214]:0.043301)[&label=1.0]:0.246655,(Cow_4:0.260347,(Pig_8:0.025854,(Pig_7:0.051757,(Pig_9:2.2E-5,(Pig_10:0.053767,Pig_11:0.014868)[&label=1.0]:0.026779)[&label=0.99952]:0.018637)[&label=0.964821]:0.038693)[&label=1.0]:0.390729)[&label=0.999984]:0.088431)[&label=0.571861]:0.046155,(Beijing_mouse_eared_bat:0.46176,((Greater_horseshoe_bat:0.321493,(Rabbit:0.322192,(Pig_13:8.1E-5,Pig_12:0.023439)[&label=1.0]:0.635769)[&label=0.999836]:0.107356)[&label=0.964296]:0.042741,((Brown_rat_5:0.543778,(Daubentons_bat:0.16146,Dog_3:0.182763)[&label=0.999808]:0.094671)[&label=0.991269]:0.03927,((Eastern_bent_wing_bat_2:0.020943,Eastern_bent_wing_bat_1:0.059174)[&label=1.0]:0.204208,(Dog_4:0.18218,(Cat_2:0.24515,(Dog_5:0.191332,(California_sea_lion_2:0.008352,(California_sea_lion_3:0.020558,California_sea_lion_4:0.026609)[&label=0.996283]:0.015432)[&label=1.0]:0.095867)[&label=0.999919]:0.070578)[&label=0.697269]:0.035575)[&label=0.999999]:0.080431)[&label=0.89693]:0.038954)[&label=0.998459]:0.048974)[&label=0.999999]:0.0845)[&label=0.615628]:0.024404)[&label=1.0]:0.531813,(((Chicken_1:0.021193,(Chicken_3:0.009538,Chicken_2:0.016896)[&label=0.946741]:0.016674)[&label=0.997419]:0.045164,(Chicken_4:0.018936,(Turkey_2:0.0,Turkey_1:0.0)[&label=1.0]:0.105232)[&label=0.934665]:0.048042)[&label=1.0]:1.125343,(Chinese_noctule:0.389936,((((Black_rat:0.081749,Lesser_red_musk_shrew:0.16457)[&label=1.0]:0.239518,(((Ricketts_big_footed_bat_1:0.086716,Common_bent_wing_bat:0.105594)[&label=1.0]:0.263697,(Human_6:0.190415,Human_5:0.111356)[&label=1.0]:0.164722)[&label=0.922851]:0.040036,(Large_flying_fox:0.221555,(Sea_otter:0.275503,Pig_4:0.166509)[&label=0.991905]:0.065671)[&label=0.854327]:0.042604)[&label=1.0]:0.140642)[&label=1.0]:0.262761,(Blyths_horseshoe_bat:0.238879,(Gray_fox:0.11297,(Mink:0.02976,(Raccoon_dog_1:0.022017,Arctic_fox_1:0.006552)[&label=1.0]:0.060852)[&label=0.989191]:0.047546)[&label=1.0]:0.186534)[&label=1.0]:0.517045)[&label=0.999971]:0.128476,(Red_fox:0.278199,((Pig_5:0.020309,Wild_boar_2:0.021162)[&label=1.0]:0.200626,(((Pomona_roundleaf_bat:0.011754,Brown_rat_2:0.060336)[&label=1.0]:0.109626,(Brown_rat_3:0.11591,(Brown_rat_1:0.097066,(Mouse_1:0.107978,(Mouse_3:0.021873,Mouse_2:0.019899)[&label=1.0]:0.055583)[&label=1.0]:0.061705)[&label=0.964298]:0.0242)[&label=0.999029]:0.051721)[&label=1.0]:0.176198,(Dog_1:0.0,(((Dog_2:0.0,Raccoon_dog_2:0.0)[&label=0.0]:0.0,Raccoon_1:0.0)[&label=0.0]:0.0,(((Mountain_lion:0.0,((European_badger:0.0,(Beech_marten:0.0,(Ocelot:0.0,(Tiger:0.0,(Lion:0.0,(Cheetah:0.01414,Raccoon_2:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,(Small_Indian_civet:0.0,(Bobcat:0.003986,((African_black_footed_cat:0.0,(Rhesus_monkey_1:0.0,Asian_palm_civet:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,((Coyote:0.003968,Fisher:0.0)[&label=0.0]:0.0,(River_otter:0.0,(Mexican_wolf:0.0,(Cougar:0.0,(Stone_marten:0.0,Striped_skunk:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.993562]:0.003978)[&label=0.996506]:0.003982)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=1.0]:0.01631)[&label=0.0]:0.0,(American_mink:0.006699,Blue_fox:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,(Arctic_fox_2:0.0,(Cat_1:0.0,Wildcat:0.006643)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.999988]:0.006616)[&label=0.873359]:0.003318)[&label=1.0]:0.118401)[&label=0.604219]:0.024781)[&label=0.998955]:0.077866)[&label=1.0]:0.187264)[&label=0.908823]:0.107896)[&label=1.0]:0.883529)[&label=0.579478]:0.077629)[&label=0.999562]:0.186795,(((Swan:0.021393,(Goose:0.006778,(White_goose:0.00341,(((Peking_duck:0.010298,Greylag_goose:0.003409)[&label=0.0]:2.0E-6,Cherry_valley_duck:2.0E-6)[&label=0.0]:2.0E-6,(Muscovy_duck_1:0.005716,(Muscovy_duck_3:0.022109,Muscovy_duck_2:0.02727)[&label=0.999983]:0.029234)[&label=1.0]:0.022865)[&label=0.983992]:0.003384)[&label=0.0]:1.5E-5)[&label=0.884738]:0.003729)[&label=0.999997]:0.085535,(Chicken_5:0.162151,((Bearded_dragon:0.124512,((Snake:0.06558,Short_tailed_pygmy_chameleon:0.03309)[&label=0.999996]:0.065427,(Corn_snake:0.093119,Pit_viper:0.828963)[&label=0.943277]:0.08431)[&label=0.999992]:0.061006)[&label=1.0]:0.106412,((Mouse_4:0.187654,(Pig_6:0.122781,Brown_rat_4:0.196319)[&label=0.924549]:0.101739)[&label=0.954336]:0.043593,((Cow_3:0.200185,California_sea_lion_1:0.164425)[&label=1.0]:0.124186,(Ricketts_big_footed_bat_2:0.159137,(Rhesus_monkey_2:0.013507,(Rhesus_monkey_3:0.037874,Human_7:0.06159)[&label=0.999229]:0.026881)[&label=1.0]:0.129727)[&label=0.904093]:0.027039)[&label=0.800119]:0.024254)[&label=0.999501]:0.046184)[&label=0.998119]:0.038725)[&label=0.999988]:0.06712)[&label=1.0]:0.264916,(Slow_loris:0.775732,(Jamaican_fruit_bat:0.715255,((Harbor_seal:0.692761,(Chipmunk:0.532942,((Human_4:0.015167,(Human_2:0.019143,Human_3:0.01418)[&label=0.497984]:0.003474)[&label=0.999864]:0.16749,(Crab_eating_macaque:0.089928,Pig_tailed_macaque:0.084574)[&label=1.0]:0.206884)[&label=1.0]:0.414079)[&label=0.996912]:0.139213)[&label=1.0]:0.251826,((Straw_coloured_fruit_bat:0.248298,((Western_red_colobus:0.024892,(King_colobus:0.072291,(Chimpanzee_1:0.008845,Human_1:0.028699)[&label=1.0]:0.065652)[&label=0.999993]:0.03866)[&label=0.786658]:0.041441,((Pig_2:0.0,Pig_3:0.003601)[&label=1.0]:0.164293,(Sheep:0.067017,(Cow_1:0.002894,(Yak:0.011131,Cow_2:3.1E-5)[&label=0.971574]:0.008097)[&label=1.0]:0.072987)[&label=0.819873]:0.044657)[&label=0.974683]:0.061917)[&label=0.992804]:0.122622)[&label=1.0]:0.52204,(Sea_lion:0.798178,Pig_1:0.905845)[&label=1.0]:0.353492)[&label=1.0]:0.260787)[&label=0.899703]:0.14014)[&label=0.980276]:0.144827)[&label=1.0]:0.381465)[&label=0.432519]:0.072754)[&label=0.999713]:0.80671)[&label=1.0]:1.703156)[&label=1.0]:0.766806);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
