@@ -1,0 +1,150 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=56;
+	taxlabels
+	'AF182760/Porcine_enteric_virus/Pig_3'
+	'AF321298/Walrus_calicivirus/Walrus'
+	'AY134748/Snow_mountain_virus/Human_3'
+	'AY144337/Mink_enteric_calicivirus/Mink_2'
+	'AY694184/Sapovirus/Human_6'
+	'EF363035/RHDV/Rabbit_1'
+	'EF450827/Norovirus/Lion'
+	'EF650480/Murine_norovirus_5/Mouse'
+	'EF650481/Murine_norovirus_6/House_mouse'
+	'EU391643/Tulane_virus/Rhesus_macaque_2'
+	'EU980609/Feline_calicivirus/Dog_2'
+	'FJ692500/Norovirus/Dog_1'
+	'GU214989/Feline_calicivirus/Cheetah'
+	'HQ008349/Bovine_enteric_virus/Cow_3'
+	'HQ392821/Norovirus/Pig_1'
+	'JF781268/Norovirus/Cat_2'
+	'JN204722/Canine_vesivirus/Dog_3'
+	'JN210887/Feline_calicivirus/Cat_3'
+	'JN418481/Nebovirus/Cow_4'
+	'JN420370/Sapovirus/California_sea_lion_1'
+	'JN975492/Murine_norovirus/Wood_mouse'
+	'JQ347522/Turkey_calicivirus/Turkey'
+	'JQ745645/Recovirus/Human_1'
+	'JX486102/Norovirus/Norway_rat'
+	'JX627575/WUHARV_Calicivirus_1/Rhesus_macaque_1'
+	'KC662364/Recovirus/Rhesus_macaque_3'
+	'KF204570/Sapovirus/Pig_4'
+	'KJ577140/Salmon_calicivirus/Atlantic_salmon'
+	'KJ641700/Bat_calicivirus/Myotis_escalerai'
+	'KJ641701/Bat_calicivirus/Chinese_rufous_horseshoe_bat_2'
+	'KJ790198/Bat_norovirus/Chinese_rufous_horseshoe_bat_1'
+	'KJ858687/Sapovirus_chimp/Chimpanzee_2'
+	'KJ944377/Feline_calicivirus/Tiger'
+	'KM254170/Chicken_caliciviris/Chicken'
+	'KR072992/Sapovirus_fur_seal/Fur_seal'
+	'KU712497/Bat_calicivirus/Daubentons_bat'
+	'KX356908/Norovirus/Rhesus_macaque_4'
+	'KX357707/Rabbit_calicivirus/Rabbit_2'
+	'LC011951/Norovirus/Cat_1'
+	'NC_002551/Vesicular_exanthema/Pig_2'
+	'NC_002615/European_brown_hare_syndrome_virus/Hare'
+	'NC_007916/Newbury_agent_1/Cow_2'
+	'NC_008580/Rabbit_vesivirus/Rabbit_3'
+	'NC_011050/Vesivirus/Steller_sea_lion'
+	'NC_017936/Bat_sapovirus/Fruit_bat'
+	'NC_019712/Mink_calicivirus/Mink_1'
+	'NC_024078/Goose_calicivirus/Goose'
+	'NC_025676/San_Miguel_sea_lion_virus/California_sea_lion_2'
+	'NC_027122/Vesivirus/Ferret_badger'
+	'NC_029647/Norovirus/Human_5'
+	'NC_030793/Bovine_calicivirus/Cow_1'
+	'PCU52086/Primate_calicivirus/Chimpanzee_1'
+	'RCU52092/Reptile_calicivirus/Rock_rattlesnake'
+	'SCU18743/Skunk_calicivirus/Skunk'
+	'SOUCAPPRO/Southampton_virus/Human_2'
+	'X86557/Lordsdale_virus/Human_4'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('EU391643/Tulane_virus/Rhesus_macaque_2':0.0,('JX627575/WUHARV_Calicivirus_1/Rhesus_macaque_1':0.121035,'KC662364/Recovirus/Rhesus_macaque_3':0.01597)[&label=0.0]:0.011543,('JQ745645/Recovirus/Human_1':0.474489,('KJ641700/Bat_calicivirus/Myotis_escalerai':0.680644,((('JX486102/Norovirus/Norway_rat':0.164579,('JN975492/Murine_norovirus/Wood_mouse':0.047999,('EF650481/Murine_norovirus_6/House_mouse':0.018326,'EF650480/Murine_norovirus_5/Mouse':0.008386)[&label=0.999948]:0.03291)[&label=1.0]:0.146973)[&label=1.0]:0.163511,('SOUCAPPRO/Southampton_virus/Human_2':0.272563,(('HQ392821/Norovirus/Pig_1':0.092278,('KX356908/Norovirus/Rhesus_macaque_4':0.031286,('X86557/Lordsdale_virus/Human_4':0.019818,'AY134748/Snow_mountain_virus/Human_3':0.012926)[&label=1.0]:0.043012)[&label=1.0]:0.060087)[&label=1.0]:0.070115,('FJ692500/Norovirus/Dog_1':0.154351,('KJ790198/Bat_norovirus/Chinese_rufous_horseshoe_bat_1':0.170003,('NC_029647/Norovirus/Human_5':0.133198,('JF781268/Norovirus/Cat_2':0.009246,('LC011951/Norovirus/Cat_1':0.0101,'EF450827/Norovirus/Lion':0.007819)[&label=0.353161]:0.00264)[&label=1.0]:0.084974)[&label=1.0]:0.062687)[&label=0.599972]:0.021246)[&label=0.999812]:0.037671)[&label=1.0]:0.075385)[&label=0.937714]:0.076297)[&label=1.0]:0.613216,('KJ577140/Salmon_calicivirus/Atlantic_salmon':2.672373,(((('NC_017936/Bat_sapovirus/Fruit_bat':0.370753,('KJ641701/Bat_calicivirus/Chinese_rufous_horseshoe_bat_2':0.435899,'KU712497/Bat_calicivirus/Daubentons_bat':0.559144)[&label=0.466234]:0.041824)[&label=1.0]:0.139764,(('AY144337/Mink_enteric_calicivirus/Mink_2':0.316884,('KF204570/Sapovirus/Pig_4':0.014604,'AF182760/Porcine_enteric_virus/Pig_3':0.022473)[&label=1.0]:0.296504)[&label=0.999988]:0.092102,(('KJ858687/Sapovirus_chimp/Chimpanzee_2':1.1E-5,'AY694184/Sapovirus/Human_6':0.00518)[&label=1.0]:0.18213,('KR072992/Sapovirus_fur_seal/Fur_seal':0.05687,'JN420370/Sapovirus/California_sea_lion_1':1.75E-4)[&label=1.0]:0.222224)[&label=1.0]:0.157035)[&label=1.0]:0.098409)[&label=0.999995]:0.116628,((('NC_002615/European_brown_hare_syndrome_virus/Hare':0.048408,('KX357707/Rabbit_calicivirus/Rabbit_2':0.046455,'EF363035/RHDV/Rabbit_1':0.045999)[&label=0.999645]:0.070733)[&label=1.0]:0.746471,('NC_030793/Bovine_calicivirus/Cow_1':0.436348,(('JN418481/Nebovirus/Cow_4':0.015069,'HQ008349/Bovine_enteric_virus/Cow_3':0.0)[&label=0.0]:0.060694,'NC_007916/Newbury_agent_1/Cow_2':0.020703)[&label=1.0]:0.379372)[&label=1.0]:0.473573)[&label=0.999079]:0.179338,(('JN204722/Canine_vesivirus/Dog_3':0.143778,('NC_019712/Mink_calicivirus/Mink_1':0.077954,('NC_025676/San_Miguel_sea_lion_virus/California_sea_lion_2':0.084582,'NC_027122/Vesivirus/Ferret_badger':0.087974)[&label=0.705683]:0.029983)[&label=1.0]:0.075443)[&label=1.0]:0.099704,(('EU980609/Feline_calicivirus/Dog_2':0.049258,('GU214989/Feline_calicivirus/Cheetah':0.041284,('KJ944377/Feline_calicivirus/Tiger':0.006802,'JN210887/Feline_calicivirus/Cat_3':0.006833)[&label=1.0]:0.025691)[&label=0.874781]:0.012958)[&label=1.0]:0.248626,('NC_011050/Vesivirus/Steller_sea_lion':0.028164,(('NC_008580/Rabbit_vesivirus/Rabbit_3':0.012435,'PCU52086/Primate_calicivirus/Chimpanzee_1':0.015506)[&label=0.0]:7.7E-5,('AF321298/Walrus_calicivirus/Walrus':0.020323,('NC_002551/Vesicular_exanthema/Pig_2':0.011282,('SCU18743/Skunk_calicivirus/Skunk':0.028947,'RCU52092/Reptile_calicivirus/Rock_rattlesnake':3.07E-4)[&label=0.385837]:0.008965)[&label=0.994244]:0.02148)[&label=0.927151]:0.004036)[&label=0.348164]:0.00398)[&label=1.0]:0.153527)[&label=0.922144]:0.055358)[&label=1.0]:0.479493)[&label=1.0]:0.181138)[&label=0.951694]:0.097792,('KM254170/Chicken_caliciviris/Chicken':0.896031,('NC_024078/Goose_calicivirus/Goose':0.188364,'JQ347522/Turkey_calicivirus/Turkey':0.181838)[&label=1.0]:0.827808)[&label=0.957029]:0.121647)[&label=0.999934]:0.375701)[&label=0.970661]:0.284469)[&label=1.0]:0.533953)[&label=1.0]:0.44083)[&label=1.0]:0.295954);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

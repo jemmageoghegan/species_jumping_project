@@ -1,0 +1,189 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=95;
+	taxlabels
+	Adelie_penguin
+	African_gray_parrot
+	Asian_lion
+	Atlantic_white_sided_dolphin
+	Baboon_monkey
+	Bobcat
+	Bottlenose_dolphin
+	Brown_rat
+	Burmeisters_porpoise
+	Californian_sea_lion
+	Camel
+	Carpet_Python
+	Cat_1
+	Cat_2
+	Cat_3
+	Cat_4
+	Chamois
+	Chimpanzee
+	Common_bent_wing_bat
+	Common_chaffinch
+	Cow_1
+	Cow_2
+	Cow_3
+	Cow_4
+	Crab_eating_macaque_1
+	Crab_eating_macaque_2
+	Crab_eating_macaque_3
+	Crab_eating_macaque_4
+	Djungarian_hamster
+	Dog_1
+	Dog_2
+	Dog_3
+	Dog_4
+	Dog_5
+	Donkey
+	Egyptian_fruit_bat
+	Elk
+	European_bison
+	European_harvest_mouse
+	Ferret
+	Florida_manatee
+	Florida_panther
+	Gilt_head_bream
+	Goat
+	Golden_hamster
+	Greater_horseshoe_bat
+	Greater_long_tailed_hamster
+	Green_sea_turtle
+	Harbour_porpoise_1
+	Harbour_porpoise_2
+	Horse_1
+	Horse_2
+	Horse_3
+	House_mouse
+	Human_10
+	Human_11
+	Human_2
+	Human_3
+	Human_4
+	Human_5
+	Human_6
+	Human_7
+	Human_8
+	Human_9
+	Japanese_macaque
+	Loggerhead_sea_turtle
+	Mantled_guereza
+	Natal_multimammate_mouse
+	North_American_beaver
+	North_American_porcupine
+	Northern_fulmar
+	Pig
+	Polar_bear
+	Rabbit_1
+	Rabbit_2
+	Red_deer
+	Red_fox
+	Reindeer
+	Rhesus_monkey
+	Roedeer
+	Sea_otter
+	Sheep_1
+	Sheep_2
+	Short_beaked_common_dolphin
+	Snow_leopard
+	Southern_brown_howler
+	Squirrel_monkey
+	Visayan_spotted_deer
+	West_Indian_manatee
+	Western_European_hedgehog
+	White_tailed_deer
+	Wood_mouse
+	Woylie
+	Yak
+	Yellow_necked_spurfowl
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Gilt_head_bream:1.0,((((Green_sea_turtle:1.0,Loggerhead_sea_turtle:1.0):1.0,Carpet_Python:1.0):1.0,(Adelie_penguin:1.0,((Yellow_necked_spurfowl:1.0,Northern_fulmar:1.0):1.0,(African_gray_parrot:1.0,Common_chaffinch:1.0):1.0):1.0):1.0):1.0,(Woylie:1.0,((Florida_manatee:1.0,West_Indian_manatee:1.0):1.0,((((((Human_2:2.0,Human_3:2.0,Human_4:3.0,Human_5:3.0,Human_6:4.0,Human_7:4.0,Human_9:5.0,Human_8:5.0,Human_10:5.0,Human_11:5.0):1.0,Chimpanzee:1.0):1.0,(((((Crab_eating_macaque_1:2.0,Crab_eating_macaque_2:2.0,Crab_eating_macaque_3:2.0,Crab_eating_macaque_4:2.0):1.0,Rhesus_monkey:1.0):1.0,Japanese_macaque:1.0):1.0,Baboon_monkey:1.0):1.0,Mantled_guereza:1.0):1.0):1.0,(Southern_brown_howler:1.0,Squirrel_monkey:1.0):1.0):1.0,(North_American_porcupine:1.0,(North_American_beaver:1.0,((Rabbit_1:1.0,Rabbit_2:1.0):1.0,((Djungarian_hamster:1.0,(Golden_hamster:1.0,Greater_long_tailed_hamster:1.0):1.0):1.0,(((Natal_multimammate_mouse:1.0,(European_harvest_mouse:1.0,Wood_mouse:1.0):1.0):1.0,House_mouse:1.0):1.0,Brown_rat:1.0):1.0):1.0):1.0):1.0):1.0):1.0,(Western_European_hedgehog:1.0,(((Common_bent_wing_bat:1.0,Greater_horseshoe_bat:1.0):1.0,Egyptian_fruit_bat:1.0):1.0,((((Cat_1:2.0,Cat_2:2.0,Cat_3:2.0,Cat_4:2.0):1.0,(Bobcat:1.0,(Florida_panther:1.0,(Snow_leopard:1.0,Asian_lion:1.0):1.0):1.0):1.0):1.0,(((((Dog_1:2.0,Dog_2:2.0,Dog_3:3.0,Dog_4:3.0,Dog_5:2.0):1.0,Red_fox:1.0):1.0,Polar_bear:1.0):1.0,Californian_sea_lion:1.0):1.0,(Sea_otter:1.0,Ferret:1.0):1.0):1.0):1.0,((Camel:1.0,((((Harbour_porpoise_1:1.0,Harbour_porpoise_2:1.0):1.0,Burmeisters_porpoise:1.0):1.0,(Bottlenose_dolphin:1.0,(Atlantic_white_sided_dolphin:1.0,Short_beaked_common_dolphin:1.0):1.0):1.0):1.0,((((Sheep_1:1.0,Sheep_2:1.0):1.0,(Chamois:1.0,Goat:1.0):1.0):4.0,((((Reindeer:1.0,Elk:1.0):1.0,(Red_deer:1.0,Roedeer:1.0):1.0):1.0,(White_tailed_deer:1.0,Visayan_spotted_deer:1.0):1.0):1.0,(European_bison:1.0,(Yak:1.0,(Cow_1:2.0,Cow_2:2.0,Cow_3:2.0,Cow_4:2.0):1.0):1.0):0.5):0.5):1.25,Pig:1.0):0.125):0.125):0.5,((Horse_1:2.0,Horse_2:2.0,Horse_3:1.0):1.0,Donkey:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+

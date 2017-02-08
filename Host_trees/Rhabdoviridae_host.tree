@@ -1,0 +1,200 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=106;
+	taxlabels
+	Aedes_mosquito_1
+	Aedes_mosquito_2
+	Aedes_mosquito_4
+	African_civet
+	American_coot
+	Big_brown_bat
+	Black_rat
+	Broad_eared_bat
+	Brown_throated_martin
+	Brown_trout
+	Cat
+	Chicken
+	Chinese_ferret_badger
+	Commersons_leaf_nosed_bat_1
+	Commersons_leaf_nosed_bat_2
+	Common_carp
+	Common_marmoset
+	Common_snakehead
+	Common_vampire_bat
+	Cow_1
+	Cow_2
+	Cow_3
+	Cow_4
+	Cow_5
+	Cow_6
+	Cow_7
+	Coyote
+	Crab_eating_fox
+	Culex_mosquito_1
+	Culex_mosquito_2
+	Culex_mosquito_3
+	Culex_mosquito_4
+	Dog
+	Donkey
+	Drosophila
+	Eastern_pipistrelle
+	Eastern_red_bat
+	Egyptian_fruit_bat
+	Eloquent_horseshoe_bat
+	Ethiopian_wolf
+	European_eel
+	European_perch
+	Fall_armyworm
+	Fallow_deer
+	Fruit_bat
+	Giant_ameiva
+	Golden_palm_civet
+	Grass_carp
+	Gray_fox
+	Greater_kudu
+	Greater_tube_nosed_bat
+	Groundhog
+	Horse
+	Human_1
+	Human_2
+	Human_3
+	Human_4
+	Human_5
+	Human_6
+	Human_7
+	Japanese_flounder
+	Kemps_gerbil
+	Lesser_mouse_eared_bat
+	Little_Japanese_horseshoe_bat
+	Malachite_kingfisher
+	Mandarin_fish
+	Mexican_freetailed_bat
+	Montane_vole
+	Mule_deer
+	Natterers_bat
+	Ochlerotatus_mosquito
+	Olive_flounder
+	Parasitoid_wasp
+	Phlebotomus_mosquito
+	Pike_fry
+	Psorophora_mosquito
+	Raccoon
+	Rainbow_trout
+	Red_fox
+	Ring_tailed_cat
+	Rockling
+	Sandfly
+	Serotine_bat
+	Sheep
+	Shrew
+	Silver_haired_bat
+	Southeastern_myotis
+	Speckled_wood
+	Spotted_skunk
+	Starry_flounder
+	Stone_flounder
+	Straw_coloured_fruit_bat
+	Striped_skunk
+	Tench
+	Tick_1
+	Tick_2
+	Tick_3
+	Tick_4
+	Tick_5
+	Townsends_big_eared_bat
+	Tree_shrew
+	Turbot_fish
+	Whiskered_bat
+	White_nosed_coati
+	Wild_boar
+	Yuma_myotis
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((Culex_mosquito_2:1.0,Culex_mosquito_1:1.0,Culex_mosquito_4:1.0,Culex_mosquito_3:1.0):1.0,(Aedes_mosquito_2:1.0,Aedes_mosquito_4:1.0,Aedes_mosquito_1:1.0):1.0):1.0,(Ochlerotatus_mosquito:1.0,(Psorophora_mosquito:1.0,Phlebotomus_mosquito:1.0):1.0):1.0):1.0,Sandfly:1.0):1.0,Drosophila:1.0):1.0,Parasitoid_wasp:1.0):1.0,(Tick_2:1.0,Tick_3:1.0,Tick_4:1.0,Tick_5:1.0,Tick_1:1.0):1.0):1.0,Speckled_wood:1.0):1.0,Fall_armyworm:1.0):1.0,((((((((Brown_trout:1.0,Rainbow_trout:1.0):1.0,Turbot_fish:1.0):1.0,European_perch:1.0):1.0,(Mandarin_fish:1.0,Pike_fry:1.0):1.0):1.0,(Grass_carp:1.0,Common_carp:1.0):1.0):1.0,((((Japanese_flounder:1.0,Starry_flounder:1.0):1.0,(Stone_flounder:1.0,Olive_flounder:1.0):1.0):1.0,Tench:1.0):1.0,(Common_snakehead:1.0,Rockling:1.0):1.0):1.0):1.0,European_eel:1.0):1.0,((Giant_ameiva:1.0,((Chicken:1.0,American_coot:1.0):1.0,(Brown_throated_martin:1.0,Malachite_kingfisher:1.0):1.0):1.0):1.0,((((Human_7:1.0,Human_6:1.0,Human_2:1.0,Human_3:1.0,Human_1:1.0,Human_5:1.0,Human_4:1.0):1.0,Common_marmoset:1.0):1.0,(Montane_vole:1.0,(Groundhog:1.0,(Black_rat:1.0,Kemps_gerbil:1.0):1.0):1.0):1.0):1.0,((Shrew:1.0,Tree_shrew:1.0):1.0,(((Straw_coloured_fruit_bat:1.0,(Fruit_bat:1.0,Egyptian_fruit_bat:1.0):1.0):1.0,((Commersons_leaf_nosed_bat_1:1.0,Commersons_leaf_nosed_bat_2:1.0):1.0,((Broad_eared_bat:1.0,Mexican_freetailed_bat:1.0):1.0,(Common_vampire_bat:1.0,((Eloquent_horseshoe_bat:1.0,Little_Japanese_horseshoe_bat:1.0):1.0,((((((((Big_brown_bat:1.0,Greater_tube_nosed_bat:1.0):1.0,(Southeastern_myotis:1.0,(Eastern_red_bat:1.0,Eastern_pipistrelle:1.0):1.0):1.0):1.0,(Townsends_big_eared_bat:1.0,Lesser_mouse_eared_bat:1.0):1.0):1.0,Serotine_bat:1.0):1.0,Natterers_bat:1.0):1.0,Whiskered_bat:1.0):1.0,Silver_haired_bat:1.0):1.0,Yuma_myotis:1.0):1.0):1.0):1.0):1.0):1.0):1.0,(((((((Dog:1.0,Ethiopian_wolf:1.0):1.0,Coyote:1.0):1.0,((Gray_fox:1.0,Crab_eating_fox:1.0):1.0,Red_fox:1.0):1.0):1.0,(Chinese_ferret_badger:1.0,(Raccoon:1.0,(Striped_skunk:1.0,Spotted_skunk:1.0):1.0):1.0):1.0):1.0,White_nosed_coati:1.0):1.0,((African_civet:1.0,Golden_palm_civet:1.0):1.0,(Ring_tailed_cat:1.0,Cat:1.0):1.0):1.0):1.0,((((((Mule_deer:1.0,Fallow_deer:1.0):1.0,Greater_kudu:1.0):1.0,Wild_boar:1.0):1.0,Sheep:1.0):1.0,(Cow_2:1.0,Cow_3:1.0,Cow_1:1.0,Cow_7:1.0,Cow_4:1.0,Cow_5:1.0,Cow_6:1.0):1.0):1.0,(Donkey:1.0,Horse:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+

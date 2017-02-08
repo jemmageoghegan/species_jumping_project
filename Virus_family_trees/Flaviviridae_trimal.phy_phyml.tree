@@ -1,0 +1,233 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=139;
+	taxlabels
+	'AB114858/Yokose_virus/Eastern_bent_wing_bat'
+	'AB594829/Japanese_encephalitis/Horse_5'
+	'AF023425/Pegivirus_A/Three_striped_night_monkey'
+	'AF031829/GB_virus_C/Chimpanzee'
+	'AF144618/Pestivirus/Reindeer'
+	'AF285080/Tamana_bat_virus/Parnells_mustached_bat'
+	'AF482341/Omsk_hemorrhagic_fever_virus/Human_6'
+	'AF482344/Omsk_hemorrhagic_fever_virus/Muskrat'
+	'AJ299445/Montana_myotis_leukoencephalitis/Little_brown_bat'
+	'AJ968413/Dengue_virus_2/Human_10'
+	'AY149905/Kamiti_River_virus/Africana_mosquito_1'
+	'AY277252/West_Nile/Human_14'
+	'AY632540/Kedougou_virus/Human_17'
+	'AY701413/West_Nile/Horse_4'
+	'AY712945/West_Nile/Morning_dove'
+	'AY898809/Alfuy_virus/Pheasant_coucal'
+	'DQ235150/Saumarez_Reef_virus/Sooty_tern'
+	'DQ235151/Turkish_sheep_encephalitis/Sheep_2'
+	'DQ235152/Spanish_sheep_encephalitis/Sheep_3'
+	'DQ462443/Karshi_virus/Mouse'
+	'DQ837641/Entebbe_bat_virus/Fruit_bat'
+	'DQ859062/Saboya_virus/Gambian_slit_faced_bat'
+	'DQ859064/Spondweni_virus/Human_18'
+	'EF105379/Dengue_virus_2/Rhesus_macaque_3'
+	'EF623988/Japanese_encephalitis/Human_15'
+	'FJ462441/Hepatitis_C_virus/Human_3'
+	'FJ606789/Lammi_virus/Culex_mosquito_7'
+	'FJ711167/Nounane_virus/Uranotaenia_mosquito'
+	'GU270877/Border_disease_virus/Chamois'
+	'HM488177/West_Nile/American_crow'
+	'HM488183/West_Nile/Blue_jay'
+	'HM488244/West_Nile/American_kestrel'
+	'HM582851/Yellow_fever_virus/Venezuelan_red_howler'
+	'HQ231415/Powassan_virus/Human_4'
+	'HQ235027/Dengue_virus_3/Human_11'
+	'JF262780/Dengue_virus_4/Rhesus_macaque_2'
+	'JF416960/Kyasanur_forest_disease_virus/Northern_plains_gray_langur'
+	'JF416967/Alkhumra_hemorrhagic_fever_virus/Human_5'
+	'JF744991/Canine_hepacivirus/Dog'
+	'JN711458/Japanese_encephalitis_virus/Ricketts_big_footed_bat'
+	'JN711459/Japanese_encephalitis_virus/Lesser_Asiatic_yellow_bat'
+	'JN860885/Zika/Human_19'
+	'JQ219843/Usutu_virus/Blue_tit'
+	'JQ289550/Duck_flavivirus/Duck'
+	'JQ582840/Rio_bravo_virus/Mexican_free_tailed_bat'
+	'JQ928189/Tembusu_virus/Common_shelduck'
+	'JQ957875/Nienokoue_virus/Culex_mosquito_3'
+	'JX123032/Murray_Valley_encephalitis/Horse_6'
+	'JX297521/Bovine_viral_diarrhea_virus_type_1b/Alpaca'
+	'KC145265/Theilers_disease_associated_virus/Horse_1'
+	'KC149991/Classical_swine_fever_virus/Wild_boar'
+	'KC181923/Aedes_flavivirus/Aedes_mosquito_2'
+	'KC333651/Dengue_virus_4/Human_9'
+	'KC496020/Barkedji_virus/Culex_mosquito_4'
+	'KC505248/Palm_Creek_virus/Coquillettidia_mosquito'
+	'KC695810/Bovine_viral_diarrhea_virus_1/Bactrian_camel'
+	'KC796074/Bat_hepacivirus/Striped_leaf_nosed_bat'
+	'KC796083/Bat_pegivirus/Straw_coloured_fruit_bat'
+	'KC796087/Bat_pegivirus/Sebas_short_tailed_bat'
+	'KC796088/Bat_pegivirus/Little_yellow_shouldered_bat'
+	'KC796091/Bat_hepacivirus/Large_eared_free_tailed_bat'
+	'KC835597/Tick-borne_encephalitis_virus/Bank_vole'
+	'KF056331/Looping_ill_virus/Sheep_4'
+	'KF151173/Tick-borne_encephalitis_virus/Yellow_necked_mouse'
+	'KF234529/Simian_pegivirus/Red_tailed_guenon'
+	'KF234530/Simian_pegivirus/Olive_baboon'
+	'KF557893/Tembusu_virus/Wulong_goose'
+	'KF711994/Japanese_encephalitis/Pig'
+	'KF751870/Murray_Valley_encephalitis/Human_16'
+	'KF826767/Tembusu_virus/House_sparrow_1'
+	'KF917537/Israel_turkey_meningoencephalomyelitis_virus/Domestic_turkey'
+	'KF917538/Naranjal_virus/Hamster'
+	'KF917539/Ntaya_virus/Grey_heron'
+	'KF917541/Sokoluk_virus/Common_pipistrelle_2'
+	'KJ210048/Nhumirim_virus/Culex_mosquito_1'
+	'KJ438715/Usutu_virus/House_sparrow_2'
+	'KJ438755/Usutu_virus/Song_thrush'
+	'KJ438781/Usutu_virus/Common_black_bird'
+	'KJ463423/Border_disease_virus/Sheep_1'
+	'KJ469370/Batu_cave_virus/Lesser_short_nosed_fruit_bat'
+	'KJ469372/Phnom_Penh_bat_virus/Greater_short_nosed_fruit_bat'
+	'KJ495985/Looping_ill_virus/Human_7'
+	'KJ859683/Usutu_virus/Common_pipistrelle_1'
+	'KJ914682/Tick-borne_encephalitis_virus/Eurasian_magpie'
+	'KJ950914/Norway_rat_pestivirus/Norway_rat'
+	'KM066945/Tembusu_virus/Chicken'
+	'KM267635/St_Louis_encephalitis_virus/Human_13'
+	'KP144332/Spanish_goat_encephalitis_virus/Bermeya_goat'
+	'KP188568/Dengue_virus_1/Human_12'
+	'KP233893/Entebbe_bat_virus/Little_free_tailed_bat'
+	'KP296858/Simian_pegivirus/African_green_monkey'
+	'KP710605/GB_virus_C/Human_1'
+	'KR108246/Bagaza_virus/Red_legged_partridge'
+	'KR862330/GB_virus/Grivet'
+	'KR866116/Bovine_viral_diarrhea_virus_1/Cow'
+	'KR996146/Simian_pegivirus/Yellow_baboon'
+	'KT224355/Negishi_virus/Human_8'
+	'KT934796/Kunjin_virus/Horse_3'
+	'KU180708/Pegivirus_A/Human_2'
+	'KU726615/Culex_flavivirus/Culex_mosquito_2'
+	'KX377335/Zika_virus/Rhesus_macaque_1'
+	'NC_001564/Cell_fusing_agent_virus/Aedes_mosquito_1'
+	'NC_003635/Modoc_virus/White_footed_deer_mouse'
+	'NC_003676/Apoi_virus/Brown_rat'
+	'NC_003678/Pestivirus_giraffe/Giraff'
+	'NC_003690/Langat_virus/Tick'
+	'NC_012671/Quang_Binh_virus/Culex_mosquito_5'
+	'NC_016997/Donggang_virus/Aedes_mosquito_3'
+	'NC_017086/Chaoyang_virus/Culex_mosquito_8'
+	'NC_021153/Rodent_hepacivirus/Peromyscus_maniculatus'
+	'NC_021154/Rodent_pegivirus/Desert_woodrat'
+	'NC_023424/Tyuleniy_virus/Common_murre'
+	'NC_024018/Pronghorn_antelope_pestivirus/Pronghorn_antelope'
+	'NC_024377/Simian_pegivirus/Red_colobus_monkey'
+	'NC_024805/Ilomantsi_virus/Culex_mosquito_9'
+	'NC_024889/Equine_hepacivirus/Horse_2'
+	'NC_026620/Jutiapa_virus/Hispid_cotton_rat'
+	'NC_026623/Cacipacore_virus/Black_faced_antthrush'
+	'NC_026624/Sokoluk_virus/Japanese_house_bat'
+	'NC_030291/Pegivirus_B/Indian_flying_fox'
+	'NC_030400/Nakiwogo_virus/Africana_mosquito_2'
+	'NC_030401/Hanko_virus/Culex_mosquito_6'
+	'U94421/Pegivirus_A/White_lipped_tamarin'
+	'V6182/West_Nile/Double_crested_cormorant'
+	'V6196/West_Nile/American_white_pelican'
+	'V6200/West_Nile/Least_tern'
+	'V6205/West_Nile/Canadian_goose'
+	'V6384/West_Nile/Great_horned_owl'
+	'V6413/West_Nile/Northern_goshawk'
+	'V6441/West_Nile/Red_tailed_hawk'
+	'V6458/West_Nile/European_starling'
+	'V6490/West_Nile/Golden_eagle'
+	'V6532/West_Nile/Hawk'
+	'V6536/West_Nile/Herring_gull'
+	'V6546/West_Nile/Ring_billed_gull'
+	'V6561/West_Nile/Short_eared_owl'
+	'V6562/West_Nile/Swainsons_hawk'
+	'V6615/West_Nile/Black_vulture'
+	'YFU54798/Yellowfever/Human_20'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NC_024889/Equine_hepacivirus/Horse_2':0.049233,'JF744991/Canine_hepacivirus/Dog':0.03249,('FJ462441/Hepatitis_C_virus/Human_3':0.682041,(('KC796091/Bat_hepacivirus/Large_eared_free_tailed_bat':0.604446,'KC796074/Bat_hepacivirus/Striped_leaf_nosed_bat':0.727431)[&label=1.0]:0.290719,('NC_021153/Rodent_hepacivirus/Peromyscus_maniculatus':1.107788,((('NC_021154/Rodent_pegivirus/Desert_woodrat':0.713302,'KC796087/Bat_pegivirus/Sebas_short_tailed_bat':0.748132)[&label=1.0]:0.520103,((('U94421/Pegivirus_A/White_lipped_tamarin':0.388153,'AF023425/Pegivirus_A/Three_striped_night_monkey':0.343822)[&label=1.0]:0.298854,(('AF031829/GB_virus_C/Chimpanzee':0.033832,('KU180708/Pegivirus_A/Human_2':0.006723,'KP710605/GB_virus_C/Human_1':0.02556)[&label=0.996262]:0.019198)[&label=1.0]:0.323015,(('KP296858/Simian_pegivirus/African_green_monkey':0.161373,'KF234529/Simian_pegivirus/Red_tailed_guenon':0.082742)[&label=1.0]:0.068106,('NC_024377/Simian_pegivirus/Red_colobus_monkey':0.145496,('KR862330/GB_virus/Grivet':0.039423,('KR996146/Simian_pegivirus/Yellow_baboon':0.10116,'KF234530/Simian_pegivirus/Olive_baboon':0.019575)[&label=1.0]:0.043912)[&label=1.0]:0.073264)[&label=0.994777]:0.059669)[&label=1.0]:0.21388)[&label=1.0]:0.294778)[&label=1.0]:0.224779,('KC145265/Theilers_disease_associated_virus/Horse_1':0.819062,('KC796088/Bat_pegivirus/Little_yellow_shouldered_bat':0.73066,('NC_030291/Pegivirus_B/Indian_flying_fox':0.45783,'KC796083/Bat_pegivirus/Straw_coloured_fruit_bat':0.46275)[&label=1.0]:0.260591)[&label=0.999711]:0.098577)[&label=0.709851]:0.060963)[&label=0.999993]:0.159856)[&label=1.0]:0.237693,(('KJ950914/Norway_rat_pestivirus/Norway_rat':0.971688,('NC_024018/Pronghorn_antelope_pestivirus/Pronghorn_antelope':0.370019,(('KC149991/Classical_swine_fever_virus/Wild_boar':0.136704,('KJ463423/Border_disease_virus/Sheep_1':0.117016,('GU270877/Border_disease_virus/Chamois':0.080795,'AF144618/Pestivirus/Reindeer':0.078218)[&label=1.0]:0.045698)[&label=1.0]:0.06169)[&label=1.0]:0.061713,('NC_003678/Pestivirus_giraffe/Giraff':0.228883,('KR866116/Bovine_viral_diarrhea_virus_1/Cow':0.056122,('JX297521/Bovine_viral_diarrhea_virus_type_1b/Alpaca':0.092091,'KC695810/Bovine_viral_diarrhea_virus_1/Bactrian_camel':0.069967)[&label=1.0]:0.043704)[&label=1.0]:0.164168)[&label=0.99802]:0.042571)[&label=1.0]:0.14188)[&label=1.0]:0.289945)[&label=1.0]:1.216288,(('AF285080/Tamana_bat_virus/Parnells_mustached_bat':1.435773,((('NC_012671/Quang_Binh_virus/Culex_mosquito_5':0.160708,'KU726615/Culex_flavivirus/Culex_mosquito_2':0.128914)[&label=1.0]:0.101209,('JQ957875/Nienokoue_virus/Culex_mosquito_3':0.214126,('NC_030400/Nakiwogo_virus/Africana_mosquito_2':0.164476,'KC505248/Palm_Creek_virus/Coquillettidia_mosquito':0.138539)[&label=1.0]:0.106702)[&label=0.634086]:0.043958)[&label=1.0]:0.135228,('NC_030401/Hanko_virus/Culex_mosquito_6':0.36229,('NC_001564/Cell_fusing_agent_virus/Aedes_mosquito_1':0.118745,('KC181923/Aedes_flavivirus/Aedes_mosquito_2':0.18748,'AY149905/Kamiti_River_virus/Africana_mosquito_1':0.100899)[&label=1.0]:0.129837)[&label=1.0]:0.225316)[&label=0.82545]:0.052137)[&label=1.0]:0.396047)[&label=1.0]:0.152506,(((('AB114858/Yokose_virus/Eastern_bent_wing_bat':0.094104,(('KP233893/Entebbe_bat_virus/Little_free_tailed_bat':0.001185,'DQ837641/Entebbe_bat_virus/Fruit_bat':0.006394)[&label=1.0]:0.057021,('NC_026624/Sokoluk_virus/Japanese_house_bat':0.0,'KF917541/Sokoluk_virus/Common_pipistrelle_2':0.0)[&label=1.0]:0.06102)[&label=1.0]:0.043684)[&label=1.0]:0.0965,('DQ859062/Saboya_virus/Gambian_slit_faced_bat':0.167115,('YFU54798/Yellowfever/Human_20':0.01349,'HM582851/Yellow_fever_virus/Venezuelan_red_howler':0.007956)[&label=1.0]:0.105709)[&label=1.0]:0.05612)[&label=1.0]:0.050147,(('NC_003676/Apoi_virus/Brown_rat':0.216532,((('KJ469372/Phnom_Penh_bat_virus/Greater_short_nosed_fruit_bat':0.011403,'KJ469370/Batu_cave_virus/Lesser_short_nosed_fruit_bat':0.01412)[&label=1.0]:0.143712,('JQ582840/Rio_bravo_virus/Mexican_free_tailed_bat':0.109234,'AJ299445/Montana_myotis_leukoencephalitis/Little_brown_bat':0.131026)[&label=0.759164]:0.032017)[&label=0.999998]:0.032722,('NC_026620/Jutiapa_virus/Hispid_cotton_rat':0.139899,'NC_003635/Modoc_virus/White_footed_deer_mouse':0.126146)[&label=1.0]:0.056182)[&label=1.0]:0.046844)[&label=1.0]:0.141802,(('NC_023424/Tyuleniy_virus/Common_murre':0.051816,'DQ235150/Saumarez_Reef_virus/Sooty_tern':0.084787)[&label=1.0]:0.090112,('DQ462443/Karshi_virus/Mouse':0.085653,('HQ231415/Powassan_virus/Human_4':0.064557,(('JF416967/Alkhumra_hemorrhagic_fever_virus/Human_5':0.003791,'JF416960/Kyasanur_forest_disease_virus/Northern_plains_gray_langur':0.003916)[&label=1.0]:0.044141,('NC_003690/Langat_virus/Tick':0.042791,('DQ235152/Spanish_sheep_encephalitis/Sheep_3':0.003416,('KP144332/Spanish_goat_encephalitis_virus/Bermeya_goat':0.00408,(('KF056331/Looping_ill_virus/Sheep_4':0.002544,('KT224355/Negishi_virus/Human_8':0.0,'KJ495985/Looping_ill_virus/Human_7':0.0)[&label=1.0]:0.002582)[&label=0.89646]:8.83E-4,(('DQ235151/Turkish_sheep_encephalitis/Sheep_2':0.015487,('KF151173/Tick-borne_encephalitis_virus/Yellow_necked_mouse':8.51E-4,'KC835597/Tick-borne_encephalitis_virus/Bank_vole':8.44E-4)[&label=0.999996]:0.004273)[&label=0.994106]:0.005069,('KJ914682/Tick-borne_encephalitis_virus/Eurasian_magpie':0.00913,('AF482344/Omsk_hemorrhagic_fever_virus/Muskrat':0.00538,'AF482341/Omsk_hemorrhagic_fever_virus/Human_6':0.0)[&label=1.0]:0.049541)[&label=0.990877]:0.012144)[&label=1.0]:0.005671)[&label=0.999866]:0.00308)[&label=0.997204]:0.003107)[&label=1.0]:0.023202)[&label=1.0]:0.018197)[&label=0.954041]:0.015998)[&label=0.998561]:0.016807)[&label=1.0]:0.051756)[&label=1.0]:0.061225)[&label=1.0]:0.052212)[&label=0.99985]:0.017741,(((('NC_017086/Chaoyang_virus/Culex_mosquito_8':0.022336,'FJ606789/Lammi_virus/Culex_mosquito_7':0.030073)[&label=1.0]:0.069553,('NC_024805/Ilomantsi_virus/Culex_mosquito_9':0.088679,'NC_016997/Donggang_virus/Aedes_mosquito_3':0.082982)[&label=1.0]:0.043175)[&label=1.0]:0.088128,('FJ711167/Nounane_virus/Uranotaenia_mosquito':0.196246,('KJ210048/Nhumirim_virus/Culex_mosquito_1':0.101931,'KC496020/Barkedji_virus/Culex_mosquito_4':0.110961)[&label=1.0]:0.078199)[&label=1.0]:0.047198)[&label=0.915589]:0.013965,(('KF917538/Naranjal_virus/Hamster':0.132747,(('KM267635/St_Louis_encephalitis_virus/Human_13':0.080017,(('KF826767/Tembusu_virus/House_sparrow_1':0.001707,('JQ289550/Duck_flavivirus/Duck':0.005061,(('KF557893/Tembusu_virus/Wulong_goose':0.006708,'KM066945/Tembusu_virus/Chicken':0.003365)[&label=0.0]:0.0,'JQ928189/Tembusu_virus/Common_shelduck':0.0042)[&label=0.0]:0.0)[&label=0.774787]:8.06E-4)[&label=1.0]:0.047247,('KF917539/Ntaya_virus/Grey_heron':0.025451,('KR108246/Bagaza_virus/Red_legged_partridge':8.6E-4,'KF917537/Israel_turkey_meningoencephalomyelitis_virus/Domestic_turkey':8.54E-4)[&label=1.0]:0.0261)[&label=1.0]:0.030429)[&label=1.0]:0.0584)[&label=0.994967]:0.016055,('NC_026623/Cacipacore_virus/Black_faced_antthrush':0.076927,(((('JQ219843/Usutu_virus/Blue_tit':0.0,'KJ438781/Usutu_virus/Common_black_bird':0.0)[&label=0.995342]:8.66E-4,(('KJ859683/Usutu_virus/Common_pipistrelle_1':8.66E-4,'KJ438755/Usutu_virus/Song_thrush':0.0)[&label=0.0]:0.0,'KJ438715/Usutu_virus/House_sparrow_2':0.0)[&label=0.0]:0.0)[&label=1.0]:0.038344,(('JN711459/Japanese_encephalitis_virus/Lesser_Asiatic_yellow_bat':4.0E-6,(('KF711994/Japanese_encephalitis/Pig':0.002565,('EF623988/Japanese_encephalitis/Human_15':0.002571,'AB594829/Japanese_encephalitis/Horse_5':0.004289)[&label=0.0]:4.0E-6)[&label=0.999072]:8.64E-4,'JN711458/Japanese_encephalitis_virus/Ricketts_big_footed_bat':0.0)[&label=0.0]:0.0)[&label=1.0]:0.047324,('AY898809/Alfuy_virus/Pheasant_coucal':0.044342,('KF751870/Murray_Valley_encephalitis/Human_16':0.004854,'JX123032/Murray_Valley_encephalitis/Horse_6':0.00724)[&label=1.0]:0.034134)[&label=0.999939]:0.012563)[&label=0.968906]:0.00886)[&label=1.0]:0.020109,('V6615/West_Nile/Black_vulture':8.66E-4,(('V6200/West_Nile/Least_tern':0.0,('HM488244/West_Nile/American_kestrel':0.0,('AY712945/West_Nile/Morning_dove':0.0,('V6182/West_Nile/Double_crested_cormorant':0.0,('V6384/West_Nile/Great_horned_owl':0.0,('HM488177/West_Nile/American_crow':0.0,('V6205/West_Nile/Canadian_goose':0.0,(('AY277252/West_Nile/Human_14':8.66E-4,('AY701413/West_Nile/Horse_4':0.001711,'KT934796/Kunjin_virus/Horse_3':0.006876)[&label=0.0]:3.0E-6)[&label=0.999632]:8.68E-4,('V6490/West_Nile/Golden_eagle':0.001711,('HM488183/West_Nile/Blue_jay':0.0,('V6562/West_Nile/Swainsons_hawk':0.0,('V6441/West_Nile/Red_tailed_hawk':0.0,('V6413/West_Nile/Northern_goshawk':0.0,('V6546/West_Nile/Ring_billed_gull':0.0,('V6536/West_Nile/Herring_gull':0.0,('V6196/West_Nile/American_white_pelican':0.0,('V6561/West_Nile/Short_eared_owl':0.001715,'V6532/West_Nile/Hawk':8.67E-4)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,'V6458/West_Nile/European_starling':0.0)[&label=0.0]:0.0)[&label=1.0]:0.036468)[&label=0.999598]:0.01616)[&label=1.0]:0.02517)[&label=1.0]:0.031531)[&label=0.810743]:0.014712,((('KC333651/Dengue_virus_4/Human_9':0.00724,'JF262780/Dengue_virus_4/Rhesus_macaque_2':0.013527)[&label=1.0]:0.087518,(('EF105379/Dengue_virus_2/Rhesus_macaque_3':0.014438,'AJ968413/Dengue_virus_2/Human_10':0.020271)[&label=1.0]:0.06452,('KP188568/Dengue_virus_1/Human_12':0.063181,'HQ235027/Dengue_virus_3/Human_11':0.04432)[&label=1.0]:0.030837)[&label=0.99819]:0.023146)[&label=1.0]:0.101219,('AY632540/Kedougou_virus/Human_17':0.146176,('DQ859064/Spondweni_virus/Human_18':0.067038,('KX377335/Zika_virus/Rhesus_macaque_1':0.003462,'JN860885/Zika/Human_19':0.01202)[&label=1.0]:0.075352)[&label=1.0]:0.03656)[&label=0.995643]:0.020716)[&label=1.0]:0.029587)[&label=0.999567]:0.020968)[&label=1.0]:0.024869)[&label=0.984207]:0.028195)[&label=1.0]:0.246273)[&label=1.0]:0.524618)[&label=1.0]:0.294348)[&label=1.0]:0.273488)[&label=1.0]:0.391086)[&label=1.0]:0.51174);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

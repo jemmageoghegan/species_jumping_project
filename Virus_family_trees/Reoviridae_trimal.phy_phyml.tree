@@ -1,0 +1,176 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=82;
+	taxlabels
+	'AB792653/Rotavirus_A/Cat'
+	'AB971760/Rotavirus_A/Sugar_glider'
+	'AF133429/Kadipiro_virus/Mosquito_6'
+	'AF133431/St_Croix_river_virus/Tick'
+	'AF168005/Banna_virus/Human_5'
+	'AF368033/Ndelle_virus/House_mouse'
+	'AF418295/Chum_salmon_reovirus/Salmon'
+	'AY317099/Liao_ning_virus/Mosquito_7'
+	'DQ664184/Mammalian_orthoreovirus/Human_8'
+	'EU636924/Rotavirus_A/Rhesus_monkey'
+	'FJ347100/Rotavirus_A/Guanaco'
+	'GQ428141/Rotavirus_A_giraffe/Giraffe'
+	'GQ468266/Mammalian_orthoreovirus/Masked_palm_civet'
+	'HM222980/Avian_orthoreovirus/Steller_sea_lion'
+	'HM543475/Lipovnik_virus/Human_4'
+	'HM543478/Tribec_virus/Bank_vole'
+	'HM989931/Reovirus/Turbot'
+	'HQ414127/Reovirus/Mud_crab'
+	'HQ630922/Equine_encephalosis/Horse_3'
+	'HQ642769/Mammalian_orthoreovirus/Pig_2'
+	'HQ896710/Rotavirus_C/Human_2'
+	'JQ070366/Tilligerry_virus/Cow_5'
+	'JQ070376/Eubenangee_virus/Cow_4'
+	'JX204811/Rotavirus_A/Pheasant'
+	'JX204822/Rotavirus_A/Turkey_1'
+	'JX478251/Duck_reovirus/Duck'
+	'JX947843/Banna/Freshwater_carp'
+	'KC288130/Kemerovo_virus/Common_redstart'
+	'KC432629/Sathuvachari_virus/Brahminy_starling'
+	'KC462149/Mammalian_orthoreovirus/Mink'
+	'KC588357/Cypovirus_5/Moth'
+	'KC669539/Heramatsu_virus/Eastern_long_fingered_bat'
+	'KC853042/Corriparta_virus/Horse_1'
+	'KF017509/Bluetongue_virus/Sheep'
+	'KF296322/Mobuck_virus/White_tail_deer_1'
+	'KF664133/Bluetongue_virus_16/Goat'
+	'KF712476/Reovirus/Grass_carp'
+	'KF746187/Tibet_orbivirus/Mosquito_4'
+	'KF791261/Mammalian_orthoreovirus/Least_horseshoe_bat'
+	'KJ191550/Baku_virus/Seagull'
+	'KJ476700/Avian_orthoreovirus/Chicken'
+	'KJ477127/Murine_Rotavirus/Mouse'
+	'KJ495745/Wallal_virus/Kangaroo_2'
+	'KJ495755/Warrego_virus/Kangaroo_1'
+	'KJ676379/Mammalian_orthoreovirus/Cow_6'
+	'KJ740726/Reovirus/Largemouth_bass'
+	'KJ746836/Changuinola_virus/Rice_rat'
+	'KJ865902/Avian_orthoreovirus/Turkey_2'
+	'KJ950937/Mulberry_orbivirus/Brown_rat'
+	'KM099522/Bluetongue_virus/Cow_2'
+	'KM214456/Bat_rotavirus/Mediterranean_horseshoe_bat'
+	'KM391741/Epizootic_hemorrhagic_disease_virus/Cow_3'
+	'KP006506/Rotavirus_A/Human_1'
+	'KP196603/Bluetongue_virus/Alpaca'
+	'KP638402/Reovirus/Chinese_mitten_crab'
+	'KP988013/Rotavirus_C/Dog'
+	'KR052714/Rotavirus_B/Wild_boar'
+	'KR349187/Mangshi_virus/Mosquito_5'
+	'KR476800/Avian_orthoreovirus/Partridge'
+	'KT030360/African_horse_sickness_virus/Horse_2'
+	'KT444522/Mammalian_orthoreovirus/Ricketts_bigfooted_bat'
+	'KT444562/Mammalian_orthoreovirus/Great_roundleaf_bat'
+	'KT873808/Rotavirus_A/Red_fox'
+	'KT934648/Avian_rotavirus_A/Spotted_dove'
+	'KT962027/Rotavirus/Pig_1'
+	'KU140720/Epizootic_hemorrhagic_disease_virus/White_tail_deer_2'
+	'KU311708/Reovirus/Chesapeake_blue_crab'
+	'KU708259/Rotavirus_A/Roe_deer'
+	'KX268765/Rotavirus_A/Straw_coloured_fruit_bat'
+	'LC088096/Rotavirus_A/Velvet_scoter'
+	'NC_003696/Eyach_virus/Human_7'
+	'NC_004181/Colorado_tick_fever_virus/Human_6'
+	'NC_005167/Reovirus/Golden_shiner'
+	'NC_007656/Yunnan_orbivirus/Mosquito_2'
+	'NC_007667/Aedes_pseudoscutellaris_reovirus/Mosquito_9'
+	'NC_012754/Stretch_Lagoon_orbivirus/Mosquito_1'
+	'NC_014522/Great_Island_virus/Common_guillemot'
+	'NC_015878/orthoreovirus/Baboon'
+	'NC_021541/Rotavirus_B/Human_3'
+	'NC_025486/Fako_virus/Mosquito_8'
+	'NC_027553/Chobar_gorge_virus/Cow_1'
+	'NC_027803/Fengkai_orbivirus/Mosquito_3'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NC_004181/Colorado_tick_fever_virus/Human_6':0.141387,'NC_003696/Eyach_virus/Human_7':0.098863,((((('NC_015878/orthoreovirus/Baboon':0.562082,('HM222980/Avian_orthoreovirus/Steller_sea_lion':0.160256,('JX478251/Duck_reovirus/Duck':0.045842,('KJ476700/Avian_orthoreovirus/Chicken':0.017152,('KJ865902/Avian_orthoreovirus/Turkey_2':0.011403,'KR476800/Avian_orthoreovirus/Partridge':0.01944)[&label=0.984257]:0.006224)[&label=0.999827]:0.030573)[&label=1.0]:0.140701)[&label=1.0]:0.243086)[&label=0.998601]:0.091228,('KF712476/Reovirus/Grass_carp':0.504438,('NC_005167/Reovirus/Golden_shiner':0.296918,('KJ740726/Reovirus/Largemouth_bass':0.018606,('HM989931/Reovirus/Turbot':0.02001,'AF418295/Chum_salmon_reovirus/Salmon':0.051774)[&label=0.995642]:0.023152)[&label=1.0]:0.396771)[&label=1.0]:0.344506)[&label=1.0]:0.214046)[&label=1.0]:0.246325,('DQ664184/Mammalian_orthoreovirus/Human_8':0.004019,(('KF791261/Mammalian_orthoreovirus/Least_horseshoe_bat':0.00191,('KC462149/Mammalian_orthoreovirus/Mink':8.0E-6,'KT444562/Mammalian_orthoreovirus/Great_roundleaf_bat':0.003804)[&label=0.999995]:0.003813)[&label=0.0]:7.0E-6,(('HQ642769/Mammalian_orthoreovirus/Pig_2':0.003833,'KT444522/Mammalian_orthoreovirus/Ricketts_bigfooted_bat':8.0E-6)[&label=0.0]:8.0E-6,('KJ676379/Mammalian_orthoreovirus/Cow_6':0.02357,('AF368033/Ndelle_virus/House_mouse':0.013444,'GQ468266/Mammalian_orthoreovirus/Masked_palm_civet':0.005749)[&label=0.0]:1.2E-5)[&label=0.968184]:0.001912)[&label=0.99985]:0.001898)[&label=0.510589]:0.003661)[&label=0.677828]:0.064543)[&label=1.0]:1.632611,(('KU311708/Reovirus/Chesapeake_blue_crab':0.068192,('HQ414127/Reovirus/Mud_crab':0.133771,'KP638402/Reovirus/Chinese_mitten_crab':0.146961)[&label=0.617576]:0.052513)[&label=1.0]:3.129203,(('KC588357/Cypovirus_5/Moth':5.651931,(('KT962027/Rotavirus/Pig_1':0.373025,('NC_021541/Rotavirus_B/Human_3':0.186913,'KR052714/Rotavirus_B/Wild_boar':0.183022)[&label=0.999992]:0.314739)[&label=1.0]:1.467617,(('KX268765/Rotavirus_A/Straw_coloured_fruit_bat':0.074317,((('JX204822/Rotavirus_A/Turkey_1':0.016514,('KT873808/Rotavirus_A/Red_fox':0.007294,'KT934648/Avian_rotavirus_A/Spotted_dove':0.001849)[&label=0.948911]:0.001842)[&label=0.0]:1.7E-5,('LC088096/Rotavirus_A/Velvet_scoter':0.003666,'JX204811/Rotavirus_A/Pheasant':0.005475)[&label=0.933013]:0.001857)[&label=1.0]:0.128126,('KJ477127/Murine_Rotavirus/Mouse':0.084253,('KM214456/Bat_rotavirus/Mediterranean_horseshoe_bat':0.010987,('AB971760/Rotavirus_A/Sugar_glider':0.041717,('AB792653/Rotavirus_A/Cat':0.01258,('FJ347100/Rotavirus_A/Guanaco':0.007693,('KP006506/Rotavirus_A/Human_1':0.001822,('GQ428141/Rotavirus_A_giraffe/Giraffe':0.005451,('KU708259/Rotavirus_A/Roe_deer':0.003592,'EU636924/Rotavirus_A/Rhesus_monkey':0.005418)[&label=0.0]:2.4E-5)[&label=0.504385]:0.001739)[&label=1.0]:0.019435)[&label=1.0]:0.014539)[&label=0.965436]:0.006472)[&label=0.702535]:0.004495)[&label=0.999321]:0.019756)[&label=0.632478]:0.02719)[&label=0.998954]:0.070275)[&label=0.999669]:0.167495,('KP988013/Rotavirus_C/Dog':0.071421,'HQ896710/Rotavirus_C/Human_2':0.023971)[&label=1.0]:0.52188)[&label=0.999986]:0.445347)[&label=0.584502]:0.45979)[&label=0.987136]:0.545121,(('AY317099/Liao_ning_virus/Mosquito_7':0.614584,(('AF168005/Banna_virus/Human_5':0.233623,('KR349187/Mangshi_virus/Mosquito_5':0.143131,'JX947843/Banna/Freshwater_carp':0.202289)[&label=0.999998]:0.132602)[&label=1.0]:0.525168,'AF133429/Kadipiro_virus/Mosquito_6':0.682159)[&label=0.565622]:0.21695)[&label=1.0]:2.077048,(('KJ950937/Mulberry_orbivirus/Brown_rat':0.741629,(('KJ746836/Changuinola_virus/Rice_rat':0.245207,((('NC_027803/Fengkai_orbivirus/Mosquito_3':0.014879,'KF746187/Tibet_orbivirus/Mosquito_4':1.5E-5)[&label=1.0]:0.144773,((('KF017509/Bluetongue_virus/Sheep':1.7E-5,'KP196603/Bluetongue_virus/Alpaca':0.0)[&label=0.98991]:0.019347,('KF664133/Bluetongue_virus_16/Goat':0.009075,'KM099522/Bluetongue_virus/Cow_2':0.013286)[&label=0.887117]:0.019498)[&label=1.0]:0.163943,('KU140720/Epizootic_hemorrhagic_disease_virus/White_tail_deer_2':0.00928,'KM391741/Epizootic_hemorrhagic_disease_virus/Cow_3':1.1E-5)[&label=1.0]:0.131154)[&label=0.99964]:0.049784)[&label=1.0]:0.084604,(('KJ495745/Wallal_virus/Kangaroo_2':0.167444,('JQ070376/Eubenangee_virus/Cow_4':0.023752,'JQ070366/Tilligerry_virus/Cow_5':0.036442)[&label=1.0]:0.119533)[&label=1.0]:0.074978,'KJ495755/Warrego_virus/Kangaroo_1':0.203085)[&label=0.499796]:0.016444)[&label=0.963112]:0.047738)[&label=1.0]:0.100715,('KC669539/Heramatsu_virus/Eastern_long_fingered_bat':0.337125,('KT030360/African_horse_sickness_virus/Horse_2':0.180531,'HQ630922/Equine_encephalosis/Horse_3':0.292861)[&label=0.997702]:0.049462)[&label=0.963783]:0.05627)[&label=0.98959]:0.058402)[&label=0.938422]:0.041668,(('NC_027553/Chobar_gorge_virus/Cow_1':0.293238,('AF133431/St_Croix_river_virus/Tick':0.770422,('KJ191550/Baku_virus/Seagull':0.281107,('NC_014522/Great_Island_virus/Common_guillemot':0.105051,('KC288130/Kemerovo_virus/Common_redstart':0.102634,('HM543478/Tribec_virus/Bank_vole':0.009542,'HM543475/Lipovnik_virus/Human_4':4.7E-5)[&label=1.0]:0.100925)[&label=1.0]:0.086107)[&label=1.0]:0.168415)[&label=0.952728]:0.081457)[&label=0.898343]:0.049562)[&label=0.979918]:0.064718,(('NC_007656/Yunnan_orbivirus/Mosquito_2':0.152518,'KF296322/Mobuck_virus/White_tail_deer_1':0.153107)[&label=1.0]:0.281423,('KC432629/Sathuvachari_virus/Brahminy_starling':0.284532,('NC_012754/Stretch_Lagoon_orbivirus/Mosquito_1':0.244213,'KC853042/Corriparta_virus/Horse_1':0.316115)[&label=0.614854]:0.040065)[&label=0.999544]:0.059107)[&label=0.998585]:0.046756)[&label=0.796342]:0.079444)[&label=1.0]:1.223437)[&label=0.962289]:0.31219)[&label=0.988887]:0.284623)[&label=0.740502]:0.224937)[&label=0.998857]:0.773872,('NC_007667/Aedes_pseudoscutellaris_reovirus/Mosquito_9':0.150907,'NC_025486/Fako_virus/Mosquito_8':0.104602)[&label=1.0]:3.533292)[&label=1.0]:2.925254);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,0 +1,233 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=139;
+	taxlabels
+	Aedes_mosquito_1
+	Aedes_mosquito_2
+	Aedes_mosquito_3
+	African_green_monkey
+	Africana_mosquito_1
+	Africana_mosquito_2
+	Alpaca
+	American_crow
+	American_kestrel
+	American_white_pelican
+	Bactrian_camel
+	Bank_vole
+	Bermeya_goat
+	Black_faced_antthrush
+	Black_vulture
+	Blue_jay
+	Blue_tit
+	Brown_rat
+	Canadian_goose
+	Chamois
+	Chicken
+	Chimpanzee
+	Common_black_bird
+	Common_murre
+	Common_pipistrelle_1
+	Common_pipistrelle_2
+	Common_shelduck
+	Coquillettidia_mosquito
+	Cow
+	Culex_mosquito_1
+	Culex_mosquito_2
+	Culex_mosquito_3
+	Culex_mosquito_4
+	Culex_mosquito_5
+	Culex_mosquito_6
+	Culex_mosquito_7
+	Culex_mosquito_8
+	Culex_mosquito_9
+	Desert_woodrat
+	Dog
+	Domestic_turkey
+	Double_crested_cormorant
+	Duck
+	Eastern_bent_wing_bat
+	Eurasian_magpie
+	European_starling
+	Fruit_bat
+	Gambian_slit_faced_bat
+	Giraff
+	Golden_eagle
+	Great_horned_owl
+	Greater_short_nosed_fruit_bat
+	Grey_heron
+	Grivet
+	Hamster
+	Hawk
+	Herring_gull
+	Hispid_cotton_rat
+	Horse_1
+	Horse_2
+	Horse_3
+	Horse_4
+	Horse_5
+	Horse_6
+	House_sparrow_1
+	House_sparrow_2
+	Human_1
+	Human_10
+	Human_11
+	Human_12
+	Human_13
+	Human_14
+	Human_15
+	Human_16
+	Human_17
+	Human_18
+	Human_19
+	Human_2
+	Human_20
+	Human_3
+	Human_4
+	Human_5
+	Human_6
+	Human_7
+	Human_8
+	Human_9
+	Indian_flying_fox
+	Japanese_house_bat
+	Large_eared_free_tailed_bat
+	Least_tern
+	Lesser_Asiatic_yellow_bat
+	Lesser_short_nosed_fruit_bat
+	Little_brown_bat
+	Little_free_tailed_bat
+	Little_yellow_shouldered_bat
+	Mexican_free_tailed_bat
+	Morning_dove
+	Mouse
+	Muskrat
+	Northern_goshawk
+	Northern_plains_gray_langur
+	Norway_rat
+	Olive_baboon
+	Parnells_mustached_bat
+	Peromyscus_maniculatus
+	Pheasant_coucal
+	Pig
+	Pronghorn_antelope
+	Red_colobus_monkey
+	Red_legged_partridge
+	Red_tailed_guenon
+	Red_tailed_hawk
+	Reindeer
+	Rhesus_macaque_1
+	Rhesus_macaque_2
+	Rhesus_macaque_3
+	Ricketts_big_footed_bat
+	Ring_billed_gull
+	Sebas_short_tailed_bat
+	Sheep_1
+	Sheep_2
+	Sheep_3
+	Sheep_4
+	Short_eared_owl
+	Song_thrush
+	Sooty_tern
+	Straw_coloured_fruit_bat
+	Striped_leaf_nosed_bat
+	Swainsons_hawk
+	Three_striped_night_monkey
+	Tick
+	Uranotaenia_mosquito
+	Venezuelan_red_howler
+	White_footed_deer_mouse
+	White_lipped_tamarin
+	Wild_boar
+	Wulong_goose
+	Yellow_baboon
+	Yellow_necked_mouse
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((Tick:1.0,(((Aedes_mosquito_1:2.0,Aedes_mosquito_2:2.0,Aedes_mosquito_3:1.0):1.0,(Culex_mosquito_1:2.0,Culex_mosquito_2:2.0,Culex_mosquito_3:3.0,Culex_mosquito_4:3.0,Culex_mosquito_5:4.0,Culex_mosquito_6:4.0,Culex_mosquito_7:5.0,Culex_mosquito_8:5.0,Culex_mosquito_9:4.0):1.0):1.0,((Africana_mosquito_1:1.0,Africana_mosquito_2:1.0):1.0,(Coquillettidia_mosquito:1.0,Uranotaenia_mosquito:1.0):1.0):1.0):1.0):1.0,((((((Duck:1.0,Common_shelduck:1.0):1.0,(Canadian_goose:1.0,Wulong_goose:1.0):1.0):1.0,((Chicken:1.0,Domestic_turkey:1.0):1.0,Red_legged_partridge:1.0):1.0):1.0,Pheasant_coucal:1.0):1.0,((American_white_pelican:1.0,Grey_heron:1.0):1.0,(((Common_murre:1.0,(Sooty_tern:1.0,Least_tern:1.0):1.0):1.0,(Ring_billed_gull:1.0,Herring_gull:1.0):1.0):1.0,((Golden_eagle:1.0,((Northern_goshawk:1.0,Swainsons_hawk:1.0):1.0,(Red_tailed_hawk:1.0,Hawk:1.0):1.0):1.0):1.0,((Short_eared_owl:1.0,Great_horned_owl:1.0):1.0,(Morning_dove:1.0,(American_kestrel:1.0,(Black_vulture:1.0,(Double_crested_cormorant:1.0,((((European_starling:1.0,American_crow:1.0):1.0,Blue_tit:1.0):1.0,(Common_black_bird:1.0,Eurasian_magpie:1.0):1.0):1.0,(((House_sparrow_1:1.0,House_sparrow_2:1.0):1.0,Blue_jay:1.0):1.0,(Black_faced_antthrush:1.0,Song_thrush:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0,((((((Human_1:2.0,Human_2:2.0,Human_3:3.0,Human_4:3.0,Human_5:4.0,Human_6:4.0,Human_7:5.0,Human_8:5.0,Human_9:6.0,Human_10:6.0,Human_11:7.0,Human_12:7.0,Human_13:8.0,Human_14:8.0,Human_15:9.0,Human_16:9.0,Human_18:10.0,Human_17:10.0,Human_19:10.0,Human_20:10.0):1.0,Chimpanzee:1.0):1.0,(((((Rhesus_macaque_1:2.0,Rhesus_macaque_2:2.0,Rhesus_macaque_3:1.0):1.0,(Grivet:1.0,African_green_monkey:1.0):1.0):1.0,(Olive_baboon:1.0,Yellow_baboon:1.0):1.0):1.0,Red_tailed_guenon:1.0):1.0,(Northern_plains_gray_langur:1.0,Red_colobus_monkey:1.0):1.0):1.0):1.0,((Three_striped_night_monkey:1.0,White_lipped_tamarin:1.0):1.0,Venezuelan_red_howler:1.0):1.0):1.0,((((Brown_rat:1.0,Norway_rat:1.0):1.0,(Desert_woodrat:1.0,Hispid_cotton_rat:1.0):1.0):1.0,((Mouse:1.0,Yellow_necked_mouse:1.0):1.0,(Peromyscus_maniculatus:1.0,White_footed_deer_mouse:1.0):1.0):1.0):1.0,(Muskrat:1.0,(Bank_vole:1.0,Hamster:1.0):1.0):1.0):1.0):1.0,(((((Indian_flying_fox:1.0,Parnells_mustached_bat:1.0):1.0,Ricketts_big_footed_bat:1.0):1.0,((Fruit_bat:1.0,(Lesser_short_nosed_fruit_bat:1.0,Greater_short_nosed_fruit_bat:1.0):1.0):1.0,Straw_coloured_fruit_bat:1.0):1.0):1.0,(Gambian_slit_faced_bat:1.0,(Eastern_bent_wing_bat:1.0,((Little_yellow_shouldered_bat:1.0,Sebas_short_tailed_bat:1.0):1.0,(Striped_leaf_nosed_bat:1.0,(((Mexican_free_tailed_bat:1.0,Large_eared_free_tailed_bat:1.0):1.0,Little_free_tailed_bat:1.0):1.0,((Little_brown_bat:1.0,Lesser_Asiatic_yellow_bat:1.0):1.0,(Japanese_house_bat:1.0,(Common_pipistrelle_1:1.0,Common_pipistrelle_2:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0,(Dog:1.0,(((Alpaca:1.0,Bactrian_camel:1.0):1.0,((Pig:1.0,Wild_boar:1.0):1.0,(((Reindeer:1.0,Pronghorn_antelope:2.0):1.0,Giraff:1.0):1.0,(Cow:1.0,(Chamois:1.0,(Bermeya_goat:1.0,(Sheep_1:1.0,Sheep_2:3.0,Sheep_3:3.0,Sheep_4:2.0):1.0):0.5):0.75):0.75):0.5):0.5):2.0,(Horse_1:3.0,Horse_2:3.0,Horse_3:3.0,Horse_4:3.0,Horse_5:2.0,Horse_6:2.0):1.0):1.0):1.0):1.0):1.0):1.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+

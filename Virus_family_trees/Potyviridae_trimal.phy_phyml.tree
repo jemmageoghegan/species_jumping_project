@@ -1,0 +1,152 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=58;
+	taxlabels
+	'A34978/MDMV/Maize_2'
+	'AB583211/Papaya_ringspot_virus/Calabash'
+	'AB701693/Turnip_mosaic_virus/Monkey_orchid'
+	'AB701696/Turnip_mosaic_virus/Hoary_stock'
+	'AF103787/Turnip_mosaic_virus/Mustard_greens'
+	'AF103788/Turnip_mosaic_virus/Chinese_cabbage'
+	'AF506856/Papaya_ringspot_virus/Pumpkin'
+	'AF506897/Papaya_ringspot_virus/Cucumber'
+	'AF539410/Turnip_mosaic_virus/Radish'
+	'AJ224623/Yellow_mosaic_virus/Barley'
+	'AJ239038/Yellow_mosaic_virus/Wheat'
+	'AJ297629/Turnip_mosaic_virus/Turnip'
+	'AJ297630/lettuce_mosaic_virus/Lettuce'
+	'AJ420020/Zucchini_yellow_mosaic_virus/Zucchini_1'
+	'AJ515379/Sweet_potato_feathery_mottle_virus/Sweet_potato_1'
+	'AJ628752/Soybean_mosaic_virus/Crow_dipper'
+	'AM184113/Henbane_mosaic_virus/Chinese_lantern'
+	'DQ925417/Bean_common_mosaic_virus_strain_Blackeye/Black_bean'
+	'DQ925446/Chilli_veinal_mottle_virus/Chilli'
+	'DQ925462/Turnip_mosaic_virus/Chinese_mustard'
+	'EU586124/Pepper_mottle_virus/Tomato'
+	'EU586134/Pepper_mottle_virus/Bell_pepper_1'
+	'HM348781/Banana_bract_mosaic_virus/Banana'
+	'JF427623/Passion_fruit_woodiness_virus/Passion_fruit_2'
+	'JN692173/Dasheen_mosaic_virus/Taro'
+	'JN863232/Sunflower_chlorotic_mottle_virus/Proboscis_flower'
+	'JN863233/Sunflower_chlorotic_mottle_virus/Wild_teasel'
+	'JX070153/Pennisetum_mosaic_virus/Maize_1'
+	'JX417421/Brown_streak_virus/Cassava'
+	'KF114860/Bean_common_mosaic_virus/Common_bean'
+	'KF417755/Lily_mottle_virus/Lily'
+	'KF463320/Turnip_mosaic_virus/Oilseed_rape'
+	'KF597285/Leek_yellow_stripe_virus/Garlic'
+	'KF862691/yellow_dwarf_virus/Onion'
+	'KJ152154/Hardenbergia_mosaic_virus/Hardenbergia_comptoniana'
+	'KJ789129/Telosma_mosaic_virus/Passion_fruit_1'
+	'KJ789138/Japanese_yam_mosaic_virus/Chinese_yam'
+	'KT936508/Turnip_mosaic_virus/False_Starwort'
+	'KU315175/Moroccan_watermelon_mosaic_virus/Marrow'
+	'KU355553/Zucchini_shoestring_virus/Zucchini_2'
+	'L22907/Watermelon_mosaic_virus/Watermelmon'
+	'L32960/Peanut_mottle_virus/Peanut'
+	'LC114511/Dasheen_mosaic_virus/Konjac'
+	'MSCCP/Mosaic_virus/Sugarcane'
+	'NC_008558/Blackberry_virus_Y/Blackberry'
+	'NC_014252/Panax_virus_Y/Notoginseng'
+	'NC_018572/Caladenia_virus_A/Pink_fairy_orchid'
+	'NC_019412/Yam_mild_mosaic_virus/Indian_yam'
+	'NC_029051/Jasmine_ringspot_virus/Jasmine'
+	'PTWCOPOL/Vein_banding_mosaic_virus/Tobacco'
+	'PVYCPA/potato_virus/Potato'
+	'X63630/Tulip_mosaic_virus/Tulip'
+	'X66027/Severe_mosaic_virus/Bell_pepper_2'
+	'X67672/Ringspot_virus/Papaya'
+	'X76944/G_virus/Sweet_potato_2'
+	'X96665/Mosaic_virus/Soybean'
+	'Y18634/Cowpea_aphid-borne_mosaic_virus/Cowpea'
+	'lumAB576080/Plum_pox_virus/Plum'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('AJ239038/Yellow_mosaic_virus/Wheat':0.399709,'AJ224623/Yellow_mosaic_virus/Barley':0.045272,(('NC_018572/Caladenia_virus_A/Pink_fairy_orchid':4.538948,'JX417421/Brown_streak_virus/Cassava':3.191173)[&label=0.66785]:0.97547,('NC_008558/Blackberry_virus_Y/Blackberry':2.264748,('NC_019412/Yam_mild_mosaic_virus/Indian_yam':0.295638,((('DQ925446/Chilli_veinal_mottle_virus/Chilli':0.108325,'PTWCOPOL/Vein_banding_mosaic_virus/Tobacco':0.233515)[&label=0.900054]:0.023519,('AM184113/Henbane_mosaic_virus/Chinese_lantern':0.305296,((('NC_029051/Jasmine_ringspot_virus/Jasmine':0.140039,'NC_014252/Panax_virus_Y/Notoginseng':0.399319)[&label=0.653636]:0.025568,(('KJ789138/Japanese_yam_mosaic_virus/Chinese_yam':0.201248,('AB701693/Turnip_mosaic_virus/Monkey_orchid':0.049595,(('KT936508/Turnip_mosaic_virus/False_Starwort':0.013125,('AF539410/Turnip_mosaic_virus/Radish':0.012129,(('AF103788/Turnip_mosaic_virus/Chinese_cabbage':0.018517,'KF463320/Turnip_mosaic_virus/Oilseed_rape':0.0)[&label=0.0]:2.0E-6,('DQ925462/Turnip_mosaic_virus/Chinese_mustard':0.006024,'AJ297629/Turnip_mosaic_virus/Turnip':0.00603)[&label=0.0]:3.0E-6)[&label=0.0]:3.0E-6)[&label=0.0]:4.0E-6)[&label=0.860963]:0.006492,('AF103787/Turnip_mosaic_virus/Mustard_greens':0.026505,'AB701696/Turnip_mosaic_virus/Hoary_stock':0.031086)[&label=0.485558]:0.00485)[&label=0.859834]:0.02152)[&label=1.0]:0.17546)[&label=0.873684]:0.057332,('AJ297630/lettuce_mosaic_virus/Lettuce':0.369423,((('AB583211/Papaya_ringspot_virus/Calabash':0.06276,('AF506856/Papaya_ringspot_virus/Pumpkin':0.025543,('X67672/Ringspot_virus/Papaya':0.011986,'AF506897/Papaya_ringspot_virus/Cucumber':0.060866)[&label=0.832916]:0.011151)[&label=0.999508]:0.052749)[&label=1.0]:0.188681,('KU355553/Zucchini_shoestring_virus/Zucchini_2':0.082532,'KU315175/Moroccan_watermelon_mosaic_virus/Marrow':0.156344)[&label=0.999986]:0.108694)[&label=1.0]:0.113934,(((('PVYCPA/potato_virus/Potato':0.084909,'X66027/Severe_mosaic_virus/Bell_pepper_2':0.104966)[&label=0.70409]:0.023897,(('EU586134/Pepper_mottle_virus/Bell_pepper_1':0.0,'EU586124/Pepper_mottle_virus/Tomato':0.0)[&label=1.0]:0.14922,('JN863233/Sunflower_chlorotic_mottle_virus/Wild_teasel':0.031548,'JN863232/Sunflower_chlorotic_mottle_virus/Proboscis_flower':0.045199)[&label=0.999997]:0.060992)[&label=0.996993]:0.042797)[&label=1.0]:0.16788,('L32960/Peanut_mottle_virus/Peanut':0.449438,(('AJ420020/Zucchini_yellow_mosaic_virus/Zucchini_1':0.187251,('LC114511/Dasheen_mosaic_virus/Konjac':0.008578,'JN692173/Dasheen_mosaic_virus/Taro':0.014469)[&label=1.0]:0.162143)[&label=0.484879]:0.027921,(('AJ628752/Soybean_mosaic_virus/Crow_dipper':0.05528,('L22907/Watermelon_mosaic_virus/Watermelmon':0.091572,'X96665/Mosaic_virus/Soybean':0.072655)[&label=0.52733]:0.018346)[&label=1.0]:0.089155,((('KF114860/Bean_common_mosaic_virus/Common_bean':5.2E-5,'DQ925417/Bean_common_mosaic_virus_strain_Blackeye/Black_bean':0.028947)[&label=1.0]:0.076684,('KJ152154/Hardenbergia_mosaic_virus/Hardenbergia_comptoniana':0.079025,'JF427623/Passion_fruit_woodiness_virus/Passion_fruit_2':0.114413)[&label=1.0]:0.07552)[&label=0.735532]:0.020525,('KJ789129/Telosma_mosaic_virus/Passion_fruit_1':0.131576,'Y18634/Cowpea_aphid-borne_mosaic_virus/Cowpea':0.217527)[&label=0.999894]:0.088698)[&label=0.955655]:0.031048)[&label=0.876699]:0.040956)[&label=0.999999]:0.113489)[&label=0.860292]:0.068484)[&label=0.943747]:0.032676,('HM348781/Banana_bract_mosaic_virus/Banana':0.53603,('KF862691/yellow_dwarf_virus/Onion':0.338243,('A34978/MDMV/Maize_2':0.326003,('MSCCP/Mosaic_virus/Sugarcane':0.101683,'JX070153/Pennisetum_mosaic_virus/Maize_1':0.113184)[&label=1.0]:0.164019)[&label=0.999793]:0.112171)[&label=0.36202]:0.008182)[&label=0.960562]:0.03956)[&label=0.998544]:0.039891)[&label=0.482418]:0.026244)[&label=0.994939]:0.054787)[&label=0.985797]:0.033707)[&label=0.863486]:0.027363,('lumAB576080/Plum_pox_virus/Plum':0.123765,('X76944/G_virus/Sweet_potato_2':0.129102,'AJ515379/Sweet_potato_feathery_mottle_virus/Sweet_potato_1':0.159245)[&label=1.0]:0.220243)[&label=0.531492]:0.030655)[&label=0.921745]:0.029273)[&label=0.774572]:0.028466)[&label=0.994468]:0.056827,('KF597285/Leek_yellow_stripe_virus/Garlic':0.41289,('KF417755/Lily_mottle_virus/Lily':0.38133,'X63630/Tulip_mosaic_virus/Tulip':0.207364)[&label=0.967959]:0.081148)[&label=0.373368]:0.011913)[&label=0.43738]:0.067724)[&label=0.999324]:1.22634)[&label=0.997675]:1.188771)[&label=1.0]:5.59355);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

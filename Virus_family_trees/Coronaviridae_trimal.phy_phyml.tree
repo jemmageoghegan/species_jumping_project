@@ -1,0 +1,163 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=69;
+	taxlabels
+	'AF124989/Human_coronavirus_OC43/Human_3'
+	'AF124991/Turkey_coronavirus/Turkey'
+	'AY686864/SARS_coronavirus/Palm_civet'
+	'DQ915164/Bovine_coronavirus_isolate_Alpaca/Alpaca'
+	'EF424621/Sable_antelope_coronavirus/Antelope'
+	'EF424624/giraffe_coronavirus/Giraffe'
+	'FJ376619/Bulbul_coronavirus/Red_whiskered_bulbul'
+	'FJ376620/Bulbul_coronavirus/Chinese_bulbul'
+	'FJ425190/Sambar_deer_coronavirus/Sambar_deer'
+	'FJ647227/Murine_coronavirus/House_mouse'
+	'GU190216/Bat_coronavirus/Daubentons_bat'
+	'GU190228/Bat_coronavirus/Mehelys_horseshoe_bat'
+	'GU190233/Bat_coronavirus/Greater_horseshoe_bat'
+	'GU190237/Bat_coronavirus/Mediterranean_horseshoe_bat'
+	'GU190238/Bat_coronavirus/Blasiuss_horseshoe_bat'
+	'GU190239/Bat_coronavirus/Lesser_noctule'
+	'GU553364/SARS_coronavirus/Human_6'
+	'JF274479/Infectious_bronchitis_virus/Chicken'
+	'JN234464/Human_coronavirus_HKU1/Human_4'
+	'JQ408981/Feline_infectious_peritonitis_virus/Cat_2'
+	'JQ731788/Coronavirus/Great_fruit_eating_bat'
+	'JQ731798/Coronavirus/Sebas_short_tailed_bat'
+	'JX104161/Human_Coronavirus_NL63/Human_2'
+	'JX503061/Human_coronavirus_229E/Human_1'
+	'KC243390/Bat_coronavirus/Soprano_pipistrelle'
+	'KC243392/Bat_coronavirus/Nathusiuss_pipistrelle'
+	'KC633195/Betacoronavirus/Parnells_mustached_bat'
+	'KF294348/Longquan_Aa_mouse_coronavirus/Brown_rat'
+	'KF294356/Longquan_Aa_mouse_coronavirus/Striped_field_mouse'
+	'KF294369/Longquan_Rl_rat_coronavirus/Lesser_ricefield_rat'
+	'KF294376/Lushi_Ml_bat_coronavirus/Greater_tube_nosed_bat'
+	'KF294441/SARS_related_bat_coronavirus/Chinese_rufous_horseshoe_bat'
+	'KF294443/SARS_related_bat_coronavirus/Pearsons_horseshoe_bat'
+	'KF294454/SARS_related_bat_coronavirus/Formosan_lesser_horseshoe_bat'
+	'KF312399/Betacoronavirus_Eptesicus/Serotine_bat'
+	'KF650375/Porcine_epidemic_diarrhea_virus/Pig_2'
+	'KM454473/Duck_coronavirus/Duck'
+	'KP209313/MERS_coronavirus/Human_5'
+	'KP696747/Bat_coronavirus/Madagascan_flying_fox'
+	'KP981644/Canine_coronavirus/Dog'
+	'KR270796/Porcine_respiratory_coronavirus/Pig_1'
+	'KT253289/Bat_coronavirus/Aba_roundleaf_bat'
+	'KT254278/Pigeon_dominant_Coronavirus/Pigeion'
+	'KT368891/Camel_coronavirus_HKU23/Camel_1'
+	'KU215428/Feline_coronavirus/Cat_1'
+	'KU343190/Bat_coronavirus/Eastern_bent_wing_bat'
+	'KU343193/Bat_coronavirus/Southeast_Asian_long_fingered_bat'
+	'KU343194/Bat_coronavirus/Common_bent_wing_bat'
+	'KU343199/Bat_coroanvirus/Intermediate_horseshoe_bat'
+	'KU343200/Bat_coronavirus/Pomona_roundleaf_bat'
+	'KU739074/Alphacoronavirus/Common_shrew'
+	'KU740200/MERS_coronavirus/Camel_2'
+	'LC061272/Equine_coronavirus/Horse'
+	'LC088095/Bovine_torovirus/Cow_1'
+	'LC119077/Ferret_coronavirus/Ferret'
+	'LN610099/Guinea_fowl_coronavirus/Guinea_fowl'
+	'NC_003045/Bovine_coronavirus/Cow_2'
+	'NC_008516/White_bream_virus/White_bream'
+	'NC_010646/Beluga_Whale_coronavirus_SW1/Beluga_whale'
+	'NC_011549/Thrush_coronavirus/Grey_backed_thrush'
+	'NC_011550/Munia_coronavirus/White_rumped_munia'
+	'NC_016992/Sparrow_coronavirus/Sparrow'
+	'NC_016993/Magpie-robin_coronavirus/Magpie_robin'
+	'NC_016994/Night_heron_coronavirus/Night_heron'
+	'NC_016995/Wigeon_coronavirus/Wigeon'
+	'NC_016996/Common_moorhen_coronavirus/Common_moorhen'
+	'NC_017083/Rabbit_coronavirus/European_rabbit'
+	'NC_022643/Betacoronavirus_Erinaceus/European_hedgehog'
+	'NC_023760/Mink_coronavirus/Mink'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NC_008516/White_bream_virus/White_bream':3.321714,'LC088095/Bovine_torovirus/Cow_1':2.437584,(('NC_016994/Night_heron_coronavirus/Night_heron':0.165201,('NC_016995/Wigeon_coronavirus/Wigeon':0.264087,('NC_016996/Common_moorhen_coronavirus/Common_moorhen':0.080071,(('NC_011549/Thrush_coronavirus/Grey_backed_thrush':0.036587,('FJ376620/Bulbul_coronavirus/Chinese_bulbul':0.001902,'FJ376619/Bulbul_coronavirus/Red_whiskered_bulbul':0.003047)[&label=1.0]:0.025104)[&label=1.0]:0.027421,('NC_016992/Sparrow_coronavirus/Sparrow':0.040745,('NC_016993/Magpie-robin_coronavirus/Magpie_robin':0.021119,'NC_011550/Munia_coronavirus/White_rumped_munia':0.026491)[&label=1.0]:0.030662)[&label=1.0]:0.024011)[&label=1.0]:0.050587)[&label=1.0]:0.120459)[&label=1.0]:0.060737)[&label=1.0]:0.424118,(('NC_010646/Beluga_Whale_coronavirus_SW1/Beluga_whale':0.295302,(('JF274479/Infectious_bronchitis_virus/Chicken':0.010731,('LN610099/Guinea_fowl_coronavirus/Guinea_fowl':0.007763,'AF124991/Turkey_coronavirus/Turkey':0.013894)[&label=0.765955]:0.009626)[&label=1.0]:0.057694,('KT254278/Pigeon_dominant_Coronavirus/Pigeion':0.03882,'KM454473/Duck_coronavirus/Duck':0.028063)[&label=1.0]:0.026665)[&label=1.0]:0.159079)[&label=1.0]:0.157835,(((('KF294369/Longquan_Rl_rat_coronavirus/Lesser_ricefield_rat':0.025939,('JN234464/Human_coronavirus_HKU1/Human_4':0.040186,'FJ647227/Murine_coronavirus/House_mouse':0.026172)[&label=0.866712]:0.010374)[&label=1.0]:0.025799,(('KF294356/Longquan_Aa_mouse_coronavirus/Striped_field_mouse':0.0,'KF294348/Longquan_Aa_mouse_coronavirus/Brown_rat':0.0)[&label=1.0]:0.0478,('NC_017083/Rabbit_coronavirus/European_rabbit':0.019434,(('LC061272/Equine_coronavirus/Horse':0.005082,'AF124989/Human_coronavirus_OC43/Human_3':0.023167)[&label=0.835349]:0.002487,(('EF424621/Sable_antelope_coronavirus/Antelope':2.0E-6,'EF424624/giraffe_coronavirus/Giraffe':3.0E-6)[&label=0.853469]:6.0E-4,('KT368891/Camel_coronavirus_HKU23/Camel_1':0.001833,('NC_003045/Bovine_coronavirus/Cow_2':1.0E-6,('FJ425190/Sambar_deer_coronavirus/Sambar_deer':0.0,'DQ915164/Bovine_coronavirus_isolate_Alpaca/Alpaca':6.43E-4)[&label=0.0]:1.0E-6)[&label=0.0]:1.0E-6)[&label=0.97492]:6.22E-4)[&label=1.0]:0.019358)[&label=1.0]:0.01282)[&label=0.999999]:0.018289)[&label=0.850483]:0.026828)[&label=1.0]:0.308653,(('NC_022643/Betacoronavirus_Erinaceus/European_hedgehog':0.060427,('KF312399/Betacoronavirus_Eptesicus/Serotine_bat':0.032125,(('KU740200/MERS_coronavirus/Camel_2':0.003683,'KP209313/MERS_coronavirus/Human_5':3.0E-6)[&label=0.83855]:0.020442,('KC243390/Bat_coronavirus/Soprano_pipistrelle':0.0,'KC243392/Bat_coronavirus/Nathusiuss_pipistrelle':0.0)[&label=0.0]:0.0)[&label=0.0]:0.013921)[&label=0.989931]:0.022569)[&label=1.0]:0.182981,('KC633195/Betacoronavirus/Parnells_mustached_bat':0.211148,('KP696747/Bat_coronavirus/Madagascan_flying_fox':0.230889,('KU343200/Bat_coronavirus/Pomona_roundleaf_bat':0.067401,('GU190228/Bat_coronavirus/Mehelys_horseshoe_bat':0.0,(('KF294454/SARS_related_bat_coronavirus/Formosan_lesser_horseshoe_bat':0.001183,'KF294443/SARS_related_bat_coronavirus/Pearsons_horseshoe_bat':0.0)[&label=0.999608]:0.006708,('KF294441/SARS_related_bat_coronavirus/Chinese_rufous_horseshoe_bat':1.0E-6,('GU553364/SARS_coronavirus/Human_6':6.14E-4,'AY686864/SARS_coronavirus/Palm_civet':4.0E-6)[&label=0.999997]:0.002401)[&label=0.38388]:0.001645)[&label=0.0]:0.004464)[&label=1.0]:0.161199)[&label=0.981848]:0.042175)[&label=0.871735]:0.027295)[&label=0.593705]:0.033437)[&label=1.0]:0.076448)[&label=1.0]:0.118992,((('KU215428/Feline_coronavirus/Cat_1':0.025422,('JQ408981/Feline_infectious_peritonitis_virus/Cat_2':0.004158,('KR270796/Porcine_respiratory_coronavirus/Pig_1':0.019741,'KP981644/Canine_coronavirus/Dog':0.004693)[&label=1.0]:0.00863)[&label=1.0]:0.016645)[&label=1.0]:0.068919,('NC_023760/Mink_coronavirus/Mink':0.038888,'LC119077/Ferret_coronavirus/Ferret':0.055238)[&label=1.0]:0.062953)[&label=1.0]:0.068753,('KU739074/Alphacoronavirus/Common_shrew':0.225404,(('KU343199/Bat_coroanvirus/Intermediate_horseshoe_bat':0.004667,('GU190238/Bat_coronavirus/Blasiuss_horseshoe_bat':0.0,'GU190237/Bat_coronavirus/Mediterranean_horseshoe_bat':0.0)[&label=0.954958]:0.021031)[&label=1.0]:0.17202,(('KU343190/Bat_coronavirus/Eastern_bent_wing_bat':0.048314,('KU343194/Bat_coronavirus/Common_bent_wing_bat':0.054231,'KU343193/Bat_coronavirus/Southeast_Asian_long_fingered_bat':0.006038)[&label=0.962609]:0.031761)[&label=1.0]:0.103578,(('GU190233/Bat_coronavirus/Greater_horseshoe_bat':0.082315,('GU190216/Bat_coronavirus/Daubentons_bat':0.068722,('KF294376/Lushi_Ml_bat_coronavirus/Greater_tube_nosed_bat':0.071371,'KF650375/Porcine_epidemic_diarrhea_virus/Pig_2':0.055255)[&label=0.847334]:0.011349)[&label=1.0]:0.061845)[&label=0.41503]:0.006834,(('JX104161/Human_Coronavirus_NL63/Human_2':0.103213,('JX503061/Human_coronavirus_229E/Human_1':0.012834,'KT253289/Bat_coronavirus/Aba_roundleaf_bat':0.015933)[&label=1.0]:0.111898)[&label=0.999982]:0.050474,('GU190239/Bat_coronavirus/Lesser_noctule':0.096215,('JQ731798/Coronavirus/Sebas_short_tailed_bat':0.115456,'JQ731788/Coronavirus/Great_fruit_eating_bat':0.111214)[&label=0.999772]:0.047907)[&label=0.95127]:0.01756)[&label=0.99604]:0.024589)[&label=0.792527]:0.010463)[&label=1.0]:0.056394)[&label=0.957855]:0.021466)[&label=0.588348]:0.016936)[&label=1.0]:0.316777)[&label=1.0]:0.132513)[&label=0.954511]:0.181802)[&label=1.0]:6.114789);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

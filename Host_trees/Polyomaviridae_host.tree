@@ -1,0 +1,172 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=78;
+	taxlabels
+	Adelie_penguin
+	African_bush_elephant
+	African_green_monkey
+	Anubis_baboon
+	Atlantic_canary
+	Bank_vole
+	Bark_scorpion
+	Beijing_mouse_eared_bat
+	Bonobo
+	Bornean_orangutan
+	Brown_rat
+	Budgerigar
+	California_sealion
+	Chimpanzee
+	Common_vampire_bat
+	Common_vole
+	Cow_1
+	Cow_2
+	Cow_3
+	Crab_eating_macaque
+	Duke_of_Abruzzis_free_tailed_bat
+	Emerald_rockcod
+	Eurasian_jackdaw
+	European_badger
+	Flat_faced_fruit_eating_bat
+	Giant_guitarfish
+	Gilt_head_bream
+	Goose
+	Gorilla
+	Gouldian_finch
+	Greater_horseshoe_bat
+	Grey_butcherbird
+	Hamster
+	Heart_nosed_bat
+	Horse
+	Human_1
+	Human_10
+	Human_11
+	Human_12
+	Human_13
+	Human_2
+	Human_3
+	Human_4
+	Human_5
+	Human_6
+	Human_7
+	Human_8
+	Human_9
+	Large_eared_free_tailed_bat
+	Large_flying_fox
+	Little_yellow_shouldered_bat
+	Mexican_freetailed_bat
+	Moluccan_naked_backed_fruit_bat
+	Mouse_1
+	Mouse_2
+	Mule_duck
+	Natal_multimammate_mouse
+	Parnells_mustached_bat
+	Pig
+	Raccoon
+	Red_eared_guenon
+	Red_faced_spider_monkey
+	Rhesus_macaque
+	Sea_otter
+	Seabass
+	Sebas_short_tailed_bat
+	Sheep
+	Short_beaked_common_dolphin
+	Squirrel_monkey
+	Straw_coloured_fruit_bat
+	Sulawesi_flying_fox
+	Sumatran_orangutan
+	Tana_River_red_colobus
+	Velvety_free_tailed_bat
+	Vervet_monkey
+	Western_red_colobus
+	White_fronted_capuchin
+	Yellow_baboon
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Bark_scorpion:1.0,((Giant_guitarfish:1.0,(Emerald_rockcod:1.0,(Seabass:1.0,Gilt_head_bream:1.0):1.0):1.0):1.0,((Adelie_penguin:1.0,((Goose:1.0,Mule_duck:1.0):1.0,(((Atlantic_canary:1.0,Gouldian_finch:1.0):1.0,(Eurasian_jackdaw:1.0,Grey_butcherbird:1.0):1.0):1.0,Budgerigar:1.0):1.0):1.0):1.0,(African_bush_elephant:1.0,((((((((Human_3:1.0,Human_4:1.0,Human_2:1.0,Human_9:1.0,Human_8:1.0,Human_6:1.0,Human_11:1.0,Human_13:1.0,Human_12:1.0,Human_10:1.0,Human_7:1.0,Human_5:1.0,Human_1:1.0):1.0,(Bonobo:1.0,Chimpanzee:0.5):0.5):2.0,Gorilla:1.0):1.0,(Sumatran_orangutan:1.0,Bornean_orangutan:1.0):1.0):1.0,((Tana_River_red_colobus:1.0,Western_red_colobus:1.0):1.0,((Vervet_monkey:1.0,Red_eared_guenon:1.0):1.0,(((Crab_eating_macaque:1.0,Rhesus_macaque:1.0):1.0,African_green_monkey:1.0):1.0,(Yellow_baboon:1.0,Anubis_baboon:1.0):1.0):1.0):1.0):1.0):1.0,(Red_faced_spider_monkey:1.0,(White_fronted_capuchin:1.0,Squirrel_monkey:1.0):1.0):1.0):1.0,((Common_vole:1.0,Bank_vole:1.0):1.0,(Hamster:1.0,((Natal_multimammate_mouse:1.0,(Mouse_2:1.0,Mouse_1:1.0):1.0):1.0,Brown_rat:1.0):1.0):1.0):1.0):1.0,(((((Large_flying_fox:1.0,Sulawesi_flying_fox:1.0):1.0,Parnells_mustached_bat:1.0):1.0,((Flat_faced_fruit_eating_bat:1.0,Straw_coloured_fruit_bat:1.0):1.0,Moluccan_naked_backed_fruit_bat:1.0):1.0):1.0,(((Large_eared_free_tailed_bat:1.0,Duke_of_Abruzzis_free_tailed_bat:1.0):1.0,(Velvety_free_tailed_bat:1.0,Mexican_freetailed_bat:1.0):1.0):1.0,(((Sebas_short_tailed_bat:1.0,Little_yellow_shouldered_bat:1.0):1.0,Common_vampire_bat:1.0):1.0,(Heart_nosed_bat:1.0,(Greater_horseshoe_bat:1.0,Beijing_mouse_eared_bat:1.0):1.0):1.0):1.0):1.0):1.0,((California_sealion:1.0,(Sea_otter:1.0,(European_badger:1.0,Raccoon:1.0):1.0):1.0):1.0,(Horse:1.0,(Short_beaked_common_dolphin:1.0,((Cow_3:1.0,Cow_1:1.0,Cow_2:1.0):1.0,(Pig:1.0,Sheep:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+

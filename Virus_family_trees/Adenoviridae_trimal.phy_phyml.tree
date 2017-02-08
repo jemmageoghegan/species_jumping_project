@@ -1,0 +1,149 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=55;
+	taxlabels
+	'AC 000003/Canine adenovirus 1/Dog_2'
+	'AC 000006/Human adenovirus D/Human_2'
+	'AC 000016/Turkey siadenovirus A/Turkey_1'
+	'AC 000017/Human adenovirus 1/Human_5'
+	'AC 000191/Bovine mastadenovirus A/Cow_1'
+	'AF258784/Tree shrew adenovirus/Tree shrew'
+	'AP012302/Human adenovirus 67/Human_3'
+	'AY458656/Human adenovirus E4/Human_9'
+	'AY849321/Avirulent turkey hemorrhagic enteritis virus/Pheasant'
+	'FJ849795/Great tit adenovirus 1/Great tit'
+	'GU226970/Bat adenovirus TJM/Ricketts big footed bat'
+	'HQ241820/Simian adenovirus 50/Crab eating macaque_1'
+	'HQ292614/Gorilla gorilla adenovirus B7/Gorilla'
+	'JF510462/Goose adenovirus 4/Goose'
+	'JN226746/Human adenovirus 10/Human_1'
+	'JN226747/Human adenovirus 13/Human_4'
+	'JX625134/Human adenovirus 7/Human_8'
+	'KC309438/Gull adenovirus/European herring gull'
+	'KF951595/Human mastadenovirus C/Human_6'
+	'KJ452172/Duck adenovirus 1/Pekin duck'
+	'KJ563221/California sea lion adenovirus 1/California sea lion'
+	'KP329562/Simian adenovirus 11/Rhesus macaque'
+	'KT013209/Cynomolgus adenovirus 1/Crab eating macaque_2'
+	'KU245540/Fowl aviadenovirus C/Chicken_3'
+	'KU746335/Fowl aviadenovirus D/Chicken_2'
+	'KX077988/Fowl aviadenovirus E/Chicken_1'
+	'NC 001454/Human adenovirus F/Human_10'
+	'NC 001958/Turkey adenovirus 3/Turkey_2'
+	'NC 002501/Frog adenovirus/Frog'
+	'NC 002513/Bovine adenovirus 2/Cow_2'
+	'NC 002685/Bovine adenovirus D/Cow_3'
+	'NC 002702/Porcine adenovirus 5/Pig'
+	'NC 009989/Snake adenovirus 1/Corn snake'
+	'NC 011202/Human mastadenovirus B/Human_7'
+	'NC 012584/Murine adenovirus 3/Striped field mouse'
+	'NC 014899/Murine adenovirus 2/House mouse'
+	'NC 015455/Raptor adenovirus 1/Harris hawk'
+	'NC 015932/Bat adenovirus 2/Common pipistrelle'
+	'NC 016437/Skua adenovirus 1/South polar skua'
+	'NC 017825/Chimpanzee adenovirus Y25/Chimpanzee'
+	'NC 021168/Simian adenovirus C/Baboon'
+	'NC 024474/Pigeon adenovirus 1/Pigeon'
+	'NC 024486/Duck adenovirus 2/Muscovy duck'
+	'NC 024684/Lizard adenovirus 2/Mexican beaded lizard'
+	'NC 025962/Psittacine adenovirus 3/Mealy amazon parrot'
+	'NC 027705/Equine adenovirus 2/Horse_2'
+	'NC 027708/Skunk adenovirus PB1/American hog nosed skunk'
+	'NC 028105/Simian adenovirus 16/Vervet monkey'
+	'NC 028107/Simian adenovirus 19/Yellow baboon'
+	'NC 029899/Bat mastadenovirus WIV10/Chinese rufous horseshoe bat'
+	'NC 030116/unidentified adenovirus/Penguin'
+	'NC 030792/Equine adenovirus 1/Horse_1'
+	'NC 030860/Bat mastadenovirus WIV12/Common bent wing bat'
+	'U40839/Ovine adenovirus 7/Sheep'
+	'U77082/Canine adenovirus 2/Dog_1'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('KX077988/Fowl aviadenovirus E/Chicken_1':0.02515,'KU746335/Fowl aviadenovirus D/Chicken_2':0.010326,('KU245540/Fowl aviadenovirus C/Chicken_3':0.040949,('NC 024474/Pigeon adenovirus 1/Pigeon':0.133149,('KC309438/Gull adenovirus/European herring gull':0.101986,(('NC 024486/Duck adenovirus 2/Muscovy duck':0.069721,'JF510462/Goose adenovirus 4/Goose':0.038145)[&label=1.0]:0.070884,((('NC 002501/Frog adenovirus/Frog':0.180373,('FJ849795/Great tit adenovirus 1/Great tit':0.092265,(('NC 016437/Skua adenovirus 1/South polar skua':0.058797,'NC 015455/Raptor adenovirus 1/Harris hawk':0.039861)[&label=1.0]:0.044086,('NC 030116/unidentified adenovirus/Penguin':0.072792,('AY849321/Avirulent turkey hemorrhagic enteritis virus/Pheasant':0.0,('AC 000016/Turkey siadenovirus A/Turkey_1':0.0,'NC 001958/Turkey adenovirus 3/Turkey_2':0.0)[&label=0.0]:0.0)[&label=1.0]:0.091775)[&label=0.999998]:0.041718)[&label=0.367204]:0.005214)[&label=1.0]:0.061933)[&label=1.0]:0.156706,('NC 025962/Psittacine adenovirus 3/Mealy amazon parrot':0.171378,(('NC 024684/Lizard adenovirus 2/Mexican beaded lizard':0.035569,'NC 009989/Snake adenovirus 1/Corn snake':0.103116)[&label=1.0]:0.090444,('KJ452172/Duck adenovirus 1/Pekin duck':0.120511,('U40839/Ovine adenovirus 7/Sheep':0.083935,'NC 002685/Bovine adenovirus D/Cow_3':0.079583)[&label=1.0]:0.078774)[&label=0.591246]:0.012154)[&label=0.955857]:0.021536)[&label=1.0]:0.076877)[&label=0.549766]:0.018845,(('NC 014899/Murine adenovirus 2/House mouse':0.19894,'NC 012584/Murine adenovirus 3/Striped field mouse':0.15666)[&label=0.97888]:0.034859,('NC 027705/Equine adenovirus 2/Horse_2':0.117718,(('NC 029899/Bat mastadenovirus WIV10/Chinese rufous horseshoe bat':0.061614,(('NC 030792/Equine adenovirus 1/Horse_1':0.06115,('GU226970/Bat adenovirus TJM/Ricketts big footed bat':0.03048,('NC 015932/Bat adenovirus 2/Common pipistrelle':0.030571,('U77082/Canine adenovirus 2/Dog_1':0.006924,'AC 000003/Canine adenovirus 1/Dog_2':0.008633)[&label=0.999937]:0.017644)[&label=0.637529]:0.006356)[&label=0.999867]:0.022126)[&label=0.999982]:0.021493,('NC 030860/Bat mastadenovirus WIV12/Common bent wing bat':0.092478,'NC 027708/Skunk adenovirus PB1/American hog nosed skunk':0.077062)[&label=0.520995]:0.013147)[&label=0.961425]:0.009535)[&label=0.587123]:0.005656,(('KJ563221/California sea lion adenovirus 1/California sea lion':0.068838,('NC 002702/Porcine adenovirus 5/Pig':0.043948,('NC 002513/Bovine adenovirus 2/Cow_2':0.043685,'AC 000191/Bovine mastadenovirus A/Cow_1':0.032459)[&label=0.99757]:0.01642)[&label=0.999216]:0.015825)[&label=0.996579]:0.012836,('AF258784/Tree shrew adenovirus/Tree shrew':0.057554,((('KP329562/Simian adenovirus 11/Rhesus macaque':0.013471,('NC 001454/Human adenovirus F/Human_10':0.013195,(('NC 028105/Simian adenovirus 16/Vervet monkey':0.037687,'KT013209/Cynomolgus adenovirus 1/Crab eating macaque_2':1.7E-5)[&label=0.728705]:0.00456,'HQ241820/Simian adenovirus 50/Crab eating macaque_1':1.4E-5)[&label=1.0]:0.035059)[&label=0.995451]:0.009041)[&label=0.804968]:0.004268,('NC 028107/Simian adenovirus 19/Yellow baboon':0.002263,'NC 021168/Simian adenovirus C/Baboon':1.2E-5)[&label=1.0]:0.016673)[&label=0.997352]:0.016783,((('NC 017825/Chimpanzee adenovirus Y25/Chimpanzee':0.002262,'AY458656/Human adenovirus E4/Human_9':1.2E-5)[&label=0.999978]:0.008211,('JX625134/Human adenovirus 7/Human_8':0.004593,('NC 011202/Human mastadenovirus B/Human_7':0.01571,'HQ292614/Gorilla gorilla adenovirus B7/Gorilla':0.002784)[&label=0.975499]:0.004545)[&label=0.95518]:0.005089)[&label=1.0]:0.016713,(('KF951595/Human mastadenovirus C/Human_6':0.004476,'AC 000017/Human adenovirus 1/Human_5':1.3E-5)[&label=1.0]:0.031392,('JN226747/Human adenovirus 13/Human_4':1.1E-5,('AP012302/Human adenovirus 67/Human_3':1.3E-5,('AC 000006/Human adenovirus D/Human_2':0.008909,'JN226746/Human adenovirus 10/Human_1':0.002255)[&label=0.0]:1.0E-5)[&label=0.982122]:0.002256)[&label=0.999999]:0.015038)[&label=0.999764]:0.013447)[&label=0.997799]:0.01322)[&label=1.0]:0.041134)[&label=0.905256]:0.007019)[&label=0.999197]:0.009169)[&label=0.980972]:0.013735)[&label=0.531956]:0.009336)[&label=0.999857]:0.032958)[&label=1.0]:0.261126)[&label=1.0]:0.093249)[&label=0.733616]:0.021005)[&label=1.0]:0.037158)[&label=1.0]:0.044313);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

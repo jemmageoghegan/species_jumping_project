@@ -1,0 +1,173 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=79;
+	taxlabels
+	'AB032553/Sagiyama_virus/Horse_5'
+	'AB859822/Getah_virus/Wild_boar'
+	'AF079457/Igbo_Ora_Virus/Human_5'
+	'AY604238/Alphavirus/Norwegian_salmon'
+	'BFU73745/Barmah_Forest/Human_1'
+	'DQ149204/Salmon_pancreas_disease_virus/Atlantic_salmon_1'
+	'EU350586/Semliki_forest_virus/Human_9'
+	'FJ445511/Chikungunya_virus/Human_3'
+	'GQ227789/Highlands_J_virus/Blue_jay_2'
+	'GQ433354/Ross_river_virus/Human_8'
+	'GQ433356/Ross_river_virus/Masked_finch'
+	'GQ433357/Ross_river_virus/Agile_wallaby'
+	'GQ433360/Ross_river_virus/Magpie_lark'
+	'GU167952/Highlands_J_virus/Barred_owl'
+	'HM045821/Chikungunya_virus/Bat'
+	'HM147984/Babanki_virus/Brown_rat'
+	'HM147985/Bebaru_virus/Human_2'
+	'HM147986/Buggy_Creek_virus/House_sparrow'
+	'HM147991/Trocara_virus/Culex_mosquito_2'
+	'HM147992/Una_virus/Human_10'
+	'HM147993/Whataroa_virus/Song_thrush'
+	'HM210093/Eastern_equine_encephalitis_virus/Pheasant'
+	'JN989957/Ndumu_virus/Pig'
+	'JQ799139/Salmonid_alphavirus_subtype_3/Atlantic_salmon_2'
+	'JX570540/Sindbis_virus/Hooded_crow'
+	'KC344509/Venezuelan_equine_encephalitis_virus/Golden_hamster_3'
+	'KC344528/Venezuelan_equine_encephalitis_virus/Human_11'
+	'KF283988/Semliki_Forest_virus/Goat'
+	'KF680222/Middelburg_virus/Horse_4'
+	'KJ409555/Highlands_J_virus/Mississippi_Sandhill_Crane'
+	'KJ469579/Eastern_equine_encephalitis_virus/Dog'
+	'KJ469599/Eastern_equine_encephalitis_virus/Red_eyed_vireo'
+	'KJ469623/Madariaga_virus/Golden_hamster_1'
+	'KJ554965/Western_equine_encephalitis_virus/Horse_7'
+	'KJ554969/Western_equine_encephalitis_virus/White_crowned_sparrow'
+	'KJ554970/Western_equine_encephalitis_virus/Western_gray_squirrel'
+	'KJ554971/Western_equine_encephalitis_virus/Texas_tortoise'
+	'KM400591/Mayaro_virus/Human_6'
+	'KM923920/Chikungunya_virus/Crab_eating_macaque'
+	'KR132531/Madariaga_virus/Horse_3'
+	'KR260737/Venezuelan_equine_encephalitis_virus/Horse_6'
+	'KT121724/Sindbis_virus/Chinese_hamster'
+	'KT121726/Sindbis_virus/Golden_hamster_2'
+	'KT429026/Highlands_J_virus/Rock_Partridge'
+	'KT754168/Mayaro_virus/Common_marmoset'
+	'KU840310/Eastern_equine_encephalitis_virus/Northern_mockingbird'
+	'KU840320/Eastern_equine_encephalitis_virus/Morning_dove'
+	'KU840341/Eastern_equine_encephalitis_virus/Grey_crowned_crane'
+	'KU840349/Eastern_equine_encephalitis_virus/Yellow_rumped_warbler'
+	'KU840372/Eastern_equine_encephalitis_virus/Whooping_crane'
+	'KU840373/Eastern_equine_encephalitis_virus/Blue_jay_1'
+	'KU840374/Eastern_equine_encephalitis_virus/Deer'
+	'KU840375/Eastern_equine_encephalitis_virus/Common_grackle'
+	'KU840377/Eastern_equine_encephalitis_virus/Crane'
+	'KU840378/Eastern_equine_encephalitis_virus/Emu'
+	'KU840379/Eastern_equine_encephalitis_virus/Finch'
+	'KX000078/Eastern_equine_encephalitis_virus/Whitethroated_sparrow'
+	'KX000079/Eastern_equine_encephalitis_virus/Red_winged_blackbird'
+	'KX000086/Eastern_equine_encephalitis_virus/Gray_catbird'
+	'KX000099/Eastern_equine_encephalitis_virus/Ring_necked_pheasant'
+	'KX000102/Eastern_equine_encephalitis_virus/Swainsons_thrush'
+	'KX000141/Eastern_equine_encephalitis_virus/American_crow'
+	'KX000153/Eastern_equine_encephalitis_virus/Indigo_bunting'
+	'KX000163/Eastern_equine_encephalitis_virus/Common_yellowthroat'
+	'KX000164/Eastern_equine_encephalitis_virus/Human_4'
+	'KX000169/Eastern_equine_encephalitis_virus/White_eyed_vireo'
+	'KX000182/Eastern_equine_encephalitis_virus/Bald_eagle'
+	'KX000225/Eastern_equine_encephalitis_virus/Alder_flycatcher'
+	'KX000230/Eastern_equine_encephalitis_virus/Horse_1'
+	'LC079089/Getah_virus/Horse_2'
+	'NC_001512/Onyong_nyong_virus/Human_7'
+	'NC_001544/Ross_river_virus/Mouse'
+	'NC_003433/Sleeping_disease_virus/Rainbow_trout'
+	'NC_003900/Aura_virus/Culex_mosquito_1'
+	'NC_012561/Highlands_J_virus/Redtailed_hawk'
+	'NC_013528/Fort_Morgan_virus/Cliff_swallows'
+	'NC_016960/Southern_elephant_seal_virus/Southern_elephant_seal'
+	'NC_018615/Eilat_virus/Anopheles_mosquito'
+	'NC_023812/Madariaga_virus/Tufted_capuchin'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NC_003433/Sleeping_disease_virus/Rainbow_trout':0.012998,('DQ149204/Salmon_pancreas_disease_virus/Atlantic_salmon_1':0.001863,('JQ799139/Salmonid_alphavirus_subtype_3/Atlantic_salmon_2':9.45E-4,'AY604238/Alphavirus/Norwegian_salmon':0.0)[&label=0.0]:0.0)[&label=0.0]:2.82E-4,(('HM147991/Trocara_virus/Culex_mosquito_2':0.205283,('NC_018615/Eilat_virus/Anopheles_mosquito':0.245255,('NC_003900/Aura_virus/Culex_mosquito_1':0.150467,('HM147993/Whataroa_virus/Song_thrush':0.045515,(('KT121726/Sindbis_virus/Golden_hamster_2':0.0,'KT121724/Sindbis_virus/Chinese_hamster':0.0)[&label=1.0]:0.008343,('HM147984/Babanki_virus/Brown_rat':0.001865,'JX570540/Sindbis_virus/Hooded_crow':0.002859)[&label=0.713832]:0.002001)[&label=1.0]:0.040715)[&label=1.0]:0.048153)[&label=0.978854]:0.019489)[&label=0.965156]:0.021474)[&label=1.0]:0.067063,('NC_016960/Southern_elephant_seal_virus/Southern_elephant_seal':0.288645,((((('NC_001512/Onyong_nyong_virus/Human_7':0.004446,'AF079457/Igbo_Ora_Virus/Human_5':0.003146)[&label=1.0]:0.028182,('HM045821/Chikungunya_virus/Bat':0.007434,('FJ445511/Chikungunya_virus/Human_3':0.007698,'KM923920/Chikungunya_virus/Crab_eating_macaque':0.010166)[&label=0.761006]:0.003955)[&label=0.999996]:0.019037)[&label=1.0]:0.082299,((('AB859822/Getah_virus/Wild_boar':9.4E-4,('LC079089/Getah_virus/Horse_2':9.39E-4,'AB032553/Sagiyama_virus/Horse_5':0.0)[&label=0.0]:0.0)[&label=1.0]:0.033367,('GQ433354/Ross_river_virus/Human_8':0.005681,('NC_001544/Ross_river_virus/Mouse':0.001903,('GQ433357/Ross_river_virus/Agile_wallaby':5.0E-6,('GQ433360/Ross_river_virus/Magpie_lark':4.0E-6,'GQ433356/Ross_river_virus/Masked_finch':4.0E-6)[&label=0.995535]:9.43E-4)[&label=1.0]:0.002829)[&label=0.0]:8.0E-6)[&label=0.999991]:0.012493)[&label=1.0]:0.042204,('HM147985/Bebaru_virus/Human_2':0.074699,(('KF283988/Semliki_Forest_virus/Goat':9.3E-4,'EU350586/Semliki_forest_virus/Human_9':0.001982)[&label=1.0]:0.045917,('HM147992/Una_virus/Human_10':0.072812,('KT754168/Mayaro_virus/Common_marmoset':0.008892,'KM400591/Mayaro_virus/Human_6':0.006835)[&label=1.0]:0.066407)[&label=0.999092]:0.013423)[&label=0.999706]:0.016138)[&label=0.999998]:0.022369)[&label=0.781116]:0.009519)[&label=1.0]:0.022212,('KF680222/Middelburg_virus/Horse_4':0.117138,('BFU73745/Barmah_Forest/Human_1':0.18666,'JN989957/Ndumu_virus/Pig':0.131577)[&label=0.841753]:0.016812)[&label=0.999978]:0.018861)[&label=1.0]:0.020824,(('KR260737/Venezuelan_equine_encephalitis_virus/Horse_6':0.015473,('KC344528/Venezuelan_equine_encephalitis_virus/Human_11':7.0E-6,'KC344509/Venezuelan_equine_encephalitis_virus/Golden_hamster_3':0.00374)[&label=0.442307]:0.001635)[&label=1.0]:0.107622,((('NC_013528/Fort_Morgan_virus/Cliff_swallows':0.002955,'HM147986/Buggy_Creek_virus/House_sparrow':0.002749)[&label=1.0]:0.062323,(('KJ554965/Western_equine_encephalitis_virus/Horse_7':0.00193,('KJ554969/Western_equine_encephalitis_virus/White_crowned_sparrow':9.34E-4,('KJ554971/Western_equine_encephalitis_virus/Texas_tortoise':0.0,'KJ554970/Western_equine_encephalitis_virus/Western_gray_squirrel':0.0)[&label=0.0]:0.0)[&label=0.682263]:8.99E-4)[&label=1.0]:0.027588,('KJ409555/Highlands_J_virus/Mississippi_Sandhill_Crane':0.002835,('KT429026/Highlands_J_virus/Rock_Partridge':0.0,('GU167952/Highlands_J_virus/Barred_owl':0.0,('GQ227789/Highlands_J_virus/Blue_jay_2':0.0,'NC_012561/Highlands_J_virus/Redtailed_hawk':0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=1.0]:0.025658)[&label=1.0]:0.016415)[&label=1.0]:0.017925,(('NC_023812/Madariaga_virus/Tufted_capuchin':0.005369,('KR132531/Madariaga_virus/Horse_3':9.17E-4,'KJ469623/Madariaga_virus/Golden_hamster_1':9.43E-4)[&label=1.0]:0.007663)[&label=1.0]:0.013312,('KU840372/Eastern_equine_encephalitis_virus/Whooping_crane':1.0E-6,('KX000230/Eastern_equine_encephalitis_virus/Horse_1':0.0,('KX000225/Eastern_equine_encephalitis_virus/Alder_flycatcher':0.0,('KX000153/Eastern_equine_encephalitis_virus/Indigo_bunting':0.0,(('HM210093/Eastern_equine_encephalitis_virus/Pheasant':0.0,'KX000099/Eastern_equine_encephalitis_virus/Ring_necked_pheasant':0.0)[&label=0.0]:0.0,('KX000169/Eastern_equine_encephalitis_virus/White_eyed_vireo':0.0,('KU840341/Eastern_equine_encephalitis_virus/Grey_crowned_crane':0.0,('KU840349/Eastern_equine_encephalitis_virus/Yellow_rumped_warbler':0.0,('KX000182/Eastern_equine_encephalitis_virus/Bald_eagle':0.0,('KX000141/Eastern_equine_encephalitis_virus/American_crow':0.0,('KX000078/Eastern_equine_encephalitis_virus/Whitethroated_sparrow':0.0,('KU840375/Eastern_equine_encephalitis_virus/Common_grackle':0.001857,('KX000163/Eastern_equine_encephalitis_virus/Common_yellowthroat':0.0,('KU840373/Eastern_equine_encephalitis_virus/Blue_jay_1':0.0,('KX000102/Eastern_equine_encephalitis_virus/Swainsons_thrush':9.35E-4,('KU840379/Eastern_equine_encephalitis_virus/Finch':0.0,('KJ469599/Eastern_equine_encephalitis_virus/Red_eyed_vireo':0.0,('KU840310/Eastern_equine_encephalitis_virus/Northern_mockingbird':0.0,('KJ469579/Eastern_equine_encephalitis_virus/Dog':0.0,('KX000079/Eastern_equine_encephalitis_virus/Red_winged_blackbird':0.0,(('KU840378/Eastern_equine_encephalitis_virus/Emu':9.26E-4,('KX000164/Eastern_equine_encephalitis_virus/Human_4':0.0,'KX000086/Eastern_equine_encephalitis_virus/Gray_catbird':0.0)[&label=0.994844]:9.26E-4)[&label=0.0]:0.0,('KU840377/Eastern_equine_encephalitis_virus/Crane':0.0,('KU840320/Eastern_equine_encephalitis_virus/Morning_dove':0.0,'KU840374/Eastern_equine_encephalitis_virus/Deer':0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.99882]:9.26E-4)[&label=0.0]:1.0E-6)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=1.0]:0.01271)[&label=0.997891]:0.011788)[&label=1.0]:0.02721)[&label=1.0]:0.0385)[&label=0.879649]:0.012953)[&label=0.967286]:0.030758)[&label=1.0]:0.797601);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

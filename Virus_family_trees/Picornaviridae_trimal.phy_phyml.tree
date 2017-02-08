@@ -1,0 +1,191 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=97;
+	taxlabels
+	'AF326750/Baboon_enterovirus/Baboon'
+	'DQ404174/Foot_and_mouth/Sheep_3'
+	'EU140838/Simian_hepatitis_A/Rhesus_macaque_1'
+	'EU236594/Bovine_rhinovirus/Cow_4'
+	'EU681179/Cardiovirus/Human_14'
+	'EU787450/Porcine_kobuvirus/Pig_4'
+	'EU789367/Simian_sapelovirus/Human_12'
+	'FJ007373/Enterovirus_J/Southern_pig_tailed_macaque'
+	'GQ415052/Rhinovirus_A/Human_11'
+	'GU109481/Coxsackievirus_B3/Sichuan_snub_nosed_monkey'
+	'GU182406/Passerivirus_A1/Pale_Thrush'
+	'HM153767/Ovine_hungarovirus/Sheep_2'
+	'HPAACG/Hepatitis_A/Human_2'
+	'HQ020378/Teschovirus/Pig_2'
+	'HQ246217/Hepatitis_A/Chimpanzee_1'
+	'HQ415759/Enterovirus_C96/Human_6'
+	'HQ595341/Bat_picornavirus_1/Common_bent_wing_bat'
+	'HQ595345/Bat_picornavirus_3/Great_roundleaf_bat'
+	'HQ832582/Foot_and_mouth_disease_virus/Buffalo'
+	'HQ917060/Bovine_enterovirus_type_2/Cow_1'
+	'JN205461/Rhinovirus_C/Human_10'
+	'JN379039/Salivirus_CH_virus/Chimpanzee_4'
+	'JN979570/coxsackievirus_B3/Chimpanzee_2'
+	'JQ277724/Ovine_enterovirus/Sheep_1'
+	'JQ814852/Bat_picornavirus_1/Great_evening_bat'
+	'JX177612/Porcine_kobuvirus/Wild_boar'
+	'JX441355/Human_parechovirus_1/Human_1'
+	'JX481738/Coxsackievirus_A16/Human_8'
+	'JX627574/Sapelovirus/Rhesus_macaque_3'
+	'JX678288/Human_enterovirus_C118/Human_4'
+	'JX683808/Cardiovirus/Norway_rat'
+	'KC161964/Canine_kobuvirus/Dog'
+	'KC560801/Pigeon_picornavirus_B/Pigeon'
+	'KC748420/Enterovirus_F/Alpaca'
+	'KC993890/Duck_hepatitis_A_virus_3/Duck'
+	'KF293299/Encephalomyocarditis_virus/South_china_tiger'
+	'KF541640/Coxsackievirus_A24/Gorilla_1'
+	'KF541641/Echovirus_E15/Gorilla_2'
+	'KF831027/Feline_kobuvirus/Cat_2'
+	'KF836387/Encephalomyocarditis_virus/Boar'
+	'KF874490/Fathead_minnow_picornavirus/Fathead_minnow'
+	'KJ170677/Human_poliovirus_3/Human_5'
+	'KJ641696/Bat_picornavirus/Asian_particolored_bat'
+	'KJ641699/Bat_picornavirus/Eastern_bent_wing_bat'
+	'KJ686308/Enterovirus_A71/Human_9'
+	'KJ821021/Porcine_sapelovirus/Pig_1'
+	'KM269482/Encephalomyocarditis_virus/Chimpanzee_3'
+	'KM269483/Equine_rhinitis_A_virus/Camel'
+	'KM396707/Lesavirus_1/Ring_tailed_lemur'
+	'KM873613/Tortoise_picornavirus/African_spurred_tortoise'
+	'KM873616/Tortoise_picornavirus/Spur_thighed_tortoise'
+	'KM873617/Tortoise_picornavirus/Spider_tortoise'
+	'KM892501/Enterovirus_D68/Human_7'
+	'KT003716/Foot_and_mouth_disease_virus/Water_buffalo'
+	'KT229612/Hepatovirus_A/Woodchuck'
+	'KT452644/Rodent_hepatovirus/Gray_dwarf_hamster'
+	'KT452685/Rodent_hepatovirus/Jaliscan_cotton_rat'
+	'KT452735/Rodent_hepatovirus/Rusty_bellied_rat'
+	'KU291242/Foot_and_mouth/Cow_6'
+	'KU359214/Senecavirus/Mouse'
+	'KX035096/Hepatovirus_A/Human_3'
+	'LC006971/Bovine_picornavirus/Cow_2'
+	'LC113907/Swine_picornavirus/Pig_3'
+	'NC_003976/Ljungan_virus/Bank_vole'
+	'NC_003982/Equine_rhinitis_A_virus/Horse'
+	'NC_004421/Bovine_kobuvirus/Cow_7'
+	'NC_009891/Seal_picornavirus_type_1/Ringed_seal'
+	'NC_010354/Bovine_rhinitis_B_virus/Cow_5'
+	'NC_012802/Human_cosavirus_D/Human_13'
+	'NC_014412/Oscivirus_A1/Oriental_Magpie_Robin'
+	'NC_014413/Oscivirus_A2/Grey_backed_Thrush'
+	'NC_015934/Bat_picornavirus_3/Chinese_rufous_horseshoe_bat'
+	'NC_015936/Mouse_kobuvirus/Canyon_mouse'
+	'NC_015940/Bat_picornavirus_1/Small_bent_winged_bat'
+	'NC_015941/Bat_picornavirus_2/Western_bent_winged_bat'
+	'NC_016156/Feline_picornavirus/Cat_1'
+	'NC_016403/Quail_picornavirus/Quail'
+	'NC_018668/Bovine_hungarovirus/Cow_3'
+	'NC_022332/Eel_picornavirus_1/European_eel'
+	'NC_023422/Caprine_kobuvirus/Black_goat'
+	'NC_023857/Chicken_megrivirus/Chicken'
+	'NC_023858/Turkey_megrivirus/Turkey'
+	'NC_023987/Mosavirus_A2/European_roller'
+	'NC_023988/Tortoise_rafivirus_A/Forstens_tortoise'
+	'NC_024073/Enterovirus/Mandrill'
+	'NC_025890/Tortoise_picornavirus/Hermanns_tortoise'
+	'NC_026314/Rabovirus_A/Brown_rat'
+	'NC_026470/African_bat_icavirus_A/Giant_roundleaf_bat'
+	'NC_026921/Falcovirus_A1/Common_kestrel'
+	'NC_027214/Ampivirus_A1/Common_newt'
+	'NC_027818/Phopivirus/Harbor_seal'
+	'NC_028364/Shrew_hepatovirus/Common_shrew'
+	'NC_028365/Hedgehog_hepatovirus/Hedgehog'
+	'NC_028479/Rabbit_picornavirus/Rabbit'
+	'NC_028981/Tupaia_hepatovirus_A/Northern_tree_shrew'
+	'NC_029854/Yak_enterovirus/Yak'
+	'NC_029905/Enterovirus/Rhesus_macaque_2'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('KX035096/Hepatovirus_A/Human_3':0.010381,'HQ246217/Hepatitis_A/Chimpanzee_1':0.001351,('HPAACG/Hepatitis_A/Human_2':0.012629,('EU140838/Simian_hepatitis_A/Rhesus_macaque_1':0.021717,(('KT452644/Rodent_hepatovirus/Gray_dwarf_hamster':0.158531,('KT452685/Rodent_hepatovirus/Jaliscan_cotton_rat':0.108379,'KT229612/Hepatovirus_A/Woodchuck':0.08477)[&label=1.0]:0.052922)[&label=0.99991]:0.035543,('KT452735/Rodent_hepatovirus/Rusty_bellied_rat':0.307725,(('NC_027818/Phopivirus/Harbor_seal':0.161859,('NC_028981/Tupaia_hepatovirus_A/Northern_tree_shrew':0.112157,'NC_028365/Hedgehog_hepatovirus/Hedgehog':0.078513)[&label=1.0]:0.108931)[&label=1.0]:0.05201,(('NC_027214/Ampivirus_A1/Common_newt':2.210092,('NC_026921/Falcovirus_A1/Common_kestrel':1.3976,(('KF874490/Fathead_minnow_picornavirus/Fathead_minnow':1.186571,('NC_009891/Seal_picornavirus_type_1/Ringed_seal':1.40668,('NC_022332/Eel_picornavirus_1/European_eel':0.947857,('KC993890/Duck_hepatitis_A_virus_3/Duck':1.058955,('NC_003976/Ljungan_virus/Bank_vole':0.455498,'JX441355/Human_parechovirus_1/Human_1':0.538642)[&label=1.0]:0.230956)[&label=1.0]:0.169422)[&label=0.999712]:0.133956)[&label=0.998159]:0.176302)[&label=1.0]:0.44381,((('NC_023858/Turkey_megrivirus/Turkey':0.102329,'NC_023857/Chicken_megrivirus/Chicken':0.18648)[&label=1.0]:0.926652,('NC_023988/Tortoise_rafivirus_A/Forstens_tortoise':0.807435,(('NC_014413/Oscivirus_A2/Grey_backed_Thrush':0.175952,'NC_014412/Oscivirus_A1/Oriental_Magpie_Robin':0.154515)[&label=1.0]:0.654367,('GU182406/Passerivirus_A1/Pale_Thrush':0.85738,('JN379039/Salivirus_CH_virus/Chimpanzee_4':0.725287,('NC_028479/Rabbit_picornavirus/Rabbit':0.409061,(('NC_015936/Mouse_kobuvirus/Canyon_mouse':0.057541,('KF831027/Feline_kobuvirus/Cat_2':0.063771,'KC161964/Canine_kobuvirus/Dog':0.030965)[&label=1.0]:0.04399)[&label=1.0]:0.167995,('NC_004421/Bovine_kobuvirus/Cow_7':0.187582,('NC_023422/Caprine_kobuvirus/Black_goat':0.106681,('JX177612/Porcine_kobuvirus/Wild_boar':0.011438,'EU787450/Porcine_kobuvirus/Pig_4':0.021059)[&label=1.0]:0.113459)[&label=1.0]:0.078613)[&label=1.0]:0.146205)[&label=1.0]:0.194856)[&label=0.999985]:0.079418)[&label=0.999923]:0.095489)[&label=1.0]:0.157189)[&label=0.999988]:0.108518)[&label=1.0]:0.137245)[&label=1.0]:0.192593,((('NC_023987/Mosavirus_A2/European_roller':0.573623,(('NC_025890/Tortoise_picornavirus/Hermanns_tortoise':0.00694,'KM873613/Tortoise_picornavirus/African_spurred_tortoise':0.012119)[&label=0.998957]:0.022278,('KM873617/Tortoise_picornavirus/Spider_tortoise':0.016798,'KM873616/Tortoise_picornavirus/Spur_thighed_tortoise':0.01824)[&label=0.703953]:0.010922)[&label=1.0]:0.55687)[&label=1.0]:0.160841,(('LC113907/Swine_picornavirus/Pig_3':0.75028,('HQ020378/Teschovirus/Pig_2':0.674776,('KM396707/Lesavirus_1/Ring_tailed_lemur':0.503439,('NC_018668/Bovine_hungarovirus/Cow_3':0.08766,'HM153767/Ovine_hungarovirus/Sheep_2':0.100615)[&label=1.0]:0.443666)[&label=1.0]:0.121204)[&label=0.999996]:0.127759)[&label=1.0]:0.247256,((('NC_003982/Equine_rhinitis_A_virus/Horse':0.014361,'KM269483/Equine_rhinitis_A_virus/Camel':0.008254)[&label=1.0]:0.494812,(('NC_010354/Bovine_rhinitis_B_virus/Cow_5':0.0,'EU236594/Bovine_rhinovirus/Cow_4':0.0)[&label=1.0]:0.433265,('HQ832582/Foot_and_mouth_disease_virus/Buffalo':0.032284,('DQ404174/Foot_and_mouth/Sheep_3':0.004306,('KT003716/Foot_and_mouth_disease_virus/Water_buffalo':0.007834,'KU291242/Foot_and_mouth/Cow_6':0.011362)[&label=0.907066]:0.001342)[&label=1.0]:0.029732)[&label=1.0]:0.342929)[&label=1.0]:0.255466)[&label=1.0]:0.332007,('NC_012802/Human_cosavirus_D/Human_13':0.79126,('NC_026470/African_bat_icavirus_A/Giant_roundleaf_bat':0.609776,('KU359214/Senecavirus/Mouse':0.635057,('JX683808/Cardiovirus/Norway_rat':0.423216,('EU681179/Cardiovirus/Human_14':0.318024,('KM269482/Encephalomyocarditis_virus/Chimpanzee_3':0.0,('KF836387/Encephalomyocarditis_virus/Boar':0.00205,'KF293299/Encephalomyocarditis_virus/South_china_tiger':0.0069)[&label=0.972371]:0.001367)[&label=1.0]:0.260976)[&label=1.0]:0.131011)[&label=1.0]:0.111092)[&label=0.836489]:0.06452)[&label=0.995382]:0.088065)[&label=1.0]:0.093818)[&label=0.999989]:0.069722)[&label=0.998072]:0.061256)[&label=1.0]:0.247574,(((('KJ641696/Bat_picornavirus/Asian_particolored_bat':0.346737,('KJ821021/Porcine_sapelovirus/Pig_1':0.326302,('JX627574/Sapelovirus/Rhesus_macaque_3':0.080978,'EU789367/Simian_sapelovirus/Human_12':0.078427)[&label=1.0]:0.139561)[&label=1.0]:0.128469)[&label=1.0]:0.088036,(('LC006971/Bovine_picornavirus/Cow_2':0.340227,'NC_016156/Feline_picornavirus/Cat_1':0.292655)[&label=1.0]:0.065842,('KJ641699/Bat_picornavirus/Eastern_bent_wing_bat':0.283837,(('NC_015934/Bat_picornavirus_3/Chinese_rufous_horseshoe_bat':0.004745,'HQ595345/Bat_picornavirus_3/Great_roundleaf_bat':0.003728)[&label=1.0]:0.237499,('JQ814852/Bat_picornavirus_1/Great_evening_bat':0.214175,('NC_015941/Bat_picornavirus_2/Western_bent_winged_bat':0.139412,('NC_015940/Bat_picornavirus_1/Small_bent_winged_bat':0.009317,'HQ595341/Bat_picornavirus_1/Common_bent_wing_bat':0.024248)[&label=1.0]:0.0918)[&label=1.0]:0.116074)[&label=1.0]:0.083259)[&label=0.999678]:0.040241)[&label=0.732758]:0.031807)[&label=1.0]:0.066454)[&label=0.999894]:0.056897,((('JN205461/Rhinovirus_C/Human_10':0.351626,'GQ415052/Rhinovirus_A/Human_11':0.327423)[&label=1.0]:0.129929,('NC_029905/Enterovirus/Rhesus_macaque_2':0.283729,(('KM892501/Enterovirus_D68/Human_7':0.262091,((('KF541641/Echovirus_E15/Gorilla_2':0.653287,('JN979570/coxsackievirus_B3/Chimpanzee_2':0.012104,'GU109481/Coxsackievirus_B3/Sichuan_snub_nosed_monkey':0.00915)[&label=0.999707]:0.063028)[&label=0.999999]:0.076301,('JX678288/Human_enterovirus_C118/Human_4':0.125427,('KF541640/Coxsackievirus_A24/Gorilla_1':0.147982,('HQ415759/Enterovirus_C96/Human_6':0.056443,'KJ170677/Human_poliovirus_3/Human_5':0.07644)[&label=0.754041]:0.037772)[&label=0.998714]:0.047612)[&label=1.0]:0.159773)[&label=0.999803]:0.046012,('NC_024073/Enterovirus/Mandrill':0.09629,('FJ007373/Enterovirus_J/Southern_pig_tailed_macaque':0.109007,('AF326750/Baboon_enterovirus/Baboon':0.070005,('KJ686308/Enterovirus_A71/Human_9':0.038587,'JX481738/Coxsackievirus_A16/Human_8':0.044243)[&label=1.0]:0.286298)[&label=1.0]:0.058688)[&label=1.0]:0.044736)[&label=1.0]:0.052713)[&label=1.0]:0.042839)[&label=0.999793]:0.051299,('JQ277724/Ovine_enterovirus/Sheep_1':0.227674,('NC_029854/Yak_enterovirus/Yak':0.045604,('KC748420/Enterovirus_F/Alpaca':0.024501,'HQ917060/Bovine_enterovirus_type_2/Cow_1':0.032416)[&label=1.0]:0.020857)[&label=1.0]:0.137926)[&label=1.0]:0.117161)[&label=1.0]:0.087013)[&label=0.999772]:0.060739)[&label=1.0]:0.190683,'NC_026314/Rabovirus_A/Brown_rat':0.424574)[&label=0.904922]:0.045944)[&label=1.0]:0.097122,('NC_016403/Quail_picornavirus/Quail':0.522721,'KC560801/Pigeon_picornavirus_B/Pigeon':0.580103)[&label=1.0]:0.142654)[&label=1.0]:0.382125)[&label=0.999996]:0.124023)[&label=1.0]:0.242271)[&label=0.999998]:0.171501)[&label=0.72594]:0.112696)[&label=1.0]:0.864764,'NC_028364/Shrew_hepatovirus/Common_shrew':0.251847)[&label=0.924797]:0.06081)[&label=1.0]:0.049473)[&label=1.0]:0.107587)[&label=1.0]:0.176093)[&label=1.0]:0.022057)[&label=1.0]:0.010724);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

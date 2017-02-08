@@ -1,0 +1,205 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=111;
+	taxlabels
+	'AB559882/RD114_retrovirus/Cat_2'
+	'AF014793/Hyperplasia/Walleye'
+	'AF016316/Equine_infectious_anemia/Horse_2'
+	'AF075269/Simian_immunodeficiency/LHoest_monkey'
+	'AF201902/Equine_foamy/Horse_1'
+	'AF334679/Simian_immunodeficiency/Sooty_mangabey_2'
+	'AF411814/Amphotropic_murine_leukemia/Mouse_1'
+	'AJ225236/RV_Tuatara/Turatara'
+	'AJ236119/Retrovirus/Short_beaked_echidna'
+	'AJ236126/Retrovirus/Grey_partridge'
+	'AJ236134/Retrovirus/Eurasian_wren'
+	'AJ292966/Avian_endogenous_retrovirus/Grey_junglefowl'
+	'AJ544579/Simian_foamy/Bornean_orangutan'
+	'AJ627546/Simian_foamy/Sumatran_orangutan'
+	'AM745105/Simian_immunodeficiency/Western_red_colobus_2'
+	'AY101611/Visna/Goat_3'
+	'AY221515/Simian_immunodeficiency/Southern_pigtailed_macaque'
+	'AY340701/Simian_immunodeficiency/Mona_monkey'
+	'AY518534/Simian_immunodeficiency/Black_mangabey'
+	'AY523866/Simian_immunodeficiency/De_Brazzas_monkey'
+	'AY523867/Simian_immunodeficiency/Sykes_monkey'
+	'AY590142/Simian_T_lymphotropic_1/Stump_tailed_macaque'
+	'AY655744/Simian_immunodeficiency/Gabon_talapoin'
+	'AY713445/Feline_immunodeficiency/Pallass_cat'
+	'AY878194/Feline_immunodeficiency/Ocelot'
+	'AY878195/Feline_immunodeficiency/Jaguarundi'
+	'AY878242/Feline_immunodeficiency/Snow_leopard'
+	'BLVGPE/Bovine_leukimia/Cow_3'
+	'DQ192583/Feline_immunodeficiency/Cougar'
+	'DQ201173/Simian_immunodeficiency/Rhesus_macaque_3'
+	'EU010385/Simian_foamy/Spider_monkey'
+	'EU117992/Feline_immunodeficiency/Lion'
+	'FJ006946/Simian_foamy/Ugandan_red_colobus'
+	'FJ402534/Simian_immunodeficiency/Pigtailed_macaque'
+	'FJ424871/Simian_immunodeficiency/Gorilla_2'
+	'FJ957880/Simian_T_lymphotropic/Greater_spot_nosed_monkey_2'
+	'FM165200/Simian_immunodeficiency/Olive_colobus'
+	'FN859999/Simian_foamy/Western_red_colobus_1'
+	'GQ381130/Caprine_arthritis_encephalitis/Goat_1'
+	'GU356395/Simian_foamy/Common_marmoset'
+	'GU980187/Porcine_endogenous_retrovirus/Pig'
+	'HIV2D194/Human_immunodeficiency_2/Human_2'
+	'HIVMCK1/Human_immunodeficiency_1/Human_1'
+	'HM210570/Small_ruminant_lentivirus/Goat_2'
+	'HM245790/Simian_foamy/Gorilla_1'
+	'HQ378594/Simian_immunodeficiency/African_green_monkey_2'
+	'HQ450608/Simian_foamy/Mandrill_1'
+	'HQ450613/Simian_foamy/Grey_cheeked_mangabey'
+	'HQ450614/Simian_foamy/Sun_tailed_monkey'
+	'HQ450615/Simian_foamy/Collared_mangabey'
+	'JDVCG/Jembrana_disease/Banteng'
+	'JF502417/Caprine_arthritis_encephalitis/Sheep_1'
+	'JF810903/Simian_foamy/Sooty_mangabey_1'
+	'JN801175/Simian_foamy/Rhesus_macaque_2'
+	'JQ292910/Retrovirus/Blackflyingfox'
+	'JQ292912/Retrovirus/Ricketts_big_footed_bat'
+	'JQ292914/Retrovirus/Pearsons_horseshoe_bat'
+	'JQ303225/Retrovirus/Greater_horseshoe_bat'
+	'JQ867466/Simian_foamy/Greater_spot_nosed_monkey_1'
+	'JQ951956/Retrovirus/Greater_false_vampire_bat'
+	'JQ951958/Retrovirus/Leschenaults_rousette'
+	'JX178450/Simian_immunodeficiency/Chimpanzee_2'
+	'JX848322/Avian_leukosis/Green_winged_Teal'
+	'KC189895/Nasal_tumor/Sheep_3'
+	'KC331072/Simian_foamy/Venezuelan_red_howler'
+	'KC331076/Simian_foamy/Red_handed_howler'
+	'KC331079/Simian_foamy/Tufted_capuchin'
+	'KC331082/Simian_foamy/Brown_howler'
+	'KC845928/Retrovirus/Tasmanian_devil'
+	'KF026286/Simian_foamy/Taiwanese_macaque'
+	'KF572484/Retrovirus/Grassland_mosaic_tailed_rat'
+	'KF906156/Feline_immunodeficiency/Bobcat'
+	'KF906169/Feline_immunodeficiency/Mountain_lion'
+	'KF906194/Feline_immunodeficiency/Puma'
+	'KJ461716/Simian_immunodeficiency/Red_tailed_guenon'
+	'KJ668270/Ecotropic_murine_leukemia/Mouse_2'
+	'KM233624/Simian_foamy/Northern_greater_galago'
+	'KM378566/Simian_immunodeficiency/Drill'
+	'KP143760/Simian_foamy/Golden_bellied_capuchin'
+	'KP284572/Avian_leukosis/Chicken'
+	'KP691837/Jaagsiekte_sheep_retrovirus/Sheep_2'
+	'KR528438/Simian_foamy/Golden_backed_uakari'
+	'KR528446/Simian_foamy/Golden_lion_tamarin'
+	'KR902440/Simian_foamy/Black_headed_spider_monkey'
+	'KR902443/Simian_foamy/Geoffroys_spider_monkey'
+	'KR902452/Simian_foamy/Long_haired_spider_monkey'
+	'KR902480/Simian_foamy/Brown_woolly_monkey'
+	'KR902481/Simian_foamy/White_faced_saki'
+	'KR902487/Simian_foamy/Black_capped_squirrel_monkey'
+	'KT724050/Leukemia/Gibbon'
+	'KU705348/Feline_immunodeficiency/Leaopard'
+	'LC114462/Simian_immunodeficiency/Malbrouck'
+	'LM999945/Simian_immunodeficiency/Tantalus_monkey'
+	'M30931/Simian_immunodeficiency/Grivet'
+	'MLFCG/Friend_murine_leukemia/Mouse_3'
+	'MLMCG/Moloney_murine_leukemia/House_mouse_1'
+	'NC_001413/Bovine_immunodeficiency_like/Cow_2'
+	'NC_001514/Retrovirus/Squirrel_monkey'
+	'NC_001550/Mason_Pfizer_monkey/Rhesus_macaque_1'
+	'NC_001815/simian_T_lymphotropic_2/Human_5'
+	'NC_001831/Bovine_foamy/Cow_1'
+	'NC_010819/Simian_foamy/Macaque'
+	'NC_010820/Simian_foamy/African_green_monkey_1'
+	'NC_010955/Retrovirus/African_clawed_frog'
+	'RMU94692/Rauscher_murine_leukemia/Mouse_4'
+	'S80082/Murine_AIDS_related_provirus/House_mouse_2'
+	'SIVMNDGB1/Simian_immunodeficiency/Mandrill_2'
+	'U04327/Simian_foamy/Chimpanzee_1'
+	'X57002/Feline_immunodeficiency/Cat_1'
+	'X68524/Rous_sarcoma/Duck'
+	'Y07724/Human_foamy/Human_3'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('X68524/Rous_sarcoma/Duck':0.007458,('KP284572/Avian_leukosis/Chicken':0.00247,('AJ292966/Avian_endogenous_retrovirus/Grey_junglefowl':0.286867,((('KP691837/Jaagsiekte_sheep_retrovirus/Sheep_2':0.011781,'KC189895/Nasal_tumor/Sheep_3':0.043525)[&label=1.0]:0.366697,('NC_001550/Mason_Pfizer_monkey/Rhesus_macaque_1':0.319775,'NC_001514/Retrovirus/Squirrel_monkey':0.395791)[&label=0.992373]:0.148031)[&label=1.0]:0.482091,((('BLVGPE/Bovine_leukimia/Cow_3':0.684349,('AY590142/Simian_T_lymphotropic_1/Stump_tailed_macaque':0.252957,('NC_001815/simian_T_lymphotropic_2/Human_5':0.186892,'FJ957880/Simian_T_lymphotropic/Greater_spot_nosed_monkey_2':0.324743)[&label=0.999982]:0.111093)[&label=1.0]:0.33551)[&label=1.0]:0.826471,(((('EU010385/Simian_foamy/Spider_monkey':0.020755,('KR902440/Simian_foamy/Black_headed_spider_monkey':0.007631,(('KR902452/Simian_foamy/Long_haired_spider_monkey':4.4E-5,'KR902443/Simian_foamy/Geoffroys_spider_monkey':0.0)[&label=0.980829]:0.039164,('KC331082/Simian_foamy/Brown_howler':0.072819,((('KR902480/Simian_foamy/Brown_woolly_monkey':0.192223,'KC331076/Simian_foamy/Red_handed_howler':0.053686)[&label=0.710061]:0.021687,'KC331072/Simian_foamy/Venezuelan_red_howler':0.041452)[&label=0.968826]:0.029542,('KR902487/Simian_foamy/Black_capped_squirrel_monkey':0.346393,('KR902481/Simian_foamy/White_faced_saki':0.253049,('KR528438/Simian_foamy/Golden_backed_uakari':0.024458,('KR528446/Simian_foamy/Golden_lion_tamarin':0.10286,'KC331079/Simian_foamy/Tufted_capuchin':0.022284)[&label=0.997703]:0.070293)[&label=0.998763]:0.080665)[&label=0.999999]:0.207133)[&label=0.600528]:0.042212)[&label=0.68853]:0.019913)[&label=0.999974]:0.075558)[&label=0.41552]:0.028527)[&label=1.0]:0.630536)[&label=0.999598]:0.128628,('KP143760/Simian_foamy/Golden_bellied_capuchin':0.011112,'GU356395/Simian_foamy/Common_marmoset':0.024417)[&label=1.0]:0.122249)[&label=0.999444]:0.103342,(((('JN801175/Simian_foamy/Rhesus_macaque_2':0.026382,('KF026286/Simian_foamy/Taiwanese_macaque':0.014395,'NC_010819/Simian_foamy/Macaque':0.015573)[&label=0.999996]:0.015138)[&label=1.0]:0.04429,('JQ867466/Simian_foamy/Greater_spot_nosed_monkey_1':0.053285,('NC_010820/Simian_foamy/African_green_monkey_1':0.005001,(((('FN859999/Simian_foamy/Western_red_colobus_1':0.033237,'FJ006946/Simian_foamy/Ugandan_red_colobus':0.0356)[&label=0.999935]:0.052784,('JF810903/Simian_foamy/Sooty_mangabey_1':0.036683,'HQ450615/Simian_foamy/Collared_mangabey':0.058327)[&label=0.979382]:0.036261)[&label=0.0]:5.37E-4,('HQ450613/Simian_foamy/Grey_cheeked_mangabey':0.092648,'HQ450608/Simian_foamy/Mandrill_1':0.068803)[&label=0.768631]:0.0357)[&label=0.987235]:0.072514,'HQ450614/Simian_foamy/Sun_tailed_monkey':0.039239)[&label=1.0]:0.263081)[&label=0.984058]:0.054156)[&label=1.0]:0.046213)[&label=1.0]:0.059657,(('HM245790/Simian_foamy/Gorilla_1':0.09004,('Y07724/Human_foamy/Human_3':0.029011,'U04327/Simian_foamy/Chimpanzee_1':0.026305)[&label=1.0]:0.0601)[&label=1.0]:0.044604,('AJ544579/Simian_foamy/Bornean_orangutan':4.4E-5,'AJ627546/Simian_foamy/Sumatran_orangutan':0.249705)[&label=1.0]:0.128222)[&label=0.998076]:0.033617)[&label=1.0]:0.14707,('KM233624/Simian_foamy/Northern_greater_galago':0.258595,('NC_001831/Bovine_foamy/Cow_1':0.231744,'AF201902/Equine_foamy/Horse_1':0.200493)[&label=1.0]:0.143403)[&label=1.0]:0.06446)[&label=0.452995]:0.03715)[&label=1.0]:1.8141,('JQ292910/Retrovirus/Blackflyingfox':0.549247,(('AJ225236/RV_Tuatara/Turatara':0.678758,('AF014793/Hyperplasia/Walleye':0.709988,'NC_010955/Retrovirus/African_clawed_frog':0.930954)[&label=0.636681]:0.073447)[&label=0.989435]:0.143651,(('AJ236134/Retrovirus/Eurasian_wren':0.5321,'AJ236126/Retrovirus/Grey_partridge':0.402122)[&label=1.0]:0.328232,('AJ236119/Retrovirus/Short_beaked_echidna':0.440378,('JQ292912/Retrovirus/Ricketts_big_footed_bat':0.196974,(('JQ303225/Retrovirus/Greater_horseshoe_bat':0.044791,'JQ292914/Retrovirus/Pearsons_horseshoe_bat':0.0)[&label=1.0]:0.367233,('AB559882/RD114_retrovirus/Cat_2':0.178354,((('MLMCG/Moloney_murine_leukemia/House_mouse_1':0.011603,('AF411814/Amphotropic_murine_leukemia/Mouse_1':0.01571,('RMU94692/Rauscher_murine_leukemia/Mouse_4':0.004868,'MLFCG/Friend_murine_leukemia/Mouse_3':0.008669)[&label=1.0]:0.013917)[&label=0.698971]:0.003237)[&label=0.950538]:0.013291,('S80082/Murine_AIDS_related_provirus/House_mouse_2':0.043063,'KJ668270/Ecotropic_murine_leukemia/Mouse_2':0.021943)[&label=1.0]:0.032459)[&label=1.0]:0.221023,(('KT724050/Leukemia/Gibbon':0.014216,'KF572484/Retrovirus/Grassland_mosaic_tailed_rat':0.127319)[&label=1.0]:0.143095,('JQ951956/Retrovirus/Greater_false_vampire_bat':0.204633,('JQ951958/Retrovirus/Leschenaults_rousette':0.16439,'GU980187/Porcine_endogenous_retrovirus/Pig':0.161176)[&label=0.871351]:0.025734)[&label=0.999201]:0.047633)[&label=1.0]:0.087647)[&label=0.99987]:0.047214)[&label=1.0]:0.092223)[&label=0.602173]:0.029636)[&label=0.341308]:0.012771)[&label=1.0]:0.198732)[&label=0.999997]:0.160065)[&label=0.595096]:0.107239)[&label=0.999287]:0.335838)[&label=1.0]:0.683041)[&label=0.998337]:0.221251,('AF016316/Equine_infectious_anemia/Horse_2':0.721551,(((('KF906194/Feline_immunodeficiency/Puma':0.089975,'DQ192583/Feline_immunodeficiency/Cougar':0.076662)[&label=1.0]:0.184588,(('X57002/Feline_immunodeficiency/Cat_1':0.181102,(('AY713445/Feline_immunodeficiency/Pallass_cat':0.060761,'KU705348/Feline_immunodeficiency/Leaopard':0.06052)[&label=0.889593]:0.025912,('EU117992/Feline_immunodeficiency/Lion':0.040051,'AY878242/Feline_immunodeficiency/Snow_leopard':0.067283)[&label=0.999818]:0.031137)[&label=1.0]:0.087381)[&label=1.0]:0.116149,(('KF906169/Feline_immunodeficiency/Mountain_lion':0.082499,'KF906156/Feline_immunodeficiency/Bobcat':0.082151)[&label=0.998807]:0.161336,('AY878195/Feline_immunodeficiency/Jaguarundi':0.136727,'AY878194/Feline_immunodeficiency/Ocelot':0.157225)[&label=0.996361]:0.073442)[&label=0.469256]:0.055388)[&label=0.999473]:0.069853)[&label=1.0]:0.319279,((('AY523866/Simian_immunodeficiency/De_Brazzas_monkey':0.304134,('AY523867/Simian_immunodeficiency/Sykes_monkey':0.339977,(('AY655744/Simian_immunodeficiency/Gabon_talapoin':0.270926,'KJ461716/Simian_immunodeficiency/Red_tailed_guenon':0.252589)[&label=0.573951]:0.053137,('AY340701/Simian_immunodeficiency/Mona_monkey':0.251981,'AY518534/Simian_immunodeficiency/Black_mangabey':0.250994)[&label=0.999944]:0.065233)[&label=0.99877]:0.054251)[&label=0.954019]:0.047206)[&label=1.0]:0.126582,(('M30931/Simian_immunodeficiency/Grivet':0.151167,'LC114462/Simian_immunodeficiency/Malbrouck':0.095788)[&label=1.0]:0.155343,(('AF334679/Simian_immunodeficiency/Sooty_mangabey_2':0.102316,('HIV2D194/Human_immunodeficiency_2/Human_2':0.07587,('FJ402534/Simian_immunodeficiency/Pigtailed_macaque':0.023579,('DQ201173/Simian_immunodeficiency/Rhesus_macaque_3':0.001184,'AY221515/Simian_immunodeficiency/Southern_pigtailed_macaque':0.001131)[&label=0.994671]:0.012046)[&label=1.0]:0.052184)[&label=1.0]:0.095195)[&label=1.0]:0.195506,(('LM999945/Simian_immunodeficiency/Tantalus_monkey':0.102586,'HQ378594/Simian_immunodeficiency/African_green_monkey_2':0.074915)[&label=1.0]:0.088729,('KM378566/Simian_immunodeficiency/Drill':0.14058,('FJ424871/Simian_immunodeficiency/Gorilla_2':0.102584,('JX178450/Simian_immunodeficiency/Chimpanzee_2':0.04422,'HIVMCK1/Human_immunodeficiency_1/Human_1':0.082742)[&label=1.0]:0.059789)[&label=1.0]:0.18927)[&label=1.0]:0.061986)[&label=1.0]:0.053566)[&label=0.644156]:0.035243)[&label=0.999912]:0.047896)[&label=0.998426]:0.068853,(('SIVMNDGB1/Simian_immunodeficiency/Mandrill_2':0.212733,'AF075269/Simian_immunodeficiency/LHoest_monkey':0.22122)[&label=1.0]:0.088293,('AM745105/Simian_immunodeficiency/Western_red_colobus_2':0.258037,'FM165200/Simian_immunodeficiency/Olive_colobus':0.410323)[&label=0.999986]:0.070055)[&label=0.999999]:0.05438)[&label=1.0]:0.390954)[&label=0.999937]:0.096921,(('NC_001413/Bovine_immunodeficiency_like/Cow_2':0.260417,'JDVCG/Jembrana_disease/Banteng':0.141215)[&label=1.0]:0.688967,('JF502417/Caprine_arthritis_encephalitis/Sheep_1':0.122376,('GQ381130/Caprine_arthritis_encephalitis/Goat_1':0.177303,('AY101611/Visna/Goat_3':0.10256,'HM210570/Small_ruminant_lentivirus/Goat_2':0.139059)[&label=0.774852]:0.036999)[&label=0.828599]:0.041024)[&label=1.0]:0.726694)[&label=0.999996]:0.134459)[&label=0.861421]:0.090787)[&label=1.0]:0.713635)[&label=1.0]:0.448139)[&label=1.0]:1.01521)[&label=1.0]:0.284743)[&label=0.383537]:0.001753)[&label=0.364007]:7.32E-4,'JX848322/Avian_leukosis/Green_winged_Teal':0.085962,'KC845928/Retrovirus/Tasmanian_devil':0.103352);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

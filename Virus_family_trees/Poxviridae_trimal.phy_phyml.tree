@@ -1,0 +1,156 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=62;
+	taxlabels
+	'AJ293568/Yabalike/Human_5'
+	'AY386371/Yaba_monkey_tumor_virus/Vervet_monkey'
+	'AY463007/Dolphin_poxvirus_1/Indo_Pacific_bottlenose_dolphin'
+	'AY780678/Pinniped_parapoxvirus/Spotted_seal'
+	'AY952939/Harbor_seal_parapoxvirus/Harbor_seal'
+	'AY952948/Steller_sea_lion_parapoxvirus/Steller_sea_lion'
+	'DQ011153/Monkeypox_virus/Prairie_dog'
+	'DQ066527/Taterapox_virus/Gerbil'
+	'DQ066528/Cowpox/Human_7'
+	'DQ071862/Cetacean_poxvirus_1/Rough_toothed_dolphin'
+	'DQ792504/Horsepox_virus/Horse'
+	'FJ807738/Volepox/Vole'
+	'FJ807747/Raccoonpox/Raccoon'
+	'FJ807756/Skunkpox/Skunk'
+	'HF679132/Entomopoxvirus/Moth_2'
+	'JN112370/Cervidpoxvirus/Gazelle'
+	'KC017850/Avipox/Chicken'
+	'KC017851/Avipox/Blue_eared_pheasant'
+	'KC017852/Avipox/Eastern_imperial_eagle'
+	'KC017855/Avipox/Great_bustard'
+	'KC017857/Avipox/Indian_peafowl'
+	'KC017866/Avipox/Turkey'
+	'KC017868/Avipox/Rock_dove'
+	'KC017886/Avipox/Oriental_turtle_dove'
+	'KC017888/Avipox/Eurasian_eagle_owl'
+	'KC017891/Avipox/Booted_eagle'
+	'KC017892/Avipox/Red_legged_partridge'
+	'KC017898/Avipox/Southern_giant_petrel'
+	'KC017899/Avipox/Pelagic_cormorant'
+	'KC017905/Avipox/Magellanic_penguin'
+	'KC017934/Avipox/Bald_eagle'
+	'KC409037/Cetacean_poxvirus_1/Striped_dolphin'
+	'KC660085/Myxoma_virus/Tapeti'
+	'KF425535/Sea_otter_poxvirus/Sea_otter'
+	'KJ642619/Monkeypox_virus/Chimpanzee'
+	'KJ801920/Pigeon_pox/Pigeon'
+	'KM595078/Cotia_virus/Mouse_2'
+	'KP010356/Orfvirus/Sheep_1'
+	'KT013210/Vaccinia_virus/Human_4'
+	'MOCDPOL/Molluscum_contagiosum_virus/Human_1'
+	'NC_001266/Rabbit_fibroma_virus/Rabbit'
+	'NC_001993/Entomopoxvirus/Grasshopper'
+	'NC_002520/Entomopoxvirus/Moth_1'
+	'NC_003027/Lumpy_skin_disease_virus/Cow_2'
+	'NC_003310/Monkeypox_virus/Human_3'
+	'NC_003389/Swinepox/Pig'
+	'NC_003391/Camelpox/Camel'
+	'NC_004002/Sheeppox/Sheep_2'
+	'NC_004003/Goatpox/Goat_2'
+	'NC_004105/Ectromelia_virus/Mouse_1'
+	'NC_005309/Canary_pox/Canary'
+	'NC_005336/Orfvirus/Goat_1'
+	'NC_005337/Bovine_papular_stomatitis/Cow_1'
+	'NC_006966/Deerpox/Muledeer'
+	'NC_008030/Crocodile_pox/Nile_crocodile'
+	'NC_009888/Tanapox/Human_6'
+	'NC_016924/Cotia_virus_SPAn232/Mouse_3'
+	'NC_021249/Entomopoxvirus/Leaf_roller'
+	'NC_022563/Squirrelpox/Red_squirrel'
+	'NC_025963/Parapoxvirus/Red_deer'
+	'NC_030656/Pteropox_virus/Little_red_flying_fox'
+	'VARCG/Variola_major_virus/Human_2'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NC_021249/Entomopoxvirus/Leaf_roller':0.044449,'HF679132/Entomopoxvirus/Moth_2':0.056656,('NC_002520/Entomopoxvirus/Moth_1':0.182877,('NC_001993/Entomopoxvirus/Grasshopper':1.215552,(((('NC_008030/Crocodile_pox/Nile_crocodile':0.849756,('MOCDPOL/Molluscum_contagiosum_virus/Human_1':0.3813,('NC_005309/Canary_pox/Canary':0.120663,(('KC017857/Avipox/Indian_peafowl':0.0,('KC017892/Avipox/Red_legged_partridge':0.0,('KC017891/Avipox/Booted_eagle':0.0,(('KC017888/Avipox/Eurasian_eagle_owl':0.00328,('KC017905/Avipox/Magellanic_penguin':1.0E-6,('KC017898/Avipox/Southern_giant_petrel':1.6E-5,'KC017899/Avipox/Pelagic_cormorant':0.0033)[&label=0.335785]:0.002713)[&label=0.0]:1.5E-5)[&label=0.336564]:4.14E-4,('KC017934/Avipox/Bald_eagle':0.016794,('KC017850/Avipox/Chicken':0.0,('KC017851/Avipox/Blue_eared_pheasant':2.3E-5,'KC017866/Avipox/Turkey':2.7E-5)[&label=0.0]:0.0)[&label=1.0]:0.026679)[&label=0.927993]:0.006929)[&label=0.999968]:0.016215)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.983867]:0.025509,('KC017868/Avipox/Rock_dove':1.2E-5,('KC017855/Avipox/Great_bustard':2.1E-5,(('KC017886/Avipox/Oriental_turtle_dove':0.006657,'KJ801920/Pigeon_pox/Pigeon':0.003776)[&label=0.0]:0.001152,'KC017852/Avipox/Eastern_imperial_eagle':0.0)[&label=0.0]:6.7E-4)[&label=0.0]:0.002599)[&label=0.890538]:0.019152)[&label=0.999998]:0.105376)[&label=1.0]:0.486167)[&label=0.552231]:0.079716)[&label=1.0]:0.185575,('NC_022563/Squirrelpox/Red_squirrel':0.294153,('NC_005337/Bovine_papular_stomatitis/Cow_1':0.036593,(('NC_025963/Parapoxvirus/Red_deer':0.071625,('NC_005336/Orfvirus/Goat_1':0.004825,'KP010356/Orfvirus/Sheep_1':1.0E-5)[&label=1.0]:0.06778)[&label=0.648487]:0.008254,('AY952948/Steller_sea_lion_parapoxvirus/Steller_sea_lion':0.070673,('AY952939/Harbor_seal_parapoxvirus/Harbor_seal':0.006637,'AY780678/Pinniped_parapoxvirus/Spotted_seal':3.0E-5)[&label=0.997381]:0.028475)[&label=1.0]:0.068841)[&label=0.963845]:0.020876)[&label=1.0]:0.442934)[&label=0.989606]:0.062384)[&label=0.991134]:0.101507,('KF425535/Sea_otter_poxvirus/Sea_otter':0.304814,'NC_030656/Pteropox_virus/Little_red_flying_fox':0.22756)[&label=1.0]:0.16647)[&label=0.750135]:0.084526,((('KC409037/Cetacean_poxvirus_1/Striped_dolphin':0.019525,('DQ071862/Cetacean_poxvirus_1/Rough_toothed_dolphin':4.4E-5,'AY463007/Dolphin_poxvirus_1/Indo_Pacific_bottlenose_dolphin':2.6E-5)[&label=0.703153]:0.007401)[&label=1.0]:0.228461,(('FJ807747/Raccoonpox/Raccoon':0.019956,('FJ807756/Skunkpox/Skunk':0.011273,'FJ807738/Volepox/Vole':0.012313)[&label=0.999691]:0.009017)[&label=0.89057]:0.01325,('NC_004105/Ectromelia_virus/Mouse_1':0.010163,('NC_003391/Camelpox/Camel':0.006115,('DQ066528/Cowpox/Human_7':0.003057,('DQ066527/Taterapox_virus/Gerbil':0.0,('VARCG/Variola_major_virus/Human_2':0.006095,(('NC_003310/Monkeypox_virus/Human_3':0.001515,('DQ011153/Monkeypox_virus/Prairie_dog':0.004585,'KJ642619/Monkeypox_virus/Chimpanzee':0.0)[&label=0.0]:6.0E-6)[&label=1.0]:0.007825,('KT013210/Vaccinia_virus/Human_4':0.001538,'DQ792504/Horsepox_virus/Horse':0.004656)[&label=0.999716]:0.003101)[&label=1.0]:0.007758)[&label=0.0]:0.0)[&label=0.0]:4.0E-6)[&label=0.0]:7.0E-6)[&label=0.374986]:8.72E-4)[&label=0.784717]:0.012293)[&label=0.999819]:0.141695)[&label=0.982401]:0.082654,(('AY386371/Yaba_monkey_tumor_virus/Vervet_monkey':0.105564,('NC_009888/Tanapox/Human_6':0.006107,'AJ293568/Yabalike/Human_5':0.001685)[&label=1.0]:0.047884)[&label=1.0]:0.161623,((('NC_016924/Cotia_virus_SPAn232/Mouse_3':0.0,'KM595078/Cotia_virus/Mouse_2':0.0)[&label=1.0]:0.284864,('NC_001266/Rabbit_fibroma_virus/Rabbit':0.058821,'KC660085/Myxoma_virus/Tapeti':0.002981)[&label=1.0]:0.114262)[&label=0.999535]:0.032584,(('NC_006966/Deerpox/Muledeer':0.016031,'JN112370/Cervidpoxvirus/Gazelle':0.0)[&label=1.0]:0.131289,('NC_003389/Swinepox/Pig':0.162215,('NC_003027/Lumpy_skin_disease_virus/Cow_2':0.002517,('NC_004002/Sheeppox/Sheep_2':0.007654,'NC_004003/Goatpox/Goat_2':0.013911)[&label=0.526161]:0.002081)[&label=1.0]:0.172966)[&label=0.777538]:0.019202)[&label=0.926015]:0.024775)[&label=1.0]:0.105337)[&label=0.99931]:0.062231)[&label=0.357782]:0.026719)[&label=1.0]:2.664872)[&label=1.0]:0.74648)[&label=0.999997]:0.12056);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,0 +1,171 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=77;
+	taxlabels
+	'AB731583/Influenza_A_H1N2/Pig_1'
+	'AY582057/Influenza_B_virus/Human_3'
+	'CY043862/Influenza_A_H9N2/Eurasian_Wigeon'
+	'CY063991/Influenza_A_virus/Gadwall'
+	'CY064175/Influenza_A_H10N7/Ring_necked_duck'
+	'CY076651/Influenza_A_H6N1/Goose_2'
+	'CY077639/Influenza_A_H4N8/Red_necked_Stint'
+	'CY094909/Influenza_A_H13N6/Silver_gull'
+	'CY095106/Influenza_A_H7N2/Chicken_2'
+	'CY103874/Influenza_A_H17N10/Little_yellow_shouldered_bat'
+	'CY125943/Influenza_A_H18N11/Flat_faced_bat'
+	'CY130108/Influenza_A_H15N9/Shearwater'
+	'CY134245/Influenza_A_H4N1/Mallard_1'
+	'CY144184/Influenza_A_H16N3/Herring_gull'
+	'CY144689/Influenza_A_H7N3/Sanderling'
+	'CY149490/Influenza_A_H10N5/Black_headed_gull'
+	'CY149506/Influenza_A_H6N5/Goose_3'
+	'CY149578/Influenza_A_H10N7/Black_scoter'
+	'CY167100/Influenza_A_H4N8/Common_goldeneye'
+	'CY167198/Influenza_A_H5N3/Green_wing_teal_1'
+	'CY172461/Influenza_A_H3N2/Human_5'
+	'CY178992/Influenza_A_H4N6/Snipe'
+	'CY179081/Influenza_A_H1N6/Common_murre'
+	'CY179129/Influenza_A_H1N6/Horned_puffin'
+	'CY179833/Influenza_A_H6N1/Canada_goose'
+	'CY185567/Influenza_A_H9N3/Mediterranean_gull'
+	'CY185639/Influenza_A_H13N8/Yellow_legged_gull'
+	'CY185859/Influenza_A_H7N3/Shorebird'
+	'CY185893/Influenza_A_H15N9/Wedge_tailed_shearwater'
+	'CY185901/Influenza_A_H7N7/Red_knot'
+	'CY185919/Influenza_A_H7N2/Ruddy_turnstone'
+	'CY185975/Influenza_A_H7N1/Blue_wing_teal_1'
+	'CY186435/Influenza_A/Bufflehead'
+	'CY187067/Influenza_A_H10N7/Redhead'
+	'CY196641/Influenza_A_H4N6/Northern_shoveler'
+	'CY202775/Influenza_A_H1N1/Snow_goose'
+	'CY204360/Influenza_A_H5N2/Green_wing_teal_2'
+	'CY206657/Influenza_A_H4N6/Blue_wing_teal_2'
+	'CY206956/Influenza_A_H16N3/Glaucous_gull_2'
+	'DHVPB1/Dhori_virus/Tick_4'
+	'DQ124148/Influenza_A_H3N8/Dog_1'
+	'DQ124176/Influenza_A_H3N8/Horse'
+	'DQ145544/Influenza_A_H3N1/Pig_2'
+	'DQ822196/Influenza_A_H6N8/Bewicks_swan'
+	'EU182279/Influenza_A_H9N2/Turkey'
+	'EU277847/Influenza_A_H5N1/Guinea_fowl'
+	'FJ519989/Influenza_A_H5N2/Ostrich'
+	'FJ861695/Quaranfil_virus/Tick_1'
+	'FJ861697/Johnston_Atoll_virus/Tick_3'
+	'FLAPB1PROB/Influenza_A_H2N2/Human_6'
+	'GQ229276/Influenza_A_H1N1/Wild_boar'
+	'GU050000/Influenza_A_H5N2/Northern_pintail'
+	'GU051992/Influenza_A_H5N9/Glaucous_gull_1'
+	'GU052305/Influenza_A_H3N8/American_Black_duck'
+	'GU052874/Influenza_A_H5N9/Mallard_2'
+	'HQ259672/Infectious_salmon_anemia_virus/Atlantic_salmon'
+	'JN247617/Influenza_A_H3N2/Dog_2'
+	'JQ794460/Influenza_A_H5N1/Chicken_1'
+	'JQ928944/Tjuloc_virus/Argas_arboreus_tick'
+	'JQ973646/Influenza_A_H7N1/Baers_pochard'
+	'JX307162/Influenza_A_H7N4/Duck'
+	'JX473008/Influenza_A_H1N1/Human_4'
+	'JX865420/Influenza_A_H1N1/Elephant_seal'
+	'KC422454/Influenza_A_H3N2/Cat'
+	'KF260564/Influenza_A_H9N2/Pheasant'
+	'KF260695/Influenza_A_H7N7/Pigeon'
+	'KF609525/Influenza_A_H7N9/Tree_sparrow'
+	'KJ372718/Influenza_A_H13N2/Pilot_whale'
+	'KJ467570/Influenza_A_H3N8/Harbour_seal'
+	'KJ847693/Influenza_A_H4N6/Caspian_seal'
+	'KM015492/Influenza_D_virus/Cow'
+	'KM507546/Influenza_C_virus/Human_2'
+	'KP732605/Influenza_A_H5N8/Goose_1'
+	'KU201902/Influenza_A_H5N8/Peregrine_falcon'
+	'KU708254/Bourbon_virus/Human_1'
+	'LC010982/Thogoto_virus/Tick_2'
+	'NC_025796/Wellfleet_bay_virus/Common_eider'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('KU708254/Bourbon_virus/Human_1':0.091966,'DHVPB1/Dhori_virus/Tick_4':0.085515,('LC010982/Thogoto_virus/Tick_2':0.226574,('HQ259672/Infectious_salmon_anemia_virus/Atlantic_salmon':2.21924,(('KM507546/Influenza_C_virus/Human_2':0.201844,'KM015492/Influenza_D_virus/Cow':0.117758)[&label=1.0]:0.400364,('AY582057/Influenza_B_virus/Human_3':0.292468,(('GQ229276/Influenza_A_H1N1/Wild_boar':0.005295,('JQ928944/Tjuloc_virus/Argas_arboreus_tick':0.020828,('FJ861695/Quaranfil_virus/Tick_1':0.05046,('NC_025796/Wellfleet_bay_virus/Common_eider':0.223622,'FJ861697/Johnston_Atoll_virus/Tick_3':0.07387)[&label=0.998991]:0.043122)[&label=0.713531]:0.026514)[&label=1.0]:1.089525)[&label=0.581476]:0.014278,('KF260564/Influenza_A_H9N2/Pheasant':0.016169,(('DQ124176/Influenza_A_H3N8/Horse':0.0,'DQ124148/Influenza_A_H3N8/Dog_1':0.004723)[&label=1.0]:0.016812,('FLAPB1PROB/Influenza_A_H2N2/Human_6':0.011929,('CY063991/Influenza_A_virus/Gadwall':0.002389,(('CY172461/Influenza_A_H3N2/Human_5':0.004738,('DQ145544/Influenza_A_H3N1/Pig_2':0.004771,('JX865420/Influenza_A_H1N1/Elephant_seal':0.002388,('AB731583/Influenza_A_H1N2/Pig_1':0.002389,'JX473008/Influenza_A_H1N1/Human_4':0.0)[&label=0.0]:0.0)[&label=0.890361]:0.002361)[&label=0.999998]:0.007209)[&label=0.998293]:0.004735,('KJ467570/Influenza_A_H3N8/Harbour_seal':0.002384,('CY134245/Influenza_A_H4N1/Mallard_1':0.0,('EU182279/Influenza_A_H9N2/Turkey':0.0,(('CY206657/Influenza_A_H4N6/Blue_wing_teal_2':0.0,('CY167198/Influenza_A_H5N3/Green_wing_teal_1':0.0,('CY076651/Influenza_A_H6N1/Goose_2':0.002378,('GU052874/Influenza_A_H5N9/Mallard_2':0.002379,'CY204360/Influenza_A_H5N2/Green_wing_teal_2':0.002377)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,('CY167100/Influenza_A_H4N8/Common_goldeneye':0.004755,(('GU052305/Influenza_A_H3N8/American_Black_duck':0.0,('CY186435/Influenza_A/Bufflehead':0.0,('CY202775/Influenza_A_H1N1/Snow_goose':0.0,('CY130108/Influenza_A_H15N9/Shearwater':0.0,('CY185919/Influenza_A_H7N2/Ruddy_turnstone':0.002378,(('CY185639/Influenza_A_H13N8/Yellow_legged_gull':0.009599,'CY094909/Influenza_A_H13N6/Silver_gull':0.007103)[&label=0.963587]:0.002395,('CY185893/Influenza_A_H15N9/Wedge_tailed_shearwater':0.0,('KU201902/Influenza_A_H5N8/Peregrine_falcon':0.007112,'CY149578/Influenza_A_H10N7/Black_scoter':0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,((('KP732605/Influenza_A_H5N8/Goose_1':0.014301,('EU277847/Influenza_A_H5N1/Guinea_fowl':2.4E-5,('CY125943/Influenza_A_H18N11/Flat_faced_bat':0.019043,'CY103874/Influenza_A_H17N10/Little_yellow_shouldered_bat':0.040284)[&label=1.0]:0.123887)[&label=0.642882]:0.004748)[&label=0.0]:0.0,('CY206956/Influenza_A_H16N3/Glaucous_gull_2':0.002401,'KJ372718/Influenza_A_H13N2/Pilot_whale':0.007122)[&label=0.0]:0.0)[&label=0.0]:0.0,('JQ794460/Influenza_A_H5N1/Chicken_1':0.0,('CY043862/Influenza_A_H9N2/Eurasian_Wigeon':0.040298,((('GU050000/Influenza_A_H5N2/Northern_pintail':0.002382,('CY187067/Influenza_A_H10N7/Redhead':0.002429,'KF609525/Influenza_A_H7N9/Tree_sparrow':0.019238)[&label=0.872168]:0.002347)[&label=0.0]:0.0,((('KJ847693/Influenza_A_H4N6/Caspian_seal':0.0,('CY149506/Influenza_A_H6N5/Goose_3':0.00239,'CY064175/Influenza_A_H10N7/Ring_necked_duck':0.002382)[&label=0.0]:0.0)[&label=0.0]:0.0,('JQ973646/Influenza_A_H7N1/Baers_pochard':0.004741,'CY185567/Influenza_A_H9N3/Mediterranean_gull':0.007133)[&label=0.0]:0.0)[&label=0.999384]:0.002384,('CY149490/Influenza_A_H10N5/Black_headed_gull':0.004763,('CY185859/Influenza_A_H7N3/Shorebird':0.0024,'CY144689/Influenza_A_H7N3/Sanderling':0.0)[&label=0.999998]:0.004772)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0,('DQ822196/Influenza_A_H6N8/Bewicks_swan':0.0,((('CY077639/Influenza_A_H4N8/Red_necked_Stint':0.002407,'KC422454/Influenza_A_H3N2/Cat':0.007179)[&label=0.916232]:0.002374,('JX307162/Influenza_A_H7N4/Duck':0.002447,('JN247617/Influenza_A_H3N2/Dog_2':0.002393,'KF260695/Influenza_A_H7N7/Pigeon':0.004747)[&label=0.0]:1.0E-5)[&label=0.997658]:0.002388)[&label=0.0]:0.0,('CY185975/Influenza_A_H7N1/Blue_wing_teal_1':0.0,('CY196641/Influenza_A_H4N6/Northern_shoveler':0.002384,('FJ519989/Influenza_A_H5N2/Ostrich':0.00239,('CY095106/Influenza_A_H7N2/Chicken_2':0.002392,('CY144184/Influenza_A_H16N3/Herring_gull':0.0,('CY178992/Influenza_A_H4N6/Snipe':0.002393,('CY185901/Influenza_A_H7N7/Red_knot':0.0,(('CY179833/Influenza_A_H6N1/Canada_goose':0.0,'GU051992/Influenza_A_H5N9/Glaucous_gull_1':0.0)[&label=0.0]:0.0,('CY179129/Influenza_A_H1N6/Horned_puffin':0.0,'CY179081/Influenza_A_H1N6/Common_murre':0.0)[&label=0.999999]:0.004773)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.928931]:0.002383)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.996194]:0.002391)[&label=0.990817]:0.002378)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.989506]:0.002378)[&label=0.0]:0.0)[&label=0.0]:0.0)[&label=0.687123]:0.0024)[&label=0.961746]:0.005929)[&label=0.782848]:0.012249)[&label=0.999732]:0.070087)[&label=0.989046]:0.117069)[&label=0.584673]:0.127702)[&label=1.0]:0.768634)[&label=0.999994]:0.177777);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

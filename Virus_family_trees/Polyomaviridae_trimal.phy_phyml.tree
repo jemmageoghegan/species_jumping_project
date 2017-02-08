@@ -1,0 +1,172 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=78;
+	taxlabels
+	'AB048582/JC_virus/Human_1'
+	'EF186666/Murine_pneumotropic_virus/Mouse_1'
+	'EF579803/Simian_virus_40/Rhesus_macaque'
+	'EU711058/WU_virus/Human_10'
+	'FJ392560/Merkel_cell_polyomavirus/Human_4'
+	'FN356910/Polyomavirus/Bornean_orangutan'
+	'GU345044/Polyomavirus/Atlantic_canary'
+	'HQ681903/Goose_hemorrhagic_polyomavirus/Goose'
+	'HQ681905/Goose_hemorrhagic_polyomavirus/Mule_duck'
+	'JQ412134/Equine_polyomavirus/Horse'
+	'JQ958888/Polyomavirus_1/Little_yellow_shouldered_bat'
+	'JQ958890/Polyomavirus_3/Flat_faced_fruit_eating_bat'
+	'JX159986/Polyomavirus/Crab_eating_macaque'
+	'JX416853/Polyomavirus/Hamster'
+	'KC660158/Finch_polyomavirus/Gouldian_finch'
+	'KF468310/BK_virus/Human_2'
+	'KF651951/STL_polyomavirus/Human_8'
+	'KJ577598/Polyomavirus/Anubis_baboon'
+	'KJ641707/Bat_polyomavirus/Beijing_mouse_eared_bat'
+	'KJ641708/Polyomavirus/Greater_horseshoe_bat'
+	'KM282376/Polyomavirus_1/Sea_otter'
+	'KM496323/Bovine_polyomavirus_1/Cow_1'
+	'KM496324/Bovine_polyomaviridae_2/Cow_2'
+	'KM496326/Bovine_polyomaviridae_3/Cow_3'
+	'KR065722/Polyomavirus_1/Pig'
+	'KR612374/Polyomavirus/Common_vole'
+	'KT184857/Polyomavirus_1/Bonobo'
+	'KT203767/Budgerigar_fledgling_disease/Budgerigar'
+	'KT987218/Polyomavirus_2/Mouse_2'
+	'KU596573/Human_polyomavirus_6/Human_13'
+	'KU746835/KI_polyomavirus/Human_11'
+	'KX509984/Polyomavirus/Western_red_colobus'
+	'LN846619/Polyomavirus_1/Bark_scorpion'
+	'NC_004763/Polyomavirus/African_green_monkey'
+	'NC_007922/Polyomavirus/Eurasian_jackdaw'
+	'NC_009951/Squirrel_monkey_polyomavirus/Squirrel_monkey'
+	'NC_013796/Polyomavirus_1/California_sealion'
+	'NC_014361/Trichodysplasia_spinulosa/Human_7'
+	'NC_014407/Human_polyomavirus_7/Human_12'
+	'NC_014743/Polyomavirus/Chimpanzee'
+	'NC_015150/Polyomavirus_9/Human_6'
+	'NC_018102/MW_polyomavirus/Human_9'
+	'NC_019850/Polyomavirus_1/Tana_River_red_colobus'
+	'NC_019853/Polyomavirus_1/Red_faced_spider_monkey'
+	'NC_019854/Polyomavirus_1/White_fronted_capuchin'
+	'NC_020065/Polyomavirus_1/Duke_of_Abruzzis_free_tailed_bat'
+	'NC_020067/Polyomavirus_1/Heart_nosed_bat'
+	'NC_020068/Polyomavirus_1/Straw_coloured_fruit_bat'
+	'NC_020071/Polyomavirus_1/Large_eared_free_tailed_bat'
+	'NC_020890/Polyomavirus_12/Human_5'
+	'NC_022519/Polyomavirus_1/African_bush_elephant'
+	'NC_023008/Butcherbird_polyomavirus/Grey_butcherbird'
+	'NC_023845/Polyomavirus/Raccoon'
+	'NC_024118/New_Jersey_polyomavirus/Human_3'
+	'NC_025380/Polyomavirus/Gorilla'
+	'NC_025790/Polyomavirus_1/Seabass'
+	'NC_025892/Polyomavirus/Red_eared_guenon'
+	'NC_025894/Polyomavirus_1/Yellow_baboon'
+	'NC_025895/Mastomys_polyomavirus/Natal_multimammate_mouse'
+	'NC_025898/Polyomavirus_3/Vervet_monkey'
+	'NC_025899/Polyomavirus_1/Short_beaked_common_dolphin'
+	'NC_026015/Polyomavirus/Mexican_freetailed_bat'
+	'NC_026141/Polyomavirus/Adelie_penguin'
+	'NC_026244/Polyomavirus_1/Giant_guitarfish'
+	'NC_026473/Polyomavirus_1/European_badger'
+	'NC_026762/Bat_polyomavirus_6a/Sulawesi_flying_fox'
+	'NC_026767/Bat_polyomavirus_5b/Large_flying_fox'
+	'NC_026770/Bat_polyomavirus_6b/Moluccan_naked_backed_fruit_bat'
+	'NC_026942/Polyomavirus_1/Sheep'
+	'NC_026944/Polyomavirus_1/Emerald_rockcod'
+	'NC_027531/Polyomavirus_1/Brown_rat'
+	'NC_028117/Polyomavirus/Bank_vole'
+	'NC_028120/Polyomavirus_1/Sebas_short_tailed_bat'
+	'NC_028121/Polyomavirus_1/Parnells_mustached_bat'
+	'NC_028122/Polyomavirus_1/Common_vampire_bat'
+	'NC_028123/Polyomavirus_1/Velvety_free_tailed_bat'
+	'NC_028127/Polyomavirus/Sumatran_orangutan'
+	'NC_030838/Polyomavirus_1/Gilt_head_bream'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NC_028117/Polyomavirus/Bank_vole':0.045938,'KR612374/Polyomavirus/Common_vole':0.096312,((('KM496326/Bovine_polyomaviridae_3/Cow_3':0.84888,('NC_014407/Human_polyomavirus_7/Human_12':0.294045,'KU596573/Human_polyomavirus_6/Human_13':0.321631)[&label=1.0]:0.742178)[&label=1.0]:0.499202,(('LN846619/Polyomavirus_1/Bark_scorpion':9.37743,(('NC_018102/MW_polyomavirus/Human_9':0.441389,'KF651951/STL_polyomavirus/Human_8':0.641925)[&label=0.999997]:0.450441,('NC_022519/Polyomavirus_1/African_bush_elephant':0.626574,('NC_025899/Polyomavirus_1/Short_beaked_common_dolphin':0.865297,(('NC_020890/Polyomavirus_12/Human_5':0.493662,((('NC_026942/Polyomavirus_1/Sheep':0.37351,((('NC_019854/Polyomavirus_1/White_fronted_capuchin':0.320512,'NC_009951/Squirrel_monkey_polyomavirus/Squirrel_monkey':0.229479)[&label=1.0]:0.318034,('NC_026762/Bat_polyomavirus_6a/Sulawesi_flying_fox':0.306371,'NC_026770/Bat_polyomavirus_6b/Moluccan_naked_backed_fruit_bat':0.295927)[&label=0.998315]:0.084376)[&label=0.99983]:0.09246,(('KJ641708/Polyomavirus/Greater_horseshoe_bat':0.039196,'KJ641707/Bat_polyomavirus/Beijing_mouse_eared_bat':0.056903)[&label=1.0]:0.151472,('NC_025895/Mastomys_polyomavirus/Natal_multimammate_mouse':0.194727,('KT987218/Polyomavirus_2/Mouse_2':1.7E-5,'EF186666/Murine_pneumotropic_virus/Mouse_1':0.003276)[&label=1.0]:0.197248)[&label=0.996873]:0.047384)[&label=0.719541]:0.048222)[&label=1.0]:0.134042)[&label=1.0]:0.117279,('KM496323/Bovine_polyomavirus_1/Cow_1':0.627379,(('NC_028121/Polyomavirus_1/Parnells_mustached_bat':0.054605,('JQ958890/Polyomavirus_3/Flat_faced_fruit_eating_bat':0.121395,'NC_028122/Polyomavirus_1/Common_vampire_bat':0.148186)[&label=0.578469]:0.037915)[&label=1.0]:0.192808,('JQ412134/Equine_polyomavirus/Horse':0.570967,('NC_026473/Polyomavirus_1/European_badger':0.183271,'NC_013796/Polyomavirus_1/California_sealion':0.157731)[&label=1.0]:0.437929)[&label=0.904178]:0.097846)[&label=0.954346]:0.06025)[&label=0.905588]:0.036168)[&label=1.0]:0.154705,(((('HQ681905/Goose_hemorrhagic_polyomavirus/Mule_duck':0.0,'HQ681903/Goose_hemorrhagic_polyomavirus/Goose':0.0)[&label=1.0]:0.224542,('NC_023008/Butcherbird_polyomavirus/Grey_butcherbird':0.173452,'NC_007922/Polyomavirus/Eurasian_jackdaw':0.218466)[&label=1.0]:0.176641)[&label=1.0]:0.155314,('GU345044/Polyomavirus/Atlantic_canary':0.474868,('KT203767/Budgerigar_fledgling_disease/Budgerigar':0.401633,'KC660158/Finch_polyomavirus/Gouldian_finch':0.148375)[&label=1.0]:0.331436)[&label=0.992918]:0.101011)[&label=1.0]:0.126148,(('NC_019853/Polyomavirus_1/Red_faced_spider_monkey':0.281202,('NC_014361/Trichodysplasia_spinulosa/Human_7':0.164163,'FN356910/Polyomavirus/Bornean_orangutan':0.211387)[&label=1.0]:0.19746)[&label=1.0]:0.16205,('KM282376/Polyomavirus_1/Sea_otter':0.442335,('NC_026141/Polyomavirus/Adelie_penguin':0.711238,('EF579803/Simian_virus_40/Rhesus_macaque':0.12815,('KF468310/BK_virus/Human_2':0.097067,('AB048582/JC_virus/Human_1':0.210998,('NC_025892/Polyomavirus/Red_eared_guenon':0.024551,'KJ577598/Polyomavirus/Anubis_baboon':0.069107)[&label=0.999996]:0.074187)[&label=1.0]:0.090372)[&label=0.983486]:0.071954)[&label=1.0]:0.431995)[&label=0.875786]:0.085509)[&label=0.999997]:0.170004)[&label=0.954315]:0.051515)[&label=0.748683]:0.030063)[&label=0.666488]:0.041782)[&label=0.65555]:0.033344,(('NC_015150/Polyomavirus_9/Human_6':0.089972,(('NC_025894/Polyomavirus_1/Yellow_baboon':0.01144,('NC_025898/Polyomavirus_3/Vervet_monkey':1.7E-5,'NC_004763/Polyomavirus/African_green_monkey':0.023922)[&label=0.999838]:0.018641)[&label=1.0]:0.043523,'JX159986/Polyomavirus/Crab_eating_macaque':0.088706)[&label=0.828831]:0.03021)[&label=1.0]:0.389187,((((('NC_019850/Polyomavirus_1/Tana_River_red_colobus':0.019011,'KX509984/Polyomavirus/Western_red_colobus':0.011621)[&label=1.0]:0.106256,('NC_024118/New_Jersey_polyomavirus/Human_3':0.078168,'NC_014743/Polyomavirus/Chimpanzee':0.035351)[&label=1.0]:0.061324)[&label=0.964761]:0.059385,('JQ958888/Polyomavirus_1/Little_yellow_shouldered_bat':0.130502,('NC_020065/Polyomavirus_1/Duke_of_Abruzzis_free_tailed_bat':0.345681,('NC_026015/Polyomavirus/Mexican_freetailed_bat':0.093539,'NC_028123/Polyomavirus_1/Velvety_free_tailed_bat':0.156204)[&label=0.841176]:0.040546)[&label=0.974286]:0.068902)[&label=0.999959]:0.107513)[&label=1.0]:0.563038,('KR065722/Polyomavirus_1/Pig':0.478096,('NC_023845/Polyomavirus/Raccoon':0.242833,(('NC_020068/Polyomavirus_1/Straw_coloured_fruit_bat':0.255716,(('FJ392560/Merkel_cell_polyomavirus/Human_4':0.069814,('NC_025380/Polyomavirus/Gorilla':0.056105,'KT184857/Polyomavirus_1/Bonobo':0.055092)[&label=0.999999]:0.054331)[&label=1.0]:0.144663,('NC_020067/Polyomavirus_1/Heart_nosed_bat':0.216576,('NC_028120/Polyomavirus_1/Sebas_short_tailed_bat':0.342751,'NC_020071/Polyomavirus_1/Large_eared_free_tailed_bat':0.1425)[&label=0.766139]:0.033574)[&label=1.0]:0.087997)[&label=0.997018]:0.064032)[&label=1.0]:0.094474,'KM496324/Bovine_polyomaviridae_2/Cow_2':0.412756)[&label=0.941576]:0.034213)[&label=0.655669]:0.042091)[&label=0.898092]:0.079264)[&label=1.0]:0.121528,('NC_028127/Polyomavirus/Sumatran_orangutan':0.328382,('NC_026767/Bat_polyomavirus_5b/Large_flying_fox':0.450623,('NC_027531/Polyomavirus_1/Brown_rat':0.111834,'JX416853/Polyomavirus/Hamster':0.075338)[&label=1.0]:0.427065)[&label=0.0]:0.009667)[&label=0.993109]:0.052124)[&label=0.461693]:0.018571)[&label=0.945105]:0.036409)[&label=0.998567]:0.095303)[&label=0.992935]:0.134573)[&label=0.572608]:0.153938)[&label=0.951668]:0.591415)[&label=0.479904]:0.376017,('NC_026244/Polyomavirus_1/Giant_guitarfish':3.462373,('NC_030838/Polyomavirus_1/Gilt_head_bream':0.797082,('NC_026944/Polyomavirus_1/Emerald_rockcod':1.354918,'NC_025790/Polyomavirus_1/Seabass':0.947897)[&label=0.663178]:0.321314)[&label=1.0]:2.226216)[&label=0.999446]:1.229101)[&label=1.0]:1.026442)[&label=0.920326]:0.213712,('KU746835/KI_polyomavirus/Human_11':0.426867,'EU711058/WU_virus/Human_10':0.293695)[&label=1.0]:0.733099)[&label=1.0]:1.043808);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

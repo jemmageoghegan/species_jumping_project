@@ -1,0 +1,161 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=67;
+	taxlabels
+	'AF141887/Tapirus_terrestris_gammaherpesvirus_1/South_American_tapir'
+	'AF204167/Macaca_nemestrina_rhadinovirus_2/Southern_pig_tailed_macaque'
+	'AF236050/California_sea_lion_herpesvirus/California_sea_lion'
+	'AF239684/Green_turtle_herpesvirus/Turtle'
+	'AF376034/Badger_herpesvirus/Badger'
+	'AF478169/Porcine_lymphotropic_herpesvirus/Pig'
+	'AF520812/Passerid_herpesvirus_1/Gouldian_finch'
+	'AF534227/Mandrillus_sphinx_lymphocryptovirus_1/Mandrill'
+	'AJ224971/Feline_herpesvirus_1/Cat'
+	'AY129398/Pongo_pygmaeus_lymphocryptovirus_1/Orangutan'
+	'AY139026/Callithrix_penicillata_lymphocryptovirus_1/Black_tufted_marmoset'
+	'AY139028/Ateles_paniscus_lymphocryptovirus_1/Red_faced_spider_monkey'
+	'AY177144/Gorilla_rhadinovirus_1/Gorilla_1'
+	'AY197559/Hexaprotodon_liberiensis_gammaherpesvirus_1/Pygmy_hippopotamus'
+	'AY197560/Diceros_bicornis_gammaherpesvirus_1/Black_rhinoceros'
+	'AY197561/Tupaia_belangeri_gammaherpesvirus_1/Northern_treeshrew'
+	'AY495965/Equus_zebra_gammaherpesvirus_1/Zebra_1'
+	'AY646889/Fibropapilloma_associated_turtle_herpesvirus/Loggerhead_sea_turtle'
+	'AY949827/Canine_herpesvirus/Dog'
+	'AY949828/Blainvilles_beaked_whale_gammaherpesvirus/Blainvilles_beaked_whale'
+	'AY949830/Dwarf_sperm_whale_gammaherpesvirus/Dwarf_sperm_whale'
+	'AY949831/Bottlenose_dolphin_gammaherpesvirus/Bottlenose_dolphin'
+	'DQ198083/Ovine_herpesvirus_2/Sheep'
+	'DQ789369/Rupicapra_rupicapra_gammaherpesvirus_1/Chamois'
+	'DQ789370/Panthera_leo_gammaherpesvirus_1/Lion'
+	'DQ789371/Crocuta_crocuta_gammaherpesvirus_1/Spotted_hyena'
+	'DQ821581/Bandicota_savilei_rhadinovirus_1/Saviles_bandicoot_rat'
+	'EF125063/Apodemus_flavicollis_cytomegalovirus_2/Yellow_necked_mouse'
+	'EU085377/Macaca_fascicularis_rhadinovirus_2/Crab_eating_macaque'
+	'EU085380/Sorex_araneus_gammaherpesvirus_1/Common_shrew'
+	'EU118146/Papio_hamadryas_lymphocryptovirus_3/Hamadryas_baboon'
+	'EU579860/Muromegalovirus/Mouse_1'
+	'FJ538485/Pan_troglodytes_cytomegalovirus/Chimpanzee'
+	'FJ538490/Gorilla_gorilla_cytomegalovirus/Gorilla_2'
+	'GQ169129/Wood_mouse_herpesvirus/Mouse_2'
+	'GQ921924/Symphalangus_syndactylus_lymphocryptovirus_2/Siamang'
+	'HM216460/Ovine_herpesvirus_2/Pere_Davids_deer'
+	'HM216467/Ovine_herpesvirus_2/Sika_deer'
+	'HM216474/Caprine_herpesvirus_2/Goat'
+	'HSKUL30H/Gallid_herpesvirus_2/Chicken'
+	'JN692430/Myotis_ricketti_herpesvirus_2/Bat'
+	'JQ673560/Anatid_herpesvirus_1/Duck'
+	'JQ692312/Equid_herpesvirus_1/Polar_bear'
+	'JQ809328/Suid_herpesvirus_1/Wild_boar'
+	'JX195700/Equid_herpesvirus_9/Zebra_2'
+	'KC618527/Elephant_endotheliotropic_herpesvirus_1A/Elephant'
+	'KC924783/Equid_herpesvirus_1/Horse'
+	'KF466473/Harp_seal_herpesvirus/Seal'
+	'KJ191540/Beluga_whale_alphaherpesvirus_1/Beluga_whale'
+	'KM258880/Bovine_herpesvirus/Cow'
+	'KM438002/Bovine_herpesvirus_6/Water_buffalo'
+	'KT698106/Cheirogaleid_herpesvirus_2/Gray_mouse_lemur'
+	'NC_000898/Human_herpesvirus_6B/Human_5'
+	'NC_001664/Human_herpesvirus_6A/Human_4'
+	'NC_001716/Human_herpesvirus_7/Human_6'
+	'NC_001798/Human_herpesvirus_2/Human_2'
+	'NC_001806/Human_herpesvirus_1/Human_1'
+	'NC_002531/Alcelaphine_herpesvirus_1/Blue_wildebeest'
+	'NC_004367/Callitrichine_herpesvirus_3/Common_marmoset'
+	'NC_004812/Macacine_herpesvirus_1/Rhesus_monkey'
+	'NC_007605/Human_herpesvirus_4/Human_3'
+	'NC_009333/Human_herpesvirus_8/Human_7'
+	'NC_012783/Cercopithecine_herpesvirus_5/Grivet'
+	'NC_015049/Cricetid_herpesvirus_2/Rat'
+	'NC_016447/Aotine_herpesvirus_1/Three_striped_night_monkey'
+	'NC_016448/Saimiriine_herpesvirus_4/Common_squirrel_monkey'
+	'NC_024382/Alcelaphine_herpesvirus_2/Topi'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NC_001664/Human_herpesvirus_6A/Human_4':0.014553,'NC_000898/Human_herpesvirus_6B/Human_5':0.015061,('NC_001716/Human_herpesvirus_7/Human_6':0.38423,((('EU579860/Muromegalovirus/Mouse_1':0.209023,'EF125063/Apodemus_flavicollis_cytomegalovirus_2/Yellow_necked_mouse':0.461357)[&label=1.0]:0.300547,(('NC_016448/Saimiriine_herpesvirus_4/Common_squirrel_monkey':0.135854,'NC_016447/Aotine_herpesvirus_1/Three_striped_night_monkey':0.085581)[&label=1.0]:0.223503,('NC_012783/Cercopithecine_herpesvirus_5/Grivet':0.229208,('FJ538490/Gorilla_gorilla_cytomegalovirus/Gorilla_2':0.083828,'FJ538485/Pan_troglodytes_cytomegalovirus/Chimpanzee':0.113281)[&label=1.0]:0.172276)[&label=0.999919]:0.105959)[&label=1.0]:0.271131)[&label=1.0]:0.327286,('KC618527/Elephant_endotheliotropic_herpesvirus_1A/Elephant':0.848161,((('AY646889/Fibropapilloma_associated_turtle_herpesvirus/Loggerhead_sea_turtle':0.0,'AF239684/Green_turtle_herpesvirus/Turtle':0.051502)[&label=1.0]:0.504428,('AF520812/Passerid_herpesvirus_1/Gouldian_finch':1.057953,((('NC_004812/Macacine_herpesvirus_1/Rhesus_monkey':0.058594,('NC_001806/Human_herpesvirus_1/Human_1':0.041221,'NC_001798/Human_herpesvirus_2/Human_2':0.026206)[&label=1.0]:0.09152)[&label=1.0]:0.271413,('JQ673560/Anatid_herpesvirus_1/Duck':0.221353,'HSKUL30H/Gallid_herpesvirus_2/Chicken':0.367143)[&label=1.0]:0.132574)[&label=0.52515]:0.038222,(((('KC924783/Equid_herpesvirus_1/Horse':1.37E-4,('JX195700/Equid_herpesvirus_9/Zebra_2':0.008982,'JQ692312/Equid_herpesvirus_1/Polar_bear':0.0)[&label=1.0]:0.092438)[&label=1.0]:0.167664,'AJ224971/Feline_herpesvirus_1/Cat':0.282136)[&label=1.0]:0.114838,('KM258880/Bovine_herpesvirus/Cow':0.226863,'KJ191540/Beluga_whale_alphaherpesvirus_1/Beluga_whale':0.221539)[&label=0.376551]:0.015736)[&label=0.988916]:0.063932,('JQ809328/Suid_herpesvirus_1/Wild_boar':0.311221,'AY949827/Canine_herpesvirus/Dog':0.483606)[&label=0.478654]:0.065562)[&label=0.999987]:0.063232)[&label=0.999972]:0.361625)[&label=0.579268]:0.076171)[&label=1.0]:0.668244,((('AY129398/Pongo_pygmaeus_lymphocryptovirus_1/Orangutan':0.083121,('AF534227/Mandrillus_sphinx_lymphocryptovirus_1/Mandrill':0.030703,('NC_007605/Human_herpesvirus_4/Human_3':0.017663,('EU118146/Papio_hamadryas_lymphocryptovirus_3/Hamadryas_baboon':0.016919,'GQ921924/Symphalangus_syndactylus_lymphocryptovirus_2/Siamang':0.033926)[&label=0.780181]:0.002295)[&label=0.996732]:0.015539)[&label=0.999998]:0.039625)[&label=0.999793]:0.060875,('AY139028/Ateles_paniscus_lymphocryptovirus_1/Red_faced_spider_monkey':0.06127,('NC_004367/Callitrichine_herpesvirus_3/Common_marmoset':0.013255,'AY139026/Callithrix_penicillata_lymphocryptovirus_1/Black_tufted_marmoset':0.003663)[&label=1.0]:0.137731)[&label=1.0]:0.118621)[&label=1.0]:0.395183,((('KM438002/Bovine_herpesvirus_6/Water_buffalo':0.063389,(('NC_024382/Alcelaphine_herpesvirus_2/Topi':0.030819,'NC_002531/Alcelaphine_herpesvirus_1/Blue_wildebeest':0.045944)[&label=1.0]:0.106536,(('HM216460/Ovine_herpesvirus_2/Pere_Davids_deer':0.0,('HM216467/Ovine_herpesvirus_2/Sika_deer':0.0,'DQ198083/Ovine_herpesvirus_2/Sheep':2.5E-5)[&label=0.576109]:0.005205)[&label=1.0]:0.052099,('DQ789369/Rupicapra_rupicapra_gammaherpesvirus_1/Chamois':0.045816,'HM216474/Caprine_herpesvirus_2/Goat':0.178444)[&label=0.558514]:0.01399)[&label=1.0]:0.112948)[&label=1.0]:0.257499)[&label=0.830674]:0.037542,('AF478169/Porcine_lymphotropic_herpesvirus/Pig':0.318588,'AY197559/Hexaprotodon_liberiensis_gammaherpesvirus_1/Pygmy_hippopotamus':0.223061)[&label=0.999899]:0.083123)[&label=0.999979]:0.100231,('AF236050/California_sea_lion_herpesvirus/California_sea_lion':0.618442,(('DQ821581/Bandicota_savilei_rhadinovirus_1/Saviles_bandicoot_rat':0.607018,('KT698106/Cheirogaleid_herpesvirus_2/Gray_mouse_lemur':0.280631,(((('KF466473/Harp_seal_herpesvirus/Seal':0.155807,'AF376034/Badger_herpesvirus/Badger':0.194437)[&label=1.0]:0.175725,('JN692430/Myotis_ricketti_herpesvirus_2/Bat':0.142151,('DQ789371/Crocuta_crocuta_gammaherpesvirus_1/Spotted_hyena':0.077599,'AY495965/Equus_zebra_gammaherpesvirus_1/Zebra_1':0.092531)[&label=1.0]:0.2119)[&label=0.999995]:0.070696)[&label=1.0]:0.142123,(('EU085377/Macaca_fascicularis_rhadinovirus_2/Crab_eating_macaque':0.02087,'AF204167/Macaca_nemestrina_rhadinovirus_2/Southern_pig_tailed_macaque':0.031082)[&label=1.0]:0.283485,('NC_009333/Human_herpesvirus_8/Human_7':0.053228,'AY177144/Gorilla_rhadinovirus_1/Gorilla_1':0.086396)[&label=1.0]:0.160044)[&label=1.0]:0.155262)[&label=0.974812]:0.019879,((('AY197560/Diceros_bicornis_gammaherpesvirus_1/Black_rhinoceros':0.232111,'DQ789370/Panthera_leo_gammaherpesvirus_1/Lion':0.483336)[&label=0.921554]:0.079765,('AF141887/Tapirus_terrestris_gammaherpesvirus_1/South_American_tapir':0.396718,('EU085380/Sorex_araneus_gammaherpesvirus_1/Common_shrew':0.529114,('NC_015049/Cricetid_herpesvirus_2/Rat':0.322191,'GQ169129/Wood_mouse_herpesvirus/Mouse_2':0.346304)[&label=1.0]:0.210937)[&label=0.981596]:0.053439)[&label=1.0]:0.099325)[&label=0.647023]:0.029579,'AY197561/Tupaia_belangeri_gammaherpesvirus_1/Northern_treeshrew':0.431977)[&label=0.984856]:0.028419)[&label=0.983005]:0.042805)[&label=0.754609]:0.044242)[&label=0.505527]:0.030173,('AY949830/Dwarf_sperm_whale_gammaherpesvirus/Dwarf_sperm_whale':0.08173,('AY949831/Bottlenose_dolphin_gammaherpesvirus/Bottlenose_dolphin':0.045577,'AY949828/Blainvilles_beaked_whale_gammaherpesvirus/Blainvilles_beaked_whale':0.074539)[&label=0.970178]:0.057821)[&label=1.0]:0.28872)[&label=0.53575]:0.042936)[&label=0.990364]:0.071775)[&label=0.649972]:0.132993)[&label=1.0]:0.587352)[&label=1.0]:0.222796)[&label=1.0]:0.233329)[&label=1.0]:0.665201)[&label=1.0]:0.239248);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

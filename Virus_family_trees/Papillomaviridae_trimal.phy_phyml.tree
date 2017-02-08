@@ -1,0 +1,189 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=95;
+	taxlabels
+	'AF020905/Papillomavirus_1/Chimpanzee'
+	'AF443292/Reindeer_papillomavirus/Reindeer'
+	'AF502599/Thetapapillomavirus_1/African_gray_parrot'
+	'AJ243287/Kappapapillomavirus_2/Rabbit_1'
+	'AY904722/Lynx_rufus_papillomavirus_type_1/Bobcat'
+	'AY904723/Puma_concolor_papillomavirus_type_1/Florida_panther'
+	'AY904724/Panthera_leo_persica_papillomavirus_type_1/Asian_lion'
+	'DQ098913/Bovine_papillomavirus_type_8/Cow_1'
+	'DQ098917/Bovine_papillomavirus_type_8EB/European_bison'
+	'DQ180494/Uncia_uncia_papillomavirus_type_1/Snow_leopard'
+	'EF536349/Ursus_maritmus/Polar_bear'
+	'EF546482/Human_papillomavirus_type_53/Human_6'
+	'EF591299/Macaca_fascicularis_papillomavirus_type_3b/Crab_eating_macaque_1'
+	'EF591300/Rhesus_papillomavirus_type_1b/Crab_eating_macaque_2'
+	'EU490516/Papillomavirus_type_9/Crab_eating_macaque_3'
+	'EU493091/Chelonia_mydas_papillomavirus_1/Green_sea_turtle'
+	'EU796884/Feline_papillomavirus_2/Cat_3'
+	'FJ492742/Canine_papillomavirus_7/Dog_2'
+	'FJ796965/Ovine_papillomavirus_3/Sheep_2'
+	'GU117620/Delphinus_delphis_papillomavirus/Short_beaked_common_dolphin'
+	'GU117624/Lagenorhynchus_acutus_papillomavirus/Atlantic_white_sided_dolphin'
+	'HQ912791/Camelus_dromedarius_papillomavirus_type_2/Camel'
+	'JN644142/Human_papillomavirus_type_11/Human_5'
+	'JQ692938/Miniopterus_schreibersii_papillomavirus_1/Common_bent_wing_bat'
+	'JQ798171/Bovine_papillomavirus_type_13/Cow_2'
+	'JX174442/Bos_grunniens_papillomavirus_type_1/Yak'
+	'JX972168/Felis_catus_papillomavirus_3/Cat_1'
+	'KC858266/Rhinolophus_ferrumequinum_papillomavirus_type_1/Greater_horseshoe_bat'
+	'KF857586/Vulpes_vulpes_papillomavirus_1/Red_fox'
+	'KP099578/Papillomavirus_type_1/Djungarian_hamster'
+	'KP861981/Alouatta_guariba_papillomavirus_1/Southern_brown_howler'
+	'KT626573/Deltapapillomavirus_5/Visayan_spotted_deer'
+	'KT944080/Macaca_fuscata_papillomavirus_1/Japanese_macaque'
+	'KU053944/Alphapapillomavirus_9/Human_7'
+	'KU248828/Papillomavirus_JL74/Greater_long_tailed_hamster'
+	'KU519394/Bovine_papillomavirus_19/Cow_4'
+	'KU684317/Human_papillomavirus_type_16/Human_8'
+	'NC_001354/Human_papillomavirus_type_41/Human_2'
+	'NC_001356/Human_papillomavirus_1/Human_10'
+	'NC_001458/Human_papillomavirus_63/Human_11'
+	'NC_001524/European_elk_papillomavirus/Elk'
+	'NC_001531/Human_papillomavirus_type_5/Human_9'
+	'NC_001576/Human_papillomavirus_type_10/Human_4'
+	'NC_001605/papillomavirus/Natal_multimammate_mouse'
+	'NC_001619/Lambdapapillomavirus_2/Dog_3'
+	'NC_001678/Rhesus_monkey_papillomavirus/Rhesus_monkey'
+	'NC_001789/Ovine_papillomavirus_1/Sheep_1'
+	'NC_002232/Kappapapillomavirus_1/Rabbit_2'
+	'NC_003348/Omikronpapillomavirus_1/Burmeisters_porpoise'
+	'NC_003748/Equus_caballus_papillomavirus_1/Horse_2'
+	'NC_004068/Fringilla_coelebs_papillomavirus/Common_chaffinch'
+	'NC_004765/Felis_catus_papillomavirus_1/Cat_4'
+	'NC_006951/Erethizon_dorsatum_papillomavirus_1/North_American_porcupine'
+	'NC_007612/Bovine_papillomavirus_7/Cow_3'
+	'NC_008032/Papillomavirus_1/Goat'
+	'NC_008298/Rousettus_aegyptiacus_papillomavirus_1/Egyptian_fruit_bat'
+	'NC_008582/Micromys_minutus_papillomavirus_1/European_harvest_mouse'
+	'NC_011051/Capreolus_capreolus_papillomavirus_1/Roedeer'
+	'NC_011109/Tursiops_truncatus_papillomavirus_1/Bottlenose_dolphin'
+	'NC_011280/sus_scrofa_Papillomavirus_1/Pig'
+	'NC_011530/Caretta_caretta_papillomavirus_1/Loggerhead_sea_turtle'
+	'NC_011765/Erinaceus_europaeus_papillomavirus_1/Western_European_hedgehog'
+	'NC_012123/Equine_papillomavirus_2/Horse_3'
+	'NC_013117/Francolinus_leucoscepus_papillomavirus_1/Yellow_necked_spurfowl'
+	'NC_013237/Canis_familiaris_papillomavirus_6/Dog_4'
+	'NC_014143/Bettongia_penicillata_papillomavirus_1/Woylie'
+	'NC_014326/Mus_musculus_papillomavirus_type_1/House_mouse'
+	'NC_014469/Gammapapillomavirus/Human_3'
+	'NC_015325/Zalophus_californianus_papillomavirus_1/Californian_sea_lion'
+	'NC_015691/Macaca_fascicularis_papillomavirus_2/Crab_eating_macaque_4'
+	'NC_015692/Colobus_guereza_papillomavirus_type_2/Mantled_guereza'
+	'NC_016013/Morelia_spilota_papillomavirus_1/Carpet_Python'
+	'NC_016898/Trichechus_manatus_latirostris_papillomavirus_2/West_Indian_manatee'
+	'NC_017716/Papio_hamadryas_papillomavirus_type_1/Baboon_monkey'
+	'NC_017862/Equine_papillomavirus_3/Horse_1'
+	'NC_018074/Phocoena_phocoena_papillomavirus_1/Harbour_porpoise_1'
+	'NC_018076/Phocoena_phocoena_papillomavirus_4/Harbour_porpoise_2'
+	'NC_022253/Ferret_papillomavirus/Ferret'
+	'NC_022373/Felis_catus_papillomavirus_4/Cat_2'
+	'NC_022647/Mesocricetus_auratus_papillomavirus_1/Golden_hamster'
+	'NC_023178/Castor_canadensis_papillomavirus_1/North_American_beaver'
+	'NC_023496/Saimiri_sciureus_papillomavirus_1/Squirrel_monkey'
+	'NC_023852/Canine_papillomavirus_13/Dog_1'
+	'NC_023873/Enhydra_lutris_papillomavirus_1/Sea_otter'
+	'NC_023882/Equus_asinus_papillomavirus/Donkey'
+	'NC_023894/Pygoscelis_adeliae_papillomavirus/Adelie_penguin'
+	'NC_023895/Rupicapra_rupicapra_papillomavirus_1/Chamois'
+	'NC_024300/Fulmarus_glacialis_papillomavirus_1/Northern_fulmar'
+	'NC_024893/Apodemus_sylvaticus_papillomavirus_1/Wood_mouse'
+	'NC_026640/Canine_papillomavirus_16/Dog_5'
+	'NC_028267/Trichechus_manatus_papillomavirus_4/Florida_manatee'
+	'NC_028492/Rattus_norvegicus_papillomavirus_3/Brown_rat'
+	'NC_030151/Cervus_papillomavirus_2/Red_deer'
+	'NC_030839/Sparus_aurata_papillomavirus_1/Gilt_head_bream'
+	'PPDCG/Deer_papillomavirus/White_tailed_deer'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NC_011530/Caretta_caretta_papillomavirus_1/Loggerhead_sea_turtle':0.124236,'EU493091/Chelonia_mydas_papillomavirus_1/Green_sea_turtle':0.081067,(('NC_024300/Fulmarus_glacialis_papillomavirus_1/Northern_fulmar':0.46118,('NC_013117/Francolinus_leucoscepus_papillomavirus_1/Yellow_necked_spurfowl':0.24389,('NC_004068/Fringilla_coelebs_papillomavirus/Common_chaffinch':0.393068,('AF502599/Thetapapillomavirus_1/African_gray_parrot':0.301516,'NC_023894/Pygoscelis_adeliae_papillomavirus/Adelie_penguin':0.313527)[&label=0.750586]:0.03744)[&label=0.977338]:0.061441)[&label=1.0]:0.172382)[&label=0.998211]:0.054989,('NC_030839/Sparus_aurata_papillomavirus_1/Gilt_head_bream':2.058384,('NC_008298/Rousettus_aegyptiacus_papillomavirus_1/Egyptian_fruit_bat':0.391977,(('NC_023882/Equus_asinus_papillomavirus/Donkey':0.342171,(('NC_030151/Cervus_papillomavirus_2/Red_deer':0.198504,('DQ098917/Bovine_papillomavirus_type_8EB/European_bison':0.0,'DQ098913/Bovine_papillomavirus_type_8/Cow_1':0.0)[&label=1.0]:0.147422)[&label=1.0]:0.094521,('HQ912791/Camelus_dromedarius_papillomavirus_type_2/Camel':0.265298,(('JX174442/Bos_grunniens_papillomavirus_type_1/Yak':0.016447,'JQ798171/Bovine_papillomavirus_type_13/Cow_2':0.018573)[&label=1.0]:0.195064,('NC_001789/Ovine_papillomavirus_1/Sheep_1':0.1052,(('PPDCG/Deer_papillomavirus/White_tailed_deer':0.129123,('NC_001524/European_elk_papillomavirus/Elk':0.07429,'AF443292/Reindeer_papillomavirus/Reindeer':0.044732)[&label=1.0]:0.057184)[&label=1.0]:0.047497,('NC_011051/Capreolus_capreolus_papillomavirus_1/Roedeer':0.075452,'KT626573/Deltapapillomavirus_5/Visayan_spotted_deer':0.105407)[&label=0.999906]:0.036824)[&label=1.0]:0.091)[&label=0.994837]:0.042183)[&label=0.999861]:0.055087)[&label=0.99988]:0.05211)[&label=1.0]:0.11077)[&label=0.999995]:0.074984,((('NC_028267/Trichechus_manatus_papillomavirus_4/Florida_manatee':0.257854,'NC_016898/Trichechus_manatus_latirostris_papillomavirus_2/West_Indian_manatee':0.298151)[&label=0.964037]:0.027255,((('EU796884/Feline_papillomavirus_2/Cat_3':0.249452,('NC_017862/Equine_papillomavirus_3/Horse_1':0.268047,('NC_003748/Equus_caballus_papillomavirus_1/Horse_2':0.188037,'NC_012123/Equine_papillomavirus_2/Horse_3':0.299962)[&label=0.991335]:0.044977)[&label=0.607977]:0.026734)[&label=0.999918]:0.034672,((((('NC_014469/Gammapapillomavirus/Human_3':0.25014,'KU248828/Papillomavirus_JL74/Greater_long_tailed_hamster':0.253005)[&label=1.0]:0.136056,('KF857586/Vulpes_vulpes_papillomavirus_1/Red_fox':0.191701,(('NC_022647/Mesocricetus_auratus_papillomavirus_1/Golden_hamster':0.077887,'KP099578/Papillomavirus_type_1/Djungarian_hamster':0.06244)[&label=1.0]:0.089232,('NC_014326/Mus_musculus_papillomavirus_type_1/House_mouse':0.149486,('NC_008582/Micromys_minutus_papillomavirus_1/European_harvest_mouse':0.161965,'NC_024893/Apodemus_sylvaticus_papillomavirus_1/Wood_mouse':0.102871)[&label=0.965128]:0.033911)[&label=1.0]:0.08087)[&label=1.0]:0.076612)[&label=0.885159]:0.030293)[&label=0.991937]:0.037672,('KU519394/Bovine_papillomavirus_19/Cow_4':0.328427,('NC_007612/Bovine_papillomavirus_7/Cow_3':0.326469,(('NC_022373/Felis_catus_papillomavirus_4/Cat_2':0.166521,'JX972168/Felis_catus_papillomavirus_3/Cat_1':0.175936)[&label=1.0]:0.068263,('NC_022253/Ferret_papillomavirus/Ferret':0.146942,('NC_023852/Canine_papillomavirus_13/Dog_1':0.307772,'FJ492742/Canine_papillomavirus_7/Dog_2':0.218959)[&label=0.903427]:0.058398)[&label=1.0]:0.085414)[&label=0.999981]:0.054385)[&label=0.685109]:0.032213)[&label=0.885224]:0.03506)[&label=1.0]:0.061986,('NC_011765/Erinaceus_europaeus_papillomavirus_1/Western_European_hedgehog':0.253492,('NC_008032/Papillomavirus_1/Goat':0.470387,('NC_015691/Macaca_fascicularis_papillomavirus_2/Crab_eating_macaque_4':0.143733,('NC_015692/Colobus_guereza_papillomavirus_type_2/Mantled_guereza':0.072077,'NC_001531/Human_papillomavirus_type_5/Human_9':0.083255)[&label=1.0]:0.109827)[&label=1.0]:0.07445)[&label=0.821193]:0.030523)[&label=0.907576]:0.024951)[&label=0.999994]:0.025789,(('JQ692938/Miniopterus_schreibersii_papillomavirus_1/Common_bent_wing_bat':0.404786,'KC858266/Rhinolophus_ferrumequinum_papillomavirus_type_1/Greater_horseshoe_bat':0.278607)[&label=0.999954]:0.061668,((('NC_002232/Kappapapillomavirus_1/Rabbit_2':0.104107,'AJ243287/Kappapapillomavirus_2/Rabbit_1':0.163528)[&label=1.0]:0.120896,('NC_023178/Castor_canadensis_papillomavirus_1/North_American_beaver':0.166149,('NC_001458/Human_papillomavirus_63/Human_11':0.127151,'NC_001356/Human_papillomavirus_1/Human_10':0.107099)[&label=1.0]:0.090941)[&label=0.972661]:0.02946)[&label=0.999967]:0.041001,(('NC_001619/Lambdapapillomavirus_2/Dog_3':0.155713,('NC_006951/Erethizon_dorsatum_papillomavirus_1/North_American_porcupine':0.280179,'NC_001354/Human_papillomavirus_type_41/Human_2':0.33292)[&label=1.0]:0.332174)[&label=0.936414]:0.058356,('NC_023873/Enhydra_lutris_papillomavirus_1/Sea_otter':0.158618,('NC_013237/Canis_familiaris_papillomavirus_6/Dog_4':0.07778,(('DQ180494/Uncia_uncia_papillomavirus_type_1/Snow_leopard':0.02654,'AY904724/Panthera_leo_persica_papillomavirus_type_1/Asian_lion':0.023756)[&label=1.0]:0.035413,('NC_004765/Felis_catus_papillomavirus_1/Cat_4':0.062167,('AY904723/Puma_concolor_papillomavirus_type_1/Florida_panther':0.059308,'AY904722/Lynx_rufus_papillomavirus_type_1/Bobcat':0.028044)[&label=0.746575]:0.01261)[&label=0.876914]:0.022319)[&label=1.0]:0.080377)[&label=0.999453]:0.03296)[&label=0.974739]:0.030841)[&label=1.0]:0.091815)[&label=0.781712]:0.014694)[&label=0.999998]:0.042916)[&label=0.938399]:0.013987)[&label=0.42477]:0.004515,('NC_016013/Morelia_spilota_papillomavirus_1/Carpet_Python':0.259008,'NC_014143/Bettongia_penicillata_papillomavirus_1/Woylie':0.349052)[&label=0.969845]:0.04916)[&label=0.858534]:0.010055)[&label=0.928213]:0.01405,(('NC_026640/Canine_papillomavirus_16/Dog_5':0.224354,'NC_015325/Zalophus_californianus_papillomavirus_1/Californian_sea_lion':0.192775)[&label=1.0]:0.082644,((('NC_023895/Rupicapra_rupicapra_papillomavirus_1/Chamois':0.035444,'FJ796965/Ovine_papillomavirus_3/Sheep_2':0.042966)[&label=1.0]:0.369473,((('NC_023496/Saimiri_sciureus_papillomavirus_1/Squirrel_monkey':0.141586,'KP861981/Alouatta_guariba_papillomavirus_1/Southern_brown_howler':0.085831)[&label=1.0]:0.123515,('NC_001576/Human_papillomavirus_type_10/Human_4':0.216935,(('JN644142/Human_papillomavirus_type_11/Human_5':0.083754,'AF020905/Papillomavirus_1/Chimpanzee':0.029952)[&label=1.0]:0.211578,('KT944080/Macaca_fuscata_papillomavirus_1/Japanese_macaque':0.021773,(('NC_017716/Papio_hamadryas_papillomavirus_type_1/Baboon_monkey':0.020636,'EF591299/Macaca_fascicularis_papillomavirus_type_3b/Crab_eating_macaque_1':0.051233)[&label=1.0]:0.029278,('EU490516/Papillomavirus_type_9/Crab_eating_macaque_3':0.033161,(('NC_001678/Rhesus_monkey_papillomavirus/Rhesus_monkey':0.002476,'EF591300/Rhesus_papillomavirus_type_1b/Crab_eating_macaque_2':0.008305)[&label=1.0]:0.044136,('EF546482/Human_papillomavirus_type_53/Human_6':0.234373,('KU684317/Human_papillomavirus_type_16/Human_8':0.01031,'KU053944/Alphapapillomavirus_9/Human_7':0.004304)[&label=1.0]:0.115767)[&label=1.0]:0.104566)[&label=0.834804]:0.012268)[&label=1.0]:0.023205)[&label=0.903685]:0.012692)[&label=1.0]:0.120303)[&label=0.447629]:0.028236)[&label=0.999934]:0.030006)[&label=1.0]:0.062479,('EF536349/Ursus_maritmus/Polar_bear':0.267025,(('NC_018074/Phocoena_phocoena_papillomavirus_1/Harbour_porpoise_1':0.212078,(('GU117624/Lagenorhynchus_acutus_papillomavirus/Atlantic_white_sided_dolphin':0.051256,'GU117620/Delphinus_delphis_papillomavirus/Short_beaked_common_dolphin':0.134308)[&label=1.0]:0.110579,('NC_003348/Omikronpapillomavirus_1/Burmeisters_porpoise':0.181894,'NC_011109/Tursiops_truncatus_papillomavirus_1/Bottlenose_dolphin':0.14394)[&label=0.982034]:0.035842)[&label=0.999964]:0.066383)[&label=1.0]:0.121938,('NC_011280/sus_scrofa_Papillomavirus_1/Pig':0.26445,'NC_018076/Phocoena_phocoena_papillomavirus_4/Harbour_porpoise_2':0.208108)[&label=0.907965]:0.051458)[&label=0.999997]:0.073302)[&label=0.997682]:0.043887)[&label=0.777622]:0.033477)[&label=0.724656]:0.018023,('NC_028492/Rattus_norvegicus_papillomavirus_3/Brown_rat':0.125522,'NC_001605/papillomavirus/Natal_multimammate_mouse':0.166658)[&label=1.0]:0.160427)[&label=0.492964]:0.009701)[&label=0.974481]:0.011073)[&label=0.844406]:0.020307)[&label=0.994999]:0.067851)[&label=0.979054]:0.108418)[&label=0.995681]:0.123463)[&label=1.0]:0.368132);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
